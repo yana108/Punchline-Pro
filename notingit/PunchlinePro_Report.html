@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PunchlinePro_Report.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="ai-powered-punchline-pro-a-real-time-translation-for-stand-up-comedy">AI-Powered Punchline Pro: A Real-Time Translation for Stand-Up Comedy</h1>
+<p>Chen Yana 24040011G</p>
+<p>Project Link: https://github.com/yana108/Punchline-Pro</p>
+<p>Project Introduction: https://youtu.be/cZmcV0pONMA?si=3pcdFekGDNNV6BZI</p>
+<h2 id="content">Content</h2>
+<ol>
+<li>Executive Summary</li>
+<li>Introduction</li>
+<li>Background and Objectives
+<ul>
+<li>3.1 Challenges in Comedy Translation</li>
+<li>3.2 Project Objectives</li>
+</ul>
+</li>
+<li>Technical Implementation
+<ul>
+<li>4.1 Plugin Development Process</li>
+<li>4.2 Large Language Model Integration</li>
+<li>4.3 API Service Stability Optimization</li>
+</ul>
+</li>
+<li>System Design
+<ul>
+<li>5.1 Overall Architecture</li>
+<li>5.2 Prompt Engineering Module Design</li>
+<li>5.3 Bilingual Subtitle Module Design</li>
+<li>5.4 Translation Quality Evaluation Module</li>
+</ul>
+</li>
+<li>Evaluation Methodology and System Evolution
+<ul>
+<li>6.1 Data Collection &amp; Annotation</li>
+<li>6.2 Evaluation System Evolution (BLEU → Multidimensional → BERT-based)</li>
+<li>6.3 Prompt Engineering: Evolution and Optimization</li>
+</ul>
+</li>
+<li>Experimental Results &amp; Analysis
+<ul>
+<li>7.1 Generation 1: Over-Explanation, Verbosity, and Loss of Comedic Effect</li>
+<li>7.2 Quantitative and Qualitative Improvements: Gen2 and Gen3</li>
+<li>7.3 Iterative Case Analyses: Gen1 vs. Gen2 vs. Gen3</li>
+<li>7.4 Style Diversity and Personalization</li>
+<li>7.5 Limitations of Traditional Metrics and Gen-by-Gen Summary</li>
+</ul>
+</li>
+<li>Conclusions and Implications
+<ul>
+<li>8.1 Main Conclusions</li>
+<li>8.2 Implications</li>
+</ul>
+</li>
+<li>References</li>
+</ol>
+<hr>
+<h2 id="1-executive-summary">1. Executive Summary</h2>
+<p><strong>Punchline Pro</strong> is a breakthrough comedy translation tool focused on solving key deficiencies in traditional machine translation when handling cross-cultural humor content. Through the combination of large language models and innovative prompt engineering techniques, this project has achieved the following core results:</p>
+<ul>
+<li><strong>Significant translation quality improvement</strong>: 26.2% overall quality improvement compared to baseline translation, with weighted scoring improvement of 38.7%</li>
+<li><strong>Diversified translation styles</strong>: Support for 7 translation styles and personalized style simulation for 35 comedians</li>
+<li><strong>Scientific evaluation system</strong>: Establishment of a five-dimensional evaluation system based on BERT model, including punchline preservation rate, cultural adaptation, etc.</li>
+<li><strong>Optimized case validation</strong>: Successfully converted &quot;I lost 80% of my religion this year&quot; to the localized expression &quot;失宗教了80%（现在看到神龛只鞠半躬）&quot;, effectively conveying the punchline</li>
+</ul>
+<p>Punchline Pro is not only a technological innovation but also provides new possibilities for global cultural content exchange.</p>
+<h2 id="2-introduction">2. Introduction</h2>
+<p>As global cultural exchange becomes increasingly frequent, stand-up comedy as a unique form of cultural expression has received widespread attention worldwide. However, traditional translation tools face severe challenges when dealing with comedy content: punchlines are often lost in translation, cultural differences cannot be effectively bridged, and the original performance style is difficult to preserve.</p>
+<p>Effective translation of humorous content requires not only language conversion but also a deep understanding of cultural backgrounds and creative reconstruction. Especially the puns, cultural references, and context-specific jokes in stand-up comedy performances are the difficult points of traditional machine translation.</p>
+<p>This report details the development process of the Punchline Pro comedy translation plugin, explaining how it overcomes the above challenges through connecting large language models and carefully designed prompt optimization strategies, achieving high-quality comedy translation that preserves the original style, and building a bridge for cross-language and cross-cultural humor content dissemination.</p>
+<h2 id="3-background-and-objectives">3. Background and Objectives</h2>
+<h3 id="31-challenges-in-comedy-translation">3.1 Challenges in Comedy Translation</h3>
+<p>The main challenges of comedy translation include:</p>
+<ol>
+<li><strong>Lack of cultural background</strong>: AI often lacks understanding of specific cultural backgrounds, while humor is usually rooted in specific cultural soil.</li>
+<li><strong>Insufficient contextual understanding</strong>: AI mainly focuses on the surface structure of language, making it difficult to delve into the level of emotions and context.</li>
+<li><strong>Lack of sense of humor</strong>: AI finds it difficult to accurately capture and reproduce the humor effect and punchlines of the original text.</li>
+</ol>
+<p>As pointed out by research in Feishu documents, AI, when processing language, often can only focus on the surface vocabulary and grammatical structure, making it difficult to delve into the level of emotions and context. The humor effect of a joke is often produced in a specific context, and separated from this context, the joke may no longer have the same effect <a href="https://qp6kkktqa2.feishu.cn/wiki/WzIswlEcFiArAKkcVDkcIIamneh">1</a>.</p>
+<h3 id="32-project-objectives">3.2 Project Objectives</h3>
+<p>This project aims to develop a translation plugin specifically for stand-up comedy videos—Punchline Pro, which can preserve the humor effect, cultural background, and performance style of the original text. Specific objectives include:</p>
+<ol>
+<li>Connect large language models to achieve high-quality comedy translation.</li>
+<li>Improve translation quality through prompt engineering.</li>
+<li>Implement the calling and processing of bilingual subtitles.</li>
+<li>Provide various translation styles, including Punchline Pro style, formal style, internet slang style, classical Chinese style, humorous style, simple and straightforward style, as well as personalized style translation for 35 outstanding comedians.</li>
+<li>Establish an evaluation system based on the BERT model to assess translation quality from five dimensions: punchline preservation rate, cultural adaptation, style preservation, structural integrity, and language fluency.</li>
+</ol>
+<h2 id="4-technical-implementation">4. Technical Implementation</h2>
+<h3 id="41-plugin-development-process">4.1 Plugin Development Process</h3>
+<h4 id="411-from-zero-to-one-initial-independent-development">4.1.1 From Zero to One: Initial Independent Development</h4>
+<p>Our first version adopted a completely self-developed Chrome extension form, primarily focusing on real-time subtitle translation:</p>
+<ul>
+<li><strong>Basic Architecture</strong>: Frontend-backend separated architecture based on <code>background.js</code> and <code>content.js</code></li>
+<li><strong>Core Functionality</strong>: Real-time monitoring of YouTube subtitle changes, extraction and translation of subtitle text</li>
+<li><strong>Main Technical Challenges</strong>:
+<ul>
+<li>Severe mismatch between semantic units in stand-up performances and subtitle segmentation</li>
+<li>Frequent API calls leading to high costs and stability issues</li>
+<li>Segmented translation causing loss of context, affecting punchline delivery</li>
+</ul>
+</li>
+</ul>
+<p><strong>Key Limiting Factor</strong>: In real-time processing mode, each 3-5 minute segment might generate 50-80 API calls, both increasing costs and reducing translation quality. This fundamental architectural issue prompted us to seek new solutions.</p>
+<p><em>(For detailed technical implementation, see Appendix A: Technical Details of Initial Plugin Version)</em></p>
+<h4 id="412-reconstruction-and-optimization-based-on-open-source-solutions">4.1.2 Reconstruction and Optimization Based on Open Source Solutions</h4>
+<p>Facing the technical bottlenecks of the initial version, the project turned to secondary development based on open source translation plugins, achieving a more stable and efficient solution.</p>
+<h5 id="4121-underlying-architecture-adopting-mousetooltiptranslator-as-foundation">4.1.2.1 Underlying Architecture: Adopting MouseTooltipTranslator as Foundation</h5>
+<p>After evaluation, we chose the mature MouseTooltipTranslator open source project as the foundation for our underlying architecture. Although the original project was limited to calling YouTube's own translation function and presenting the results, its browser extension architecture provided us with a good starting point. Based on this, we conducted comprehensive rewriting and functional expansion:</p>
+<ol>
+<li>
+<p><strong>Fundamental Reconstruction of Interception System</strong>: We independently developed two core files, <code>subtitle.js</code> and <code>youtube.js</code>, completely rewriting the subtitle interception and processing logic, upgrading from the original simple API call to a complete subtitle processing system.</p>
+</li>
+<li>
+<p><strong>Independently Developed XHR Interception Mechanism</strong>: Through the <code>interceptCaption</code> method, we achieved precise interception of YouTube subtitle requests, breaking through the limitation of the original project that only used ready-made translations:</p>
+</li>
+</ol>
+<pre class="hljs"><code><div><span class="hljs-keyword">static</span> <span class="hljs-keyword">async</span> interceptCaption() {
+    <span class="hljs-keyword">this</span>.interceptorLoaded || (<span class="hljs-keyword">this</span>.interceptorLoaded = !<span class="hljs-number">0</span>, 
+    <span class="hljs-keyword">this</span>.interceptor.apply(), 
+    <span class="hljs-keyword">this</span>.interceptor.on(<span class="hljs-string">"request"</span>, (<span class="hljs-keyword">async</span>({<span class="hljs-attr">request</span>: e, <span class="hljs-attr">requestId</span>: t}) =&gt; {
+        <span class="hljs-keyword">try</span> {
+            <span class="hljs-keyword">if</span> (<span class="hljs-keyword">this</span>.captionRequestPattern.test(e.url)) {
+                <span class="hljs-keyword">var</span> n = <span class="hljs-keyword">await</span> <span class="hljs-keyword">this</span>.requestSubtitleCached(e.url),
+                i = <span class="hljs-keyword">this</span>.setting.translateTarget,
+                s = <span class="hljs-keyword">this</span>.guessSubtitleLang(e.url),
+                o = <span class="hljs-keyword">this</span>.parseSubtitle(n, s);
+              
+                <span class="hljs-comment">// Independently implemented translation and processing logic</span>
+                <span class="hljs-keyword">if</span> (!<span class="hljs-number">1</span> === <span class="hljs-keyword">this</span>.translate_setter) {
+                    <span class="hljs-keyword">this</span>.true_the_setter();
+                    <span class="hljs-keyword">const</span> t = e.url,
+                    n = <span class="hljs-string">`youtube_sub_<span class="hljs-subst">${(<span class="hljs-number">0</span>,p.jI)(t)}</span>`</span>;
+                    <span class="hljs-keyword">this</span>.translated_subtitle = (<span class="hljs-number">0</span>,p.tv)(n).data
+                }
+              
+                <span class="hljs-keyword">var</span> a = o;
+                <span class="hljs-keyword">if</span> (s != i &amp;&amp; <span class="hljs-string">"dualsub"</span> == <span class="hljs-keyword">this</span>.setting.detectSubtitle) {
+                    <span class="hljs-keyword">var</span> c = <span class="hljs-built_in">JSON</span>.parse(<span class="hljs-built_in">JSON</span>.stringify(o)),
+                    u = <span class="hljs-keyword">this</span>.replaceUtf8Sequentially(c, <span class="hljs-keyword">this</span>.translated_subtitle);
+                    a = <span class="hljs-keyword">this</span>.mergeSubtitles(o, u)
+                }
+              
+                e.respondWith(<span class="hljs-keyword">new</span> Response(<span class="hljs-built_in">JSON</span>.stringify(a), n))
+            }
+        } <span class="hljs-keyword">catch</span> (e) {}
+    })))
+}
+</div></code></pre>
+<ol start="3">
+<li><strong>Complete Modular Design</strong>: We created a complete object-oriented architecture, including layered design of base classes and implementation classes, far exceeding the functional scope and technical depth of the original project.</li>
+</ol>
+<h5 id="4122-comedy-adaptation-deep-customization-for-comedy-content">4.1.2.2 Comedy Adaptation: Deep Customization for Comedy Content</h5>
+<p>While retaining the framework of the original project, we developed brand new functional modules for comedy content:</p>
+<ol>
+<li>
+<p><strong>Independently Developed Bilingual Subtitle Fusion System</strong>: Completely rewrote the subtitle merging logic, achieving precise alignment and layout of original text and translated text through the original <code>mergeSubtitles</code> method, solving the context continuity problem in fast dialogues in comedy.</p>
+</li>
+<li>
+<p><strong>Subtitle Format Parsing and Reconstruction</strong>: Developed the <code>parseSubtitle</code> method, achieving complete parsing and reconstruction capability for YouTube subtitle formats:</p>
+</li>
+</ol>
+<pre class="hljs"><code><div><span class="hljs-keyword">static</span> parseSubtitle(e, t) {
+    <span class="hljs-keyword">var</span> n = [];
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> r <span class="hljs-keyword">of</span> e.events)
+        <span class="hljs-keyword">if</span> (r.segs &amp;&amp; r.dDurationMs) {
+            <span class="hljs-keyword">var</span> i = r.segs.reduce(<span class="hljs-function">(<span class="hljs-params">(e, t</span>) =&gt;</span> e + t.utf8), <span class="hljs-string">""</span>).replace(<span class="hljs-regexp">/\s+/g</span>, <span class="hljs-string">" "</span>).trim();
+            <span class="hljs-number">0</span> == n.length || n[n.length - <span class="hljs-number">1</span>].tStartMs + n[n.length - <span class="hljs-number">1</span>].dDurationMs &lt;= r.tStartMs ? 
+                n.push({
+                    <span class="hljs-attr">tStartMs</span>: r.tStartMs,
+                    <span class="hljs-attr">dDurationMs</span>: r.dDurationMs,
+                    <span class="hljs-attr">segs</span>: [{<span class="hljs-attr">utf8</span>: i}]
+                }) : 
+                n[n.length - <span class="hljs-number">1</span>].segs[<span class="hljs-number">0</span>].utf8 += i ? <span class="hljs-string">` <span class="hljs-subst">${i}</span>`</span> : <span class="hljs-string">""</span>
+        }
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.setSubtitle1({
+        <span class="hljs-attr">events</span>: n,
+        <span class="hljs-attr">pens</span>: [{}],
+        <span class="hljs-attr">wireMagic</span>: <span class="hljs-string">"pb3"</span>,
+        <span class="hljs-attr">wpWinPositions</span>: [{}, {<span class="hljs-attr">apPoint</span>: <span class="hljs-number">6</span>, <span class="hljs-attr">ahHorPos</span>: <span class="hljs-number">20</span>, <span class="hljs-attr">avVerPos</span>: <span class="hljs-number">100</span>, <span class="hljs-attr">rcRows</span>: <span class="hljs-number">2</span>, <span class="hljs-attr">ccCols</span>: <span class="hljs-number">40</span>}],
+        <span class="hljs-attr">wsWinStyles</span>: [{}, {<span class="hljs-attr">mhModeHint</span>: <span class="hljs-number">2</span>, <span class="hljs-attr">juJustifCode</span>: <span class="hljs-number">0</span>, <span class="hljs-attr">sdScrollDir</span>: <span class="hljs-number">3</span>}, {<span class="hljs-attr">mhModeHint</span>: <span class="hljs-number">2</span>, <span class="hljs-attr">juJustifCode</span>: <span class="hljs-number">1</span>, <span class="hljs-attr">sdScrollDir</span>: <span class="hljs-number">3</span>}]
+    })
+}
+</div></code></pre>
+<ol start="3">
+<li>
+<p><strong>AI Translation Integration</strong>: Based on the original project framework, we developed our own AI translation interface, integrating more advanced language models, optimizing translation in comedy-specific contexts through the <code>Group_Translator</code> and <code>Single_Translator</code> methods.</p>
+</li>
+<li>
+<p><strong>Video Metadata Analysis System</strong>: Added methods such as <code>getYoutubeMetaData</code>, <code>getYoutubeMetaDataFromAPI</code>, and <code>getYoutubeMetaDataFromWatch</code>, achieving in-depth parsing of YouTube video metadata, providing accurate contextual information for subtitle processing.</p>
+</li>
+</ol>
+<p>Through this comprehensive rewriting and customized development, while retaining the basic architecture of MouseTooltipTranslator, we built a highly specialized comedy translation system. This secondary development approach avoided the high cost of building from scratch while solving the problem that the original project, designed for general scenarios, could not meet the special needs of comedy through deep customization.</p>
+<h3 id="42-large-language-model-integration">4.2 Large Language Model Integration</h3>
+<h4 id="the-project-went-through-testing-and-integration-of-various-large-language-models-to-find-the-best-balance-between-translation-effect-and-api-stability">The project went through testing and integration of various large language models to find the best balance between translation effect and API stability.</h4>
+<h4 id="421-model-selection-and-evolution-process">4.2.1 Model Selection and Evolution Process</h4>
+<table>
+<thead>
+<tr>
+<th>Model Stage</th>
+<th>Model Used</th>
+<th>Pros and Cons</th>
+<th>Main Challenges</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stage 1</td>
+<td>GPT-3.5</td>
+<td>Fast translation speed, low cost<br>Average punchline preservation ability</td>
+<td>API quota limitations<br>Unstable punchline translation quality</td>
+</tr>
+<tr>
+<td>Stage 2</td>
+<td>GPT-4</td>
+<td>Strong cultural adaptation ability<br>Good punchline preservation effect</td>
+<td>Higher cost<br>Slow response speed</td>
+</tr>
+<tr>
+<td>Stage 3</td>
+<td>DeepSeek-V3</td>
+<td>Good understanding of Chinese context<br>High cost-effectiveness</td>
+<td>API regional limitations<br>Limited personalized style capability</td>
+</tr>
+<tr>
+<td>Final Solution</td>
+<td>Multi-model mixed strategy</td>
+<td>Dynamically selecting the most suitable model based on content characteristics</td>
+<td>Complex model switching logic<br>Need for more computing resources</td>
+</tr>
+</tbody>
+</table>
+<h4 id="422-model-integration-and-prompt-engineering">4.2.2 Model Integration and Prompt Engineering</h4>
+<p>We developed a flexible model calling framework that can select the most appropriate model based on different translation needs and content characteristics:</p>
+<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ModelSelector</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span>
+        self.gpt35 = GPT35Translator()
+        self.gpt4 = GPT4Translator()
+        self.deepseek = DeepSeekTranslator()
+      
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">select_model</span><span class="hljs-params">(self, content, style, metadata)</span>:</span>
+        <span class="hljs-comment"># Select model based on content and style characteristics</span>
+        <span class="hljs-keyword">if</span> self._requires_high_cultural_adaptation(content):
+            <span class="hljs-keyword">return</span> self.gpt4  <span class="hljs-comment"># Use GPT-4 for high cultural adaptation needs</span>
+        <span class="hljs-keyword">elif</span> self._is_chinese_culture_heavy(content):
+            <span class="hljs-keyword">return</span> self.deepseek  <span class="hljs-comment"># Use DeepSeek for Chinese culture intensive content</span>
+        <span class="hljs-keyword">else</span>:
+            <span class="hljs-keyword">return</span> self.gpt35  <span class="hljs-comment"># Use GPT-3.5 for general content</span>
+  
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">translate</span><span class="hljs-params">(self, content, style, metadata=None)</span>:</span>
+        <span class="hljs-comment"># Select appropriate model</span>
+        model = self.select_model(content, style, metadata)
+      
+        <span class="hljs-comment"># Build prompt</span>
+        prompt = self._build_prompt(content, style)
+      
+        <span class="hljs-comment"># Call model and return result</span>
+        <span class="hljs-keyword">return</span> model.translate(prompt)
+</div></code></pre>
+<p>Example prompt templates for different translation styles:</p>
+<pre class="hljs"><code><div><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">_build_prompt</span><span class="hljs-params">(self, content, style)</span>:</span>
+    <span class="hljs-keyword">if</span> style == <span class="hljs-string">"punchline_pro"</span>:
+        <span class="hljs-keyword">return</span> <span class="hljs-string">f"""Translate the following comedy content into Chinese:
+               Focus on preserving punchlines and cultural context.
+               Content: <span class="hljs-subst">{content}</span>"""</span>
+    <span class="hljs-keyword">elif</span> style == <span class="hljs-string">"formal"</span>:
+        <span class="hljs-keyword">return</span> <span class="hljs-string">f"""Translate the following comedy content into formal Chinese:
+               Content: <span class="hljs-subst">{content}</span>"""</span>
+    <span class="hljs-comment"># Other style prompt templates...</span>
+</div></code></pre>
+<p>This approach combining model selection and prompt engineering allows us to fully leverage the strengths of each model while guiding them to generate high-quality translations that match the target style through carefully designed prompts.</p>
+<h3 id="43-api-service-stability-optimization">4.3 API Service Stability Optimization</h3>
+<p>The stability of translation services is a key factor for the success of the project, which went through the following optimization process:</p>
+<h4 id="431-api-service-selection-and-optimization-at-different-stages">4.3.1 API Service Selection and Optimization at Different Stages</h4>
+<ol>
+<li>
+<p><strong>Initial Solution</strong>: Using API services provided by SiliconFlow</p>
+<ul>
+<li>Challenge: High international access latency, limited service stability</li>
+<li>Solution: Implementation of breakpoint resume and failure retry mechanism</li>
+</ul>
+</li>
+<li>
+<p><strong>Mid-term Exploration</strong>: Trying ChatAnywhere API (GitHub open source project)</p>
+<ul>
+<li>Advantage: Open source community support, low cost</li>
+<li>Problem: Unstable under peak load, untimely maintenance</li>
+</ul>
+</li>
+<li>
+<p><strong>Transition Solution</strong>: Adopting &quot;Xianyu API&quot; service</p>
+<ul>
+<li>Characteristic: Low cost, flexible configuration</li>
+<li>Limitation: Commercial compliance considerations, questionable long-term stability</li>
+</ul>
+</li>
+<li>
+<p><strong>Final Solution</strong>: Volcano Engine API platform</p>
+<ul>
+<li>Advantage: Enterprise-level stability, complete SLA guarantee</li>
+<li>Implementation: Building dual-layer caching mechanism and load balancing strategy</li>
+</ul>
+</li>
+</ol>
+<h4 id="432-technical-implementation-of-stability-guarantee-mechanism">4.3.2 Technical Implementation of Stability Guarantee Mechanism</h4>
+<p>We developed a complete stability guarantee mechanism to ensure continuous translation service even under unstable network conditions or API service fluctuations:</p>
+<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">APIStabilityManager</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self, primary_api, fallback_apis)</span>:</span>
+        self.primary_api = primary_api
+        self.fallback_apis = fallback_apis
+        self.cache = LRUCache(capacity=<span class="hljs-number">1000</span>)
+        self.persistent_cache = SqliteCache(<span class="hljs-string">"translation_cache.db"</span>)
+      
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">translate</span><span class="hljs-params">(self, text, retry_count=<span class="hljs-number">3</span>)</span>:</span>
+        <span class="hljs-comment"># Memory cache check</span>
+        <span class="hljs-keyword">if</span> text <span class="hljs-keyword">in</span> self.cache:
+            <span class="hljs-keyword">return</span> self.cache[text]
+          
+        <span class="hljs-comment"># Persistent cache check</span>
+        cached_result = self.persistent_cache.get(text)
+        <span class="hljs-keyword">if</span> cached_result:
+            self.cache[text] = cached_result
+            <span class="hljs-keyword">return</span> cached_result
+          
+        <span class="hljs-comment"># Primary API attempt</span>
+        <span class="hljs-keyword">for</span> attempt <span class="hljs-keyword">in</span> range(retry_count):
+            <span class="hljs-keyword">try</span>:
+                result = self.primary_api.call(text)
+                <span class="hljs-comment"># Dual-layer cache storage</span>
+                self.cache[text] = result
+                self.persistent_cache.set(text, result)
+                <span class="hljs-keyword">return</span> result
+            <span class="hljs-keyword">except</span> Exception <span class="hljs-keyword">as</span> e:
+                <span class="hljs-keyword">if</span> attempt == retry_count - <span class="hljs-number">1</span>:
+                    <span class="hljs-keyword">break</span>
+                time.sleep(<span class="hljs-number">0.5</span> * (attempt + <span class="hljs-number">1</span>))  <span class="hljs-comment"># Backoff strategy</span>
+              
+        <span class="hljs-comment"># Failure switch to backup API</span>
+        <span class="hljs-keyword">for</span> api <span class="hljs-keyword">in</span> self.fallback_apis:
+            <span class="hljs-keyword">try</span>:
+                result = api.call(text)
+                self.cache[text] = result
+                self.persistent_cache.set(text, result)
+                <span class="hljs-keyword">return</span> result
+            <span class="hljs-keyword">except</span>:
+                <span class="hljs-keyword">continue</span>
+              
+        <span class="hljs-comment"># All APIs failed, using local backup translation</span>
+        <span class="hljs-keyword">return</span> self.local_fallback_translation(text)
+</div></code></pre>
+<p>This stability guarantee mechanism includes:</p>
+<ol>
+<li>
+<p><strong>Dual-layer Caching System</strong>:</p>
+<ul>
+<li>Memory cache (LRU) for fast access to recent translations</li>
+<li>Persistent cache (SQLite) for long-term storage and recovery</li>
+</ul>
+</li>
+<li>
+<p><strong>Intelligent Retry Mechanism</strong>:</p>
+<ul>
+<li>Progressive backoff strategy for retry attempts</li>
+<li>Automatic failover to backup APIs</li>
+</ul>
+</li>
+<li>
+<p><strong>Local Fallback Solution</strong>:</p>
+<ul>
+<li>Pre-trained local translation model as last resort</li>
+<li>Ensures basic translation capability even when all APIs are unavailable</li>
+</ul>
+</li>
+</ol>
+<p>Through these comprehensive stability measures, we have significantly improved the reliability and performance of the translation service, providing users with a more stable and consistent experience.</p>
+<h2 id="5-project-system-design">5 Project System Design</h2>
+<h3 id="51-overall-architecture">5.1 Overall Architecture</h3>
+<p>Below is the technical and usage framework for the latest version of our translation plugin, built upon and heavily customized from MouseTooltipTranslator. The following diagram demonstrates the end-to-end data flow and component interaction within the plugin:</p>
+<p><img src="technical_framework.jpg" alt="DataFlow Framework"></p>
+<h4 id="511-system-workflow-description">5.1.1 System Workflow Description:</h4>
+<ul>
+<li>
+<p><strong>User Interaction:</strong></p>
+<ul>
+<li>The user accesses YouTube with the plugin running.</li>
+</ul>
+</li>
+<li>
+<p><strong>Subtitle Retrieval:</strong></p>
+<ul>
+<li>The translator automatically intercepts and retrieves the original video subtitles in real time.</li>
+</ul>
+</li>
+<li>
+<p><strong>Translation Pathways:</strong></p>
+<ul>
+<li>The user may directly choose a translation style, triggering the appropriate prompt selection flow.</li>
+<li>Alternatively, AI can automatically recommend or execute a translation style.</li>
+</ul>
+</li>
+<li>
+<p><strong>Prompt Engineering Module:</strong></p>
+<ul>
+<li>A prompt pool contains templates for different translation styles and comedians.</li>
+<li>If necessary, a retrieval-augmented generation module (RAG) performs fuzzy matching using YouTube video metadata (such as title) to enhance context sensitivity and select the most appropriate prompt.</li>
+</ul>
+</li>
+<li>
+<p><strong>Large Model Interaction:</strong></p>
+<ul>
+<li>The selected prompt and subtitle context are submitted to the designated large language model (e.g., OpenAI GPT, DeepSeek, etc.).</li>
+</ul>
+</li>
+<li>
+<p><strong>Subtitle Rendering &amp; Caching:</strong></p>
+<ul>
+<li>The translated results are cached for efficiency, and then rendered back to the user in the video player as bilingual or stylized subtitles.</li>
+</ul>
+</li>
+</ul>
+<h4 id="512-key-features-highlighted-in-the-diagram">5.1.2 Key Features Highlighted in the Diagram:</h4>
+<ul>
+<li>Full automation of subtitle fetching and translation</li>
+<li>Flexible prompt engineering supporting multiple styles and comedians</li>
+<li>Context-aware prompt selection (RAG/fuzzy matching) for optimal translation relevance</li>
+<li>Model-agnostic architecture: supports diverse large language models</li>
+<li>Fast response enabled by result caching</li>
+</ul>
+<h3 id="52-prompt-engineering-module-design">5.2 Prompt Engineering Module Design</h3>
+<p>The Prompt Engineering Module is the core intelligence layer of the translation system, enabling scalable style adaptation and personalization through two main components:</p>
+<ol>
+<li><strong>Prompt Pool System:</strong>
+<ul>
+<li>Maintains a comprehensive collection of prompt templates</li>
+<li>Categorizes prompts by translation style and comedian</li>
+<li>Supports dynamic prompt generation based on context</li>
+</ul>
+</li>
+<li><strong>Retrieval-Augmented Generation (RAG) System:</strong>
+<ul>
+<li>Analyzes video metadata for context-aware prompt selection</li>
+<li>Performs fuzzy matching to identify optimal prompt templates</li>
+<li>Enables dynamic prompt adaptation based on content characteristics
+The module's interface design allows seamless integration with the translation pipeline while maintaining flexibility for future expansion of styles and personalization options.</li>
+</ul>
+</li>
+</ol>
+<h3 id="53-bilingual-subtitle-module-design">5.3 Bilingual Subtitle Module Design</h3>
+<p>The Bilingual Subtitle Module handles the precise alignment and presentation of original and translated content through three core functions:</p>
+<ol>
+<li><strong>Subtitle Alignment:</strong>
+<ul>
+<li>Temporal synchronization of original and translated text</li>
+<li>Semantic unit preservation across languages</li>
+<li>Context-aware segmentation for optimal readability</li>
+</ul>
+</li>
+<li><strong>Dual Display System:</strong>
+<ul>
+<li>Flexible layout options (side-by-side, overlay, or alternating)</li>
+<li>Customizable font sizes and colors</li>
+<li>Dynamic positioning based on video content</li>
+</ul>
+</li>
+<li><strong>Readability Optimization:</strong>
+<ul>
+<li>Automatic line breaking and wrapping</li>
+<li>Timing adjustment for natural reading pace</li>
+<li>Background contrast enhancement for better visibility
+The module ensures that both original and translated content are presented in a clear, synchronized manner while maintaining the natural flow of the comedy performance.</li>
+</ul>
+</li>
+</ol>
+<h3 id="54-translation-quality-evaluation-module">5.4 Translation Quality Evaluation Module</h3>
+<p>The Translation Quality Evaluation Module provides systematic assessment of translation quality through five key dimensions:</p>
+<ol>
+<li><strong>Punchline Preservation (35%):</strong>
+<ul>
+<li>Measures the effectiveness of humor transfer</li>
+<li>Evaluates punchline impact in target language</li>
+<li>Assesses comedic timing preservation</li>
+</ul>
+</li>
+<li><strong>Cultural Adaptation (35%):</strong>
+<ul>
+<li>Evaluates cultural reference translation</li>
+<li>Measures localization effectiveness</li>
+<li>Assesses cultural resonance in target language</li>
+</ul>
+</li>
+<li><strong>Style Preservation (10%):</strong>
+<ul>
+<li>Measures comedian's unique style retention</li>
+<li>Evaluates tone and delivery consistency</li>
+<li>Assesses performance style adaptation</li>
+</ul>
+</li>
+<li><strong>Structural Integrity (10%):</strong>
+<ul>
+<li>Evaluates narrative flow preservation</li>
+<li>Measures logical coherence</li>
+<li>Assesses timing and pacing accuracy</li>
+</ul>
+</li>
+<li><strong>Language Fluency (10%):</strong>
+<ul>
+<li>Evaluates natural language usage</li>
+<li>Measures grammatical accuracy</li>
+<li>Assesses idiomatic expression</li>
+</ul>
+</li>
+</ol>
+<h4 id="541-module-integration">5.4.1 Module Integration:</h4>
+<p>The evaluation module connects to the main system through:</p>
+<ul>
+<li><strong>Input Interface:</strong>
+<ul>
+<li>Accepts original and translated text pairs</li>
+<li>Receives metadata and context information</li>
+<li>Processes style and comedian specifications</li>
+</ul>
+</li>
+<li><strong>Output Interface:</strong>
+<ul>
+<li>Provides multi-dimensional quality scores</li>
+<li>Generates detailed evaluation reports</li>
+<li>Offers improvement suggestions</li>
+</ul>
+</li>
+<li><strong>System Integration:</strong>
+<ul>
+<li>Real-time quality monitoring</li>
+<li>Feedback loop for translation optimization</li>
+<li>Performance tracking and reporting
+The weighted scoring system (35% punchline, 35% cultural, 10% each for style, structure, and fluency) ensures that the evaluation aligns with the core objectives of comedy translation while maintaining comprehensive quality assessment.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><em>The flexible and modular design of each system component—especially the prompt engineering module—not only provides a robust foundation for continued methodology-driven optimization, but also ensures that iterative improvements are grounded in comprehensive evaluation feedback. For detailed information on the scoring methodology and the evolution of our evaluation system that drive these optimizations, please refer to Section 6.</em></p>
+<hr>
+<h2 id="6-evaluation-methodology-and-system-evolution">6. Evaluation Methodology and System Evolution</h2>
+<h3 id="61-data-collection--annotation">6.1 Data Collection &amp; Annotation</h3>
+<p>The foundation of our evaluation system is built upon a carefully curated dataset of 106 comedy segments, selected to represent diverse styles, cultural contexts, and comedic techniques. This dataset was developed through a rigorous process:</p>
+<ul>
+<li><strong>Source Selection:</strong>
+<ul>
+<li>We collected 106 comedy segments, each 3-5 minutes long, covering materials from 35 outstanding comedians.</li>
+<li>High-quality bilingual comedy materials were sourced from bilingual comedy videos published by professional translator subtitle group accounts on Bilibili, and obtained through manual proofreading.</li>
+<li>Curated from popular comedy shows and stand-up performances, ensuring balanced representation across different comedic styles and diverse cultural and linguistic contexts.</li>
+</ul>
+</li>
+<li><strong>Data Collection Method:</strong>
+<ul>
+<li>Videos were downloaded and screenshots were taken at three-second intervals.</li>
+<li>Bilingual materials were collected and organized using OCR technology, followed by manual proofreading to ensure accuracy and quality.</li>
+</ul>
+</li>
+<li><strong>Annotation Process:</strong>
+<ul>
+<li>Each of the 106 data points follows a comprehensive structure, including original English text, Chinese translation, explanation of the joke, humor type, metadata (such as section, comedian, and context), comedian's style analysis, punchlines with their positions and functions, and translation quality metrics.</li>
+<li>3 professional translators and 5 comedy experts scored each segment, with multiple rounds of review and comprehensive style and cultural reference documentation.</li>
+</ul>
+</li>
+<li><strong>Quality Control:</strong>
+<ul>
+<li>Inter-annotator agreement assessment, regular calibration sessions, and continuous feedback integration were conducted to ensure annotation consistency and reliability.</li>
+</ul>
+</li>
+</ul>
+<p>This rich annotation provides a solid foundation for training and evaluating the translation model, ensuring that the model can capture the performance styles and language characteristics of different comedians.</p>
+<p><em>(For detailed datasets, see Appendix C_all_comedy_data.json)</em></p>
+<h3 id="62-evaluation-system-evolution">6.2 Evaluation System Evolution</h3>
+<h4 id="621-initial-approach-bleu-based-evaluation">6.2.1 Initial Approach: BLEU-based Evaluation</h4>
+<p>Our first evaluation system relied on BLEU scores, which proved inadequate for comedy translation assessment:</p>
+<ul>
+<li><strong>Limitations Identified:</strong>
+<ul>
+<li>Low correlation with human judgment</li>
+<li>Inability to capture humor preservation</li>
+<li>Insensitive to cultural adaptation</li>
+<li>Poor handling of style-specific elements</li>
+</ul>
+</li>
+<li><strong>Data Analysis:</strong>
+<ul>
+<li>Scatter plot analysis revealed significant score dispersion</li>
+<li>Weak correlation between BLEU scores and translation quality</li>
+<li>Inconsistent performance across different comedy styles</li>
+</ul>
+</li>
+</ul>
+<p><em>(See Appendix B for more visualizing details of BLEU-based Evaluation.)</em></p>
+<h4 id="622-transition-to-multi-dimensional-human-evaluation">6.2.2 Transition to Multi-dimensional Human Evaluation</h4>
+<p>Recognizing BLEU's limitations, we developed a comprehensive five-dimensional evaluation framework:</p>
+<ol>
+<li><strong>Dimension Selection:</strong>
+<ul>
+<li>Punchline Preservation (35%)</li>
+<li>Cultural Adaptation (35%)</li>
+<li>Style Preservation (10%)</li>
+<li>Structural Integrity (10%)</li>
+<li>Language Fluency (10%)</li>
+</ul>
+</li>
+<li><strong>Weight Determination:</strong>
+<ul>
+<li>Expert panel consultation</li>
+<li>Correlation analysis with audience reception</li>
+<li>Iterative refinement based on performance data</li>
+</ul>
+</li>
+</ol>
+<h4 id="623-bert-based-automated-evaluation">6.2.3 BERT-based Automated Evaluation</h4>
+<p>The final evolution introduced a BERT-based model for efficient quality assessment:</p>
+<ul>
+<li><strong>Model Development:</strong>
+<ul>
+<li>Fine-tuning process on comedy-specific corpus</li>
+<li>Multi-task learning architecture</li>
+<li>Domain-specific feature engineering</li>
+</ul>
+</li>
+<li><strong>Technical Implementation:</strong><pre class="hljs"><code><div><span class="hljs-comment"># Example of BERT fine-tuning process</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ComedyEvaluator</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self, model_name=<span class="hljs-string">"bert-base-multilingual-cased"</span>)</span>:</span>
+        self.model = AutoModel.from_pretrained(model_name)
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+      
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">fine_tune</span><span class="hljs-params">(self, training_data, validation_data)</span>:</span>
+        <span class="hljs-comment"># Multi-task learning setup</span>
+        tasks = [<span class="hljs-string">"punchline"</span>, <span class="hljs-string">"cultural"</span>, <span class="hljs-string">"style"</span>, <span class="hljs-string">"structure"</span>, <span class="hljs-string">"fluency"</span>]
+        <span class="hljs-keyword">for</span> task <span class="hljs-keyword">in</span> tasks:
+            self._train_task_specific_head(task)
+      
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">evaluate</span><span class="hljs-params">(self, original_text, translated_text)</span>:</span>
+        <span class="hljs-comment"># Generate multi-dimensional scores</span>
+        scores = {}
+        <span class="hljs-keyword">for</span> dimension <span class="hljs-keyword">in</span> self.evaluation_dimensions:
+            scores[dimension] = self._predict_dimension_score(
+                original_text, 
+                translated_text, 
+                dimension
+            )
+        <span class="hljs-keyword">return</span> scores
+</div></code></pre>
+</li>
+</ul>
+<h3 id="63-prompt-engineering-evolution-and-optimization">6.3 Prompt Engineering: Evolution and Optimization</h3>
+<p><img src="Prompt_Engineering_Evolution.png" alt="Prompt Engineering Evolution"></p>
+<h4 id="631-first-generation-comprehensive-instruction-based-prompt">6.3.1 First Generation: Comprehensive Instruction-based Prompt</h4>
+<p>The initial iteration of our prompt engineering adopted highly detailed system and user prompts encompassing every dimension critical to translating stand-up comedy: preservation of original humor, adaptation of cultural references, colloquial expression, translation brevity for subtitles, as well as explicit requirements for rhythm, punchline positioning, and cultural annotations. These elaborate instructions aimed to guarantee performance across all facets simultaneously. However, real-world deployment revealed significant issues: while translations often strictly adhered to the specified requirements, the output became verbose and mechanical, with excessive and sometimes intrusive cultural annotations (marked as 【】) disrupting subtitle flow and impairing overall audience experience. The one-size-fits-all approach struggled with the inherent flexibility and variety of comedy content.</p>
+<h4 id="632-second-generation-style-driven-concise-prompting">6.3.2 Second Generation: Style-driven Concise Prompting</h4>
+<p>Motivated by the shortcomings of the first generation, our second revision embraced a minimalist, style-oriented prompting paradigm. Prompts were distilled down to focus concisely on several key translation dimensions (e.g., retention of punchlines, cultural adaptation, fluency, and stylistic fidelity). For instance, the “punchline_pro” style simply instructed: “把以下脱口秀翻译成中文，注意以下五个维度：笑点保留度、文化适应度、风格保留度、结构完整度、语言流畅度.” This concise format proved highly effective: translation outputs became less burdened by redundant information, significantly improved subtitle naturalness and readability, and allowed for greater adaptability to different comedic genres or translation styles (formal, internet slang, classical, etc.). Audience perception and subjective evaluation indicated markedly improved comedy retention and viewing experience.</p>
+<h4 id="633-third-generation-comedian-specific-prompt-tuning">6.3.3 Third Generation: Comedian-specific Prompt Tuning</h4>
+<p>Building further on the simplified yet effective prompting framework, the final generation introduced personalized, comedian-specific strategies. For each major comedian or comedic archetype, prompt templates were meticulously customized to capture signature styles, rhetorical structures, and linguistic nuances. For example, the “Bill Burr Style” prompt was tuned to preserve layered structure, direct tone, and core satire; “Taylor Tomlinson Style” emphasized metaphorical logic and an uplifting yet critical undertone; while “Mike Epps Style” focused on raw, streetwise expression and authentic community rhythm. This allowed the translation system to accurately emulate a broad spectrum of comedic voices, faithfully conveying not only the surface content but also the deeper artistic identity and audience resonance of each performer.</p>
+<h4 id="634-evaluation-driven-optimization-loop">6.3.4 Evaluation-driven Optimization Loop</h4>
+<p>Throughout all three phases, prompt refinements were tightly integrated with both automated evaluation metrics (e.g., BLEU, style consistency scoring) and comprehensive human review. Regular A/B testing between prompt versions measured humor retention, cultural resonance, fluency, and subtitle readability. Iterative reviewer feedback directly informed further prompt adjustments, ensuring the system aligned ever more closely with real user expectations and professional translation requirements.</p>
+<hr>
+<p><em>Every methodological upgrade—spanning data selection, annotation, evaluation criteria, and most importantly, prompt engineering optimization—was continuously validated and refined based on scoring feedback in all five key dimensions. In Section 7, we systematically present quantitative results, qualitative analyses, and real-world outputs to assess the effectiveness of these optimizations.</em></p>
+<hr>
+<h2 id="7-experimental-results--analysis">7. Experimental Results &amp; Analysis</h2>
+<p><em>All results and case analyses below are derived from the evaluation methodologies and experimental protocols described in Section 6, ensuring consistency and scientific validity across all findings.</em></p>
+<hr>
+<h3 id="71-generation-1-over-explanation-verbosity-and-loss-of-comedic-effect">7.1 Generation 1: Over-Explanation, Verbosity, and Loss of Comedic Effect</h3>
+<p>The initial generation (Gen1) adopted prompts that intentionally encouraged contextual amplification and background annotation, intending to “bridge cultures” through exhaustive explanation. However, this approach produced several critical issues that undermined the comedic core and audience engagement:</p>
+<p><strong>Principal Observed Problems:</strong></p>
+<ul>
+<li><strong>Unnecessary verbosity:</strong> Subtitles expanded simple punchlines into lengthy expositions.</li>
+<li><strong>Dilution of humor:</strong> Comedic timing and punchlines were obscured by explanations and didactic commentary.</li>
+<li><strong>Awkward localization:</strong> Forced or unnatural “cultural notes” made the translation stilted.</li>
+<li><strong>Model hallucinations:</strong> Occasional injection of content never found in the original.</li>
+<li><strong>Reduced viewer engagement:</strong> Resulting subtitles often made the performance harder to follow or enjoy.</li>
+</ul>
+<p><strong>Gen1 Real-World Examples:</strong></p>
+<p>Original Punchline (context: a relatable joke about being tired after socializing):</p>
+<ul>
+<li>文化差异：最近跟朋友出去玩都觉得累死了</li>
+<li>身份认同：感觉自己跟这群人混在一起实在提不起劲</li>
+<li>家庭趣事：妈，我不想再跟那帮人瞎混了，快帮我找个宅家的理由！</li>
+</ul>
+<p>Even more problematic, some outputs became academic or pseudo-sociological:</p>
+<ul>
+<li>文化差异：不过人类往往倾向于与同类型群体互动，这在文化认知中普遍存在。</li>
+<li>身份认同：作为人类，我们本能地与价值观相似者建立联结以确认自我存在。</li>
+<li>家庭趣事：瞧咱们人类吧，就爱跟合得来的人凑一块儿唠嗑呢！</li>
+</ul>
+<p>In certain instances, the AI hallucinated irrelevant local details and internal notes, as illustrated below:</p>
+<blockquote>
+<p>Original: &quot;Rice is rice.&quot;</p>
+<p>Gen1 Output:
+Kanin ay kanin! (Pero alam niyo ba, mga kapamilya, dito sa Pilipinas... 不仅仅是‘饭’这么简单！有蒸的、煮的、还有虾酱拌的呢！所以在咱们说‘rice is rice’的时候，其实… HALA! 其实有很多隐藏含义呢！😄）
+<em>(注：保留原句简洁幽默感，加入菲律宾饮食文化梗，用&quot;kapamilya&quot;拉近距离，表情符号增强娱乐性，最后用&quot;HALA&quot;制造喜剧效果但避免冒犯)</em></p>
+</blockquote>
+<p>A classic punchline, intended to be quick, concise, and universal, was transformed into a meandering pseudo-lecture full of cultural digressions, secondary punchlines, and (sometimes bizarre) annotation—removing almost all of its original comic power.</p>
+<p><strong>Summary:</strong>
+These failures underscored the necessity for precise prompt control: less is more when subtitling comedy. The findings directly informed our Gen2 and Gen3 designs—shifting away from verbose “helpfulness” toward maximizing comedic timing, conciseness, and original intent preservation.</p>
+<hr>
+<h3 id="72-quantitative-and-qualitative-improvements-gen2-and-gen3">7.2 Quantitative and Qualitative Improvements: Gen2 and Gen3</h3>
+<p>Learning from Gen1’s pitfalls, Gen2 and Gen3 introduced dedicated prompt engineering strategies focused on:</p>
+<ul>
+<li>Brevity and fidelity to comedic rhythm</li>
+<li>Controlled creative localization (avoiding “explaining the joke”)</li>
+<li>Style and punchline preservation</li>
+<li>Adaptability for multiple audience needs</li>
+</ul>
+<p><strong>Table 1: Five-Dimensional Evaluation of Translation Quality</strong></p>
+<table>
+<thead>
+<tr>
+<th>Generation</th>
+<th>Punchline Preservation</th>
+<th>Cultural Adaptation</th>
+<th>Style</th>
+<th>Structure</th>
+<th>Fluency</th>
+<th>Overall</th>
+<th>Weighted Overall</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gen1</td>
+<td>0.78</td>
+<td>0.75</td>
+<td>0.76</td>
+<td>0.77</td>
+<td>0.78</td>
+<td>0.768</td>
+<td>0.775</td>
+</tr>
+<tr>
+<td>Gen2</td>
+<td>0.905</td>
+<td>0.877</td>
+<td>0.889</td>
+<td>0.874</td>
+<td>0.845</td>
+<td>0.878</td>
+<td>0.884</td>
+</tr>
+<tr>
+<td>Gen3</td>
+<td>0.916</td>
+<td>0.887</td>
+<td>0.896</td>
+<td>0.890</td>
+<td>0.849</td>
+<td>0.888</td>
+<td>0.895</td>
+</tr>
+</tbody>
+</table>
+<p><img src="Optimization_visual.png" alt="Quality_Evaluation"></p>
+<p><strong>Highlights:</strong></p>
+<ul>
+<li>Gen2 eliminated over-explanation and restored punchlines in most cases, raising overall comedic efficacy and readability.</li>
+<li>Gen3 furthered this gains through advanced style simulation and cultural adaptation, producing outputs comparable to professional human translators.</li>
+</ul>
+<h3 id="73-iterative-case-analyses-gen1-vs-gen2-vs-gen3">7.3 Iterative Case Analyses: Gen1 vs. Gen2 vs. Gen3</h3>
+<p>To visualize the above changes, we present a direct comparison of outputs for key punchlines across the three generations:</p>
+<table>
+<thead>
+<tr>
+<th>English Original</th>
+<th>Gen1 (Verbose/Explanatory)</th>
+<th>Gen2</th>
+<th>Gen3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>I lost 80% of my religion this year.</td>
+<td>今年我失去了80%的宗教信仰。<br><em>（近年来信仰流失成为社会现象）</em></td>
+<td>我今年“失宗教”了80%（现在看到神龛只鞠半躬）</td>
+<td>信了上帝后，我的宗教竟去了十之八九——看来真神面前，万法皆空啊。</td>
+</tr>
+<tr>
+<td>But I was lucky, my mom was the most gangster person you’d ever meet.</td>
+<td>我的妈妈可能是你一生中遇到的最黑帮的人。<br>（黑帮即指非常有魄力、强悍）</td>
+<td>但我很幸运，我老妈是你见过最彪悍的狠角色。</td>
+<td>但我在成长过程中确实很幸运，因为我妈大概是最彪悍的主儿。</td>
+</tr>
+<tr>
+<td>We take their racism and shake it up with the love of Jesus.</td>
+<td>我们接受他们的种族主义，并用耶稣的爱来动摇它。<br>（文化多样性背景下...）</td>
+<td>我们用耶稣的博爱，把他们的偏见搅得天翻地覆。</td>
+<td>把他们的种族歧视，摇进了耶稣之爱的灵魂鸡尾酒，大家干杯！</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Analysis:</strong></p>
+<ul>
+<li><strong>Gen1:</strong> Bloated with “helpful” cultural or explanatory notes, stripping punchlines of conciseness and comic effect.</li>
+<li><strong>Gen2:</strong> Recaptures comedic briskness, incorporates localized wit.</li>
+<li><strong>Gen3:</strong> Reaches native-like rhythm; punchline creatively reconstructed and idiomatically natural.</li>
+</ul>
+<h3 id="74-style-diversity-and-personalization">7.4 Style Diversity and Personalization</h3>
+<p>While Gen1 uniformly outputted verbose or literal subtitles, the upgraded system now supports multiple styles—standard, humorous, internet slang, classical, as well as simulations of 35 distinct comedian personas:</p>
+<table>
+<thead>
+<tr>
+<th>Style/Persona</th>
+<th>Translation Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Standard</td>
+<td>我今年信仰少了八成。</td>
+</tr>
+<tr>
+<td>Punchline Pro</td>
+<td>“失宗教”了80%（现在看到神龛只鞠半躬）</td>
+</tr>
+<tr>
+<td>Classical Chinese</td>
+<td>今年宗教虔心减八成，神庭前只留半身敬。。</td>
+</tr>
+<tr>
+<td>Internet Slang</td>
+<td>宗教掉线80%，我都快成无神论发言人了。</td>
+</tr>
+<tr>
+<td>[Trevor Noah style]</td>
+<td>宗教信到一半直接跑路，剩下的佛祖都不敢吱声。</td>
+</tr>
+</tbody>
+</table>
+<p>Reviewers and user surveys confirm that these stylistic dimensions improve both audience enjoyment and translation flexibility.</p>
+<h3 id="75-limitations-of-traditional-metrics-and-gen-by-gen-summary">7.5 Limitations of Traditional Metrics and Gen-by-Gen Summary</h3>
+<p>Classic automatic metrics such as BLEU did not accurately capture Gen2/Gen3’s progress in humor, punchline, or stylistic adaptation: human and multi-dimensional scoring were essential to reveal these qualitative leaps (see Appendix B).</p>
+<p><strong>Key Improvements:</strong></p>
+<ul>
+<li>Gen2 and Gen3 fixed Gen1’s over-verbosity and restored the economy and punch of native stand-up subtitle style.</li>
+<li>Each generation’s advancement correlates with stricter prompt discipline and style targeting.</li>
+<li>Multi-style and persona simulation unlock further potential for audience-centric translation.</li>
+</ul>
+<p><strong>Conclusion:</strong>
+Through three generations of system refinement, PunchlinePro evolved from over-explanation and lost humor to concise, idiomatic, and highly engaging comedy subtitles, approaching the performance of skilled human transcreators.</p>
+<p><strong>Future directions</strong> include automatic style recommendation, finer-grained adaptation for region/dialect, and real-time adaptive context modeling to further close the gap between native comedy and its translated counterpart.</p>
+<hr>
+<p><em>See Appendix B for detailed quantitative evaluation tables and additional cases; see Appendix C for full dataset and scoring methodology.</em></p>
+<hr>
+<h2 id="8-conclusions-and-implications">8. Conclusions and Implications</h2>
+<h3 id="81-main-conclusions">8.1 Main Conclusions</h3>
+<ol>
+<li><strong>Importance of prompt engineering</strong>: By optimizing prompts, translation quality can be significantly improved, especially in style preservation and cultural adaptation.</li>
+<li><strong>Necessity of multi-style translation</strong>: Different users may need translations of different styles, providing various translation styles can meet the needs of different users.</li>
+<li><strong>Value of translation quality evaluation system</strong>: A complete translation quality evaluation system can help developers and users understand the quality of translation results, providing guidance for improving translation.</li>
+</ol>
+<h3 id="82-implications">8.2 Implications</h3>
+<ol>
+<li><strong>Combining manual evaluation and automatic evaluation</strong>: Although automatic evaluation systems can help quickly assess translation quality, manual evaluation is still indispensable, especially in evaluating punchline preservation and cultural adaptation.</li>
+<li><strong>Continuous optimization of prompts</strong>: With the continuous development of large language models, prompt engineering also needs continuous optimization to adapt to new model characteristics and user needs.</li>
+<li><strong>Interdisciplinary cooperation</strong>: Comedy translation involves multiple fields such as linguistics, computer science, and cultural studies, interdisciplinary cooperation can bring more comprehensive solutions.</li>
+</ol>
+<h2 id="9-references">9. References</h2>
+<p>[1] Pinch. (n.d.). A real-time translation tool for cross-country videoconferencing. Chief AI Sharing Circle. https://www.aisharenet.com/en/pinch/</p>
+<p>[2] Anonymous Developer. (2025). Breaking the boundaries of large language models: Analysis of LLM limitations and an introduction to LangChain. CSDN. https://blog.csdn.net/2401_85343303/article/details/143817072</p>
+<p>[3] Smartling. (n.d.). What to consider when evaluating machine translation quality? https://cn.smartling.com/blog/how-to-assess-machine-translation-quality</p>
+<p>[4] Weglot. (n.d.). Improve translation quality: A complete guide. https://www.weglot.com/zh/guides/website-translation-quality</p>
+<p>[5] Feishu Docs. (n.d.). Research on cultural adaptation of AI translation. https://qp6kkktqa2.feishu.cn/wiki/WzIswlEcFiArAKkcVDkcIIamneh</p>
+<p>[6] Wu, H., &amp; Lu, J. (2018). Comparative study on talk shows in China and America from hosting styles. International Journal of Humanities Social Sciences and Education (IJHSSE), 5(5), 42-48. https://www.arcjournals.org/pdfs/ijhsse/v5-i5/6.pdf</p>
+<p>[7] Zhang, N. (2022). An exploration of the humorous language in talk shows. Jingu Cultural Innovation, 34, 92-94. https://doi.org/10.20024/j.cnki.CN42-1911/I.2022.34.030</p>
+<p>[8] Translation of popular culture in American late-night talk shows from the perspective of contextual adaptation. (2024). Retrieved from https://www.docin.com/p-2290032623.html</p>
+<p>[9] Eco-translatology’s explanation of verbal humour interpretation in stand-up comedy. (2023). Retrieved from https://d.wanfangdata.com.cn/thesis/ChhUaGVzaXNOZXdTMjAyNDA5MjAxNTE3MjUSCFk0MTgzMDY4Ggh6N3Bnd2lwbg%3D%3D</p>
+<p>[10] Lai, B. (2023). A study on subtitle translation from the perspective of Skopostheorie—A case study of Desperate Housewives. Academic Journal of Humanities &amp; Social Sciences, 6(3), 73-79. https://doi.org/10.25236/AJHSS.2023.060312</p>
+<p>[11] Xie Jiahao. A Brief Analysis of the Language Characteristics and Communication Effects of Talk Show Actors. Frontiers in Art Research (2023) Vol. 5, Issue 1: 66-70. https://doi.org/10.25236/FAR.2023.050113.</p>
+<p>[12] Hasan, M. K., Rahman, W., Zadeh, A., Zhong, J., Tanveer, M. I., Morency, L.-P., &amp; Hoque, M. E. (2019). UR-FUNNY: A multimodal language dataset for understanding humor. Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), 2046-2056. https://doi.org/10.18653/v1/D19-1211</p>
+<p>[13] Ximena Gutierrez-Vasques, Christian Bentz, Tanja Samardžić; Languages Through the Looking Glass of BPE Compression. Computational Linguistics 2023; 49 (4): 943–1001. doi: https://doi.org/10.1162/coli_a_00489</p>
+<p>[14] Pituxcoosuvarn, Mondheera and Murakami, Yohei, Jokes or Gibberish? Humor Retention in Translation with Neural Machine Translation vs. Large Language Model. Available at SSRN: https://ssrn.com/abstract=5148455 or http://dx.doi.org/10.2139/ssrn.5148455</p>
+<p>[15] Wang, J., et al. (2024). Retrieval-Augmented Machine Translation with Unstructured Knowledge. arXiv preprint arXiv:2412.04342.</p>
+
+</body>
+</html>

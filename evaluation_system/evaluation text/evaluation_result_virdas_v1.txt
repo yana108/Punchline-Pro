@@ -1,0 +1,1543 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "text": "- 今年我失去了 80% 的宗教信仰。",
+      "scores": {
+        "punchline_preservation": 0.917925238609314,
+        "cultural_adaptation": 0.8784158825874329,
+        "comedian_style_preservation": 0.8943735957145691,
+        "structural_integrity": 0.857475221157074,
+        "fluency": 0.8120517730712891,
+        "overall": 0.8720483779907227,
+        "weighted_overall": 0.8851094841957092
+      }
+    },
+    {
+      "id": 2,
+      "text": "我想这是因为我开始相信上帝。",
+      "scores": {
+        "punchline_preservation": 0.8972432017326355,
+        "cultural_adaptation": 0.877635657787323,
+        "comedian_style_preservation": 0.9020294547080994,
+        "structural_integrity": 0.8980038166046143,
+        "fluency": 0.8846829533576965,
+        "overall": 0.8919190168380737,
+        "weighted_overall": 0.8896791934967041
+      }
+    },
+    {
+      "id": 3,
+      "text": "我相信上帝存在于孩子、自然界、动物身上。",
+      "scores": {
+        "punchline_preservation": 0.9105132222175598,
+        "cultural_adaptation": 0.858892560005188,
+        "comedian_style_preservation": 0.8758602738380432,
+        "structural_integrity": 0.8743976354598999,
+        "fluency": 0.8479723334312439,
+        "overall": 0.8735272288322449,
+        "weighted_overall": 0.879115104675293
+      }
+    },
+    {
+      "id": 4,
+      "text": "除了寺庙、教堂和清真寺以外的任何地方。",
+      "scores": {
+        "punchline_preservation": 0.8875867128372192,
+        "cultural_adaptation": 0.8578353524208069,
+        "comedian_style_preservation": 0.8698576092720032,
+        "structural_integrity": 0.7990424633026123,
+        "fluency": 0.8042721152305603,
+        "overall": 0.8437188267707825,
+        "weighted_overall": 0.8582149744033813
+      }
+    },
+    {
+      "id": 5,
+      "text": "我相信那里有上帝存在。",
+      "scores": {
+        "punchline_preservation": 0.8969112634658813,
+        "cultural_adaptation": 0.8545082807540894,
+        "comedian_style_preservation": 0.888599693775177,
+        "structural_integrity": 0.888312816619873,
+        "fluency": 0.8647323250770569,
+        "overall": 0.8786128759384155,
+        "weighted_overall": 0.8771613240242004
+      }
+    },
+    {
+      "id": 6,
+      "text": "（欢呼和掌声）",
+      "scores": {
+        "punchline_preservation": 0.8880041241645813,
+        "cultural_adaptation": 0.8781402111053467,
+        "comedian_style_preservation": 0.8761074542999268,
+        "structural_integrity": 0.8537223935127258,
+        "fluency": 0.828238844871521,
+        "overall": 0.8648425936698914,
+        "weighted_overall": 0.8739572763442993
+      }
+    },
+    {
+      "id": 7,
+      "text": "因为那，就像......",
+      "scores": {
+        "punchline_preservation": 0.8786081671714783,
+        "cultural_adaptation": 0.8459045886993408,
+        "comedian_style_preservation": 0.8954336047172546,
+        "structural_integrity": 0.863793134689331,
+        "fluency": 0.8782459497451782,
+        "overall": 0.8723971247673035,
+        "weighted_overall": 0.8673266768455505
+      }
+    },
+    {
+      "id": 8,
+      "text": "因为我不认为他去那些地方。",
+      "scores": {
+        "punchline_preservation": 0.920511782169342,
+        "cultural_adaptation": 0.8625854849815369,
+        "comedian_style_preservation": 0.8956398367881775,
+        "structural_integrity": 0.9004650712013245,
+        "fluency": 0.8702614903450012,
+        "overall": 0.8898927569389343,
+        "weighted_overall": 0.8907206058502197
+      }
+    },
+    {
+      "id": 9,
+      "text": "我来解释一下原因。",
+      "scores": {
+        "punchline_preservation": 0.9261550903320312,
+        "cultural_adaptation": 0.864862859249115,
+        "comedian_style_preservation": 0.8724201917648315,
+        "structural_integrity": 0.8696762919425964,
+        "fluency": 0.8434422612190247,
+        "overall": 0.8753113746643066,
+        "weighted_overall": 0.8854101896286011
+      }
+    },
+    {
+      "id": 10,
+      "text": "你们有自拍过吗？",
+      "scores": {
+        "punchline_preservation": 0.9407555460929871,
+        "cultural_adaptation": 0.8881970047950745,
+        "comedian_style_preservation": 0.9068574905395508,
+        "structural_integrity": 0.9006440043449402,
+        "fluency": 0.8572216033935547,
+        "overall": 0.8987351655960083,
+        "weighted_overall": 0.9066056609153748
+      }
+    },
+    {
+      "id": 11,
+      "text": "你曾经自拍过吗？",
+      "scores": {
+        "punchline_preservation": 0.9250351786613464,
+        "cultural_adaptation": 0.8823726773262024,
+        "comedian_style_preservation": 0.9115570783615112,
+        "structural_integrity": 0.892494797706604,
+        "fluency": 0.8646424412727356,
+        "overall": 0.8952204585075378,
+        "weighted_overall": 0.8994621634483337
+      }
+    },
+    {
+      "id": 12,
+      "text": "你知道如何让自己在自拍照中看起来更帅吗？",
+      "scores": {
+        "punchline_preservation": 0.9288378953933716,
+        "cultural_adaptation": 0.8941164016723633,
+        "comedian_style_preservation": 0.9153211712837219,
+        "structural_integrity": 0.8977269530296326,
+        "fluency": 0.8847929835319519,
+        "overall": 0.9041590690612793,
+        "weighted_overall": 0.907818078994751
+      }
+    },
+    {
+      "id": 13,
+      "text": "但如果你的朋友有你的手机，",
+      "scores": {
+        "punchline_preservation": 0.8966917395591736,
+        "cultural_adaptation": 0.8543808460235596,
+        "comedian_style_preservation": 0.8930795788764954,
+        "structural_integrity": 0.9057764410972595,
+        "fluency": 0.8863480091094971,
+        "overall": 0.8872553110122681,
+        "weighted_overall": 0.8813958168029785
+      }
+    },
+    {
+      "id": 14,
+      "text": "他们就会把自拍弄乱。",
+      "scores": {
+        "punchline_preservation": 0.9177320599555969,
+        "cultural_adaptation": 0.8974693417549133,
+        "comedian_style_preservation": 0.9055584073066711,
+        "structural_integrity": 0.8981074094772339,
+        "fluency": 0.8565719127655029,
+        "overall": 0.8950878381729126,
+        "weighted_overall": 0.9013442397117615
+      }
+    },
+    {
+      "id": 15,
+      "text": "绝对地。",
+      "scores": {
+        "punchline_preservation": 0.8798412084579468,
+        "cultural_adaptation": 0.8357357978820801,
+        "comedian_style_preservation": 0.8776736259460449,
+        "structural_integrity": 0.8386431932449341,
+        "fluency": 0.7714499235153198,
+        "overall": 0.840668797492981,
+        "weighted_overall": 0.8492286205291748
+      }
+    },
+    {
+      "id": 16,
+      "text": "为什么？",
+      "scores": {
+        "punchline_preservation": 0.9294736981391907,
+        "cultural_adaptation": 0.8684050440788269,
+        "comedian_style_preservation": 0.8811787962913513,
+        "structural_integrity": 0.8579046726226807,
+        "fluency": 0.854551374912262,
+        "overall": 0.8783027529716492,
+        "weighted_overall": 0.8886210322380066
+      }
+    },
+    {
+      "id": 17,
+      "text": "因为他们不了解你的正确角度。",
+      "scores": {
+        "punchline_preservation": 0.9198782444000244,
+        "cultural_adaptation": 0.8607807755470276,
+        "comedian_style_preservation": 0.8815710544586182,
+        "structural_integrity": 0.8994621634483337,
+        "fluency": 0.8834395408630371,
+        "overall": 0.8890263438224792,
+        "weighted_overall": 0.8896779417991638
+      }
+    },
+    {
+      "id": 18,
+      "text": "我认为对于上帝来说，人类就是那个朋友。",
+      "scores": {
+        "punchline_preservation": 0.9201937913894653,
+        "cultural_adaptation": 0.8507449626922607,
+        "comedian_style_preservation": 0.8718634843826294,
+        "structural_integrity": 0.8908849358558655,
+        "fluency": 0.8906913995742798,
+        "overall": 0.8848756551742554,
+        "weighted_overall": 0.8851725459098816
+      }
+    },
+    {
+      "id": 19,
+      "text": "（男人大笑）",
+      "scores": {
+        "punchline_preservation": 0.8794918656349182,
+        "cultural_adaptation": 0.8936387300491333,
+        "comedian_style_preservation": 0.8802960515022278,
+        "structural_integrity": 0.8796735405921936,
+        "fluency": 0.7767130136489868,
+        "overall": 0.861962616443634,
+        "weighted_overall": 0.8742639422416687
+      }
+    },
+    {
+      "id": 20,
+      "text": "我们总是搞砸上帝的形象，",
+      "scores": {
+        "punchline_preservation": 0.9106462597846985,
+        "cultural_adaptation": 0.8815403580665588,
+        "comedian_style_preservation": 0.9018689393997192,
+        "structural_integrity": 0.894284725189209,
+        "fluency": 0.8711112141609192,
+        "overall": 0.8918903470039368,
+        "weighted_overall": 0.8939918279647827
+      }
+    },
+    {
+      "id": 21,
+      "text": "因为我们不了解他的正确角度。",
+      "scores": {
+        "punchline_preservation": 0.9214021563529968,
+        "cultural_adaptation": 0.8564883470535278,
+        "comedian_style_preservation": 0.8755407929420471,
+        "structural_integrity": 0.8951249718666077,
+        "fluency": 0.8743441104888916,
+        "overall": 0.8845800161361694,
+        "weighted_overall": 0.8867626190185547
+      }
+    },
+    {
+      "id": 22,
+      "text": "象征性地和视觉性地。",
+      "scores": {
+        "punchline_preservation": 0.9018036723136902,
+        "cultural_adaptation": 0.8522036671638489,
+        "comedian_style_preservation": 0.8811988830566406,
+        "structural_integrity": 0.8393223285675049,
+        "fluency": 0.8186531662940979,
+        "overall": 0.8586363792419434,
+        "weighted_overall": 0.8678199648857117
+      }
+    },
+    {
+      "id": 23,
+      "text": "我想当耶稣基督第一次走进教堂时，",
+      "scores": {
+        "punchline_preservation": 0.8993291258811951,
+        "cultural_adaptation": 0.8843736052513123,
+        "comedian_style_preservation": 0.8926584720611572,
+        "structural_integrity": 0.8943344354629517,
+        "fluency": 0.8572742342948914,
+        "overall": 0.8855938911437988,
+        "weighted_overall": 0.8887226581573486
+      }
+    },
+    {
+      "id": 24,
+      "text": "他会想，“那他妈的是什么？”",
+      "scores": {
+        "punchline_preservation": 0.9047008156776428,
+        "cultural_adaptation": 0.901172935962677,
+        "comedian_style_preservation": 0.9094154834747314,
+        "structural_integrity": 0.8787373304367065,
+        "fluency": 0.8667146563529968,
+        "overall": 0.8921481966972351,
+        "weighted_overall": 0.8975425958633423
+      }
+    },
+    {
+      "id": 25,
+      "text": "（观众笑）",
+      "scores": {
+        "punchline_preservation": 0.8747158050537109,
+        "cultural_adaptation": 0.8997993469238281,
+        "comedian_style_preservation": 0.8738579154014587,
+        "structural_integrity": 0.88409823179245,
+        "fluency": 0.844143271446228,
+        "overall": 0.8753229379653931,
+        "weighted_overall": 0.8812901973724365
+      }
+    },
+    {
+      "id": 26,
+      "text": "“谁画的这个玩意儿？是你吗，莱昂纳多？过来。”",
+      "scores": {
+        "punchline_preservation": 0.9144151210784912,
+        "cultural_adaptation": 0.8892298340797424,
+        "comedian_style_preservation": 0.9038980603218079,
+        "structural_integrity": 0.8928613662719727,
+        "fluency": 0.8397271037101746,
+        "overall": 0.888026237487793,
+        "weighted_overall": 0.8949244022369385
+      }
+    },
+    {
+      "id": 27,
+      "text": "“那是什么鬼东西，兄弟？”",
+      "scores": {
+        "punchline_preservation": 0.9218079447746277,
+        "cultural_adaptation": 0.8890312910079956,
+        "comedian_style_preservation": 0.9001345038414001,
+        "structural_integrity": 0.8825963139533997,
+        "fluency": 0.8581931591033936,
+        "overall": 0.8903526067733765,
+        "weighted_overall": 0.8978860974311829
+      }
+    },
+    {
+      "id": 28,
+      "text": "“那个可怜的瘦子是谁？”",
+      "scores": {
+        "punchline_preservation": 0.9212083220481873,
+        "cultural_adaptation": 0.8826779723167419,
+        "comedian_style_preservation": 0.9002503156661987,
+        "structural_integrity": 0.8831672668457031,
+        "fluency": 0.8496044874191284,
+        "overall": 0.8873816728591919,
+        "weighted_overall": 0.8946623802185059
+      }
+    },
+    {
+      "id": 29,
+      "text": "“这是啥玩意儿？那是什么？”",
+      "scores": {
+        "punchline_preservation": 0.9199162125587463,
+        "cultural_adaptation": 0.8937928676605225,
+        "comedian_style_preservation": 0.910612940788269,
+        "structural_integrity": 0.8754666447639465,
+        "fluency": 0.8330554962158203,
+        "overall": 0.8865688443183899,
+        "weighted_overall": 0.8967116475105286
+      }
+    },
+    {
+      "id": 30,
+      "text": "（鼓掌）",
+      "scores": {
+        "punchline_preservation": 0.8658037185668945,
+        "cultural_adaptation": 0.8542731404304504,
+        "comedian_style_preservation": 0.839479386806488,
+        "structural_integrity": 0.8317249417304993,
+        "fluency": 0.8367154002189636,
+        "overall": 0.8455992937088013,
+        "weighted_overall": 0.8528188467025757
+      }
+    },
+    {
+      "id": 31,
+      "text": "“我已经背负着这个十字架三天了，没有吃碳水化合物。”",
+      "scores": {
+        "punchline_preservation": 0.8934279680252075,
+        "cultural_adaptation": 0.8958140015602112,
+        "comedian_style_preservation": 0.8951206803321838,
+        "structural_integrity": 0.9001569151878357,
+        "fluency": 0.8617933392524719,
+        "overall": 0.8892625570297241,
+        "weighted_overall": 0.8919417262077332
+      }
+    },
+    {
+      "id": 32,
+      "text": "“你连肱三头肌都画不出来，你这个混蛋？”",
+      "scores": {
+        "punchline_preservation": 0.9215857982635498,
+        "cultural_adaptation": 0.8849838376045227,
+        "comedian_style_preservation": 0.9061847925186157,
+        "structural_integrity": 0.8958221673965454,
+        "fluency": 0.878567099571228,
+        "overall": 0.8974286913871765,
+        "weighted_overall": 0.9003567695617676
+      }
+    },
+    {
+      "id": 33,
+      "text": "（观众笑）",
+      "scores": {
+        "punchline_preservation": 0.8747158050537109,
+        "cultural_adaptation": 0.8997993469238281,
+        "comedian_style_preservation": 0.8738579154014587,
+        "structural_integrity": 0.88409823179245,
+        "fluency": 0.844143271446228,
+        "overall": 0.8753229379653931,
+        "weighted_overall": 0.8812901973724365
+      }
+    },
+    {
+      "id": 34,
+      "text": "印度教徒，",
+      "scores": {
+        "punchline_preservation": 0.8826870322227478,
+        "cultural_adaptation": 0.8446342945098877,
+        "comedian_style_preservation": 0.8684043288230896,
+        "structural_integrity": 0.8168902397155762,
+        "fluency": 0.8057081699371338,
+        "overall": 0.843664824962616,
+        "weighted_overall": 0.8536627292633057
+      }
+    },
+    {
+      "id": 35,
+      "text": "我想当我们的象头神第一次走进寺庙时，",
+      "scores": {
+        "punchline_preservation": 0.9017030596733093,
+        "cultural_adaptation": 0.895033597946167,
+        "comedian_style_preservation": 0.8973340392112732,
+        "structural_integrity": 0.8903517127037048,
+        "fluency": 0.8509625792503357,
+        "overall": 0.8870770335197449,
+        "weighted_overall": 0.8927226662635803
+      }
+    },
+    {
+      "id": 36,
+      "text": "他会问，“那他妈的是什么？”",
+      "scores": {
+        "punchline_preservation": 0.8890624642372131,
+        "cultural_adaptation": 0.8921061754226685,
+        "comedian_style_preservation": 0.8839544057846069,
+        "structural_integrity": 0.8725045919418335,
+        "fluency": 0.8728040456771851,
+        "overall": 0.8820863962173462,
+        "weighted_overall": 0.8863353133201599
+      }
+    },
+    {
+      "id": 37,
+      "text": "“我是一半人，一半象。”",
+      "scores": {
+        "punchline_preservation": 0.907787561416626,
+        "cultural_adaptation": 0.8906049728393555,
+        "comedian_style_preservation": 0.906154215335846,
+        "structural_integrity": 0.8851751089096069,
+        "fluency": 0.8241914510726929,
+        "overall": 0.8827826380729675,
+        "weighted_overall": 0.890989363193512
+      }
+    },
+    {
+      "id": 38,
+      "text": "“那是棕色和灰色的。这是什么颜色？”",
+      "scores": {
+        "punchline_preservation": 0.9170238375663757,
+        "cultural_adaptation": 0.8964834213256836,
+        "comedian_style_preservation": 0.906537652015686,
+        "structural_integrity": 0.8704782724380493,
+        "fluency": 0.8519484996795654,
+        "overall": 0.8884943127632141,
+        "weighted_overall": 0.8976239562034607
+      }
+    },
+    {
+      "id": 39,
+      "text": "“怎么，你们这是吸毒了吗？”",
+      "scores": {
+        "punchline_preservation": 0.9220830798149109,
+        "cultural_adaptation": 0.8979482054710388,
+        "comedian_style_preservation": 0.9076090455055237,
+        "structural_integrity": 0.890349805355072,
+        "fluency": 0.8466182947158813,
+        "overall": 0.8929217457771301,
+        "weighted_overall": 0.9014686346054077
+      }
+    },
+    {
+      "id": 40,
+      "text": "“这是什么？迪士尼的印度教？发生了什么事？”",
+      "scores": {
+        "punchline_preservation": 0.9223489761352539,
+        "cultural_adaptation": 0.8871749639511108,
+        "comedian_style_preservation": 0.9088746309280396,
+        "structural_integrity": 0.8772519826889038,
+        "fluency": 0.8349185585975647,
+        "overall": 0.8861138224601746,
+        "weighted_overall": 0.8954378962516785
+      }
+    },
+    {
+      "id": 41,
+      "text": "穆斯林们，",
+      "scores": {
+        "punchline_preservation": 0.9212303161621094,
+        "cultural_adaptation": 0.8861085176467896,
+        "comedian_style_preservation": 0.8911294341087341,
+        "structural_integrity": 0.8871595859527588,
+        "fluency": 0.8552435636520386,
+        "overall": 0.8881742358207703,
+        "weighted_overall": 0.8959218859672546
+      }
+    },
+    {
+      "id": 42,
+      "text": "我想穆罕默德第一次走进清真寺的时候，",
+      "scores": {
+        "punchline_preservation": 0.9015540480613708,
+        "cultural_adaptation": 0.8839874267578125,
+        "comedian_style_preservation": 0.8972738981246948,
+        "structural_integrity": 0.9042701721191406,
+        "fluency": 0.8828926086425781,
+        "overall": 0.8939956426620483,
+        "weighted_overall": 0.8933832049369812
+      }
+    },
+    {
+      "id": 43,
+      "text": "他就像......",
+      "scores": {
+        "punchline_preservation": 0.8982753157615662,
+        "cultural_adaptation": 0.8661019206047058,
+        "comedian_style_preservation": 0.9152259230613708,
+        "structural_integrity": 0.8774822354316711,
+        "fluency": 0.8350965976715088,
+        "overall": 0.8784363865852356,
+        "weighted_overall": 0.8803125023841858
+      }
+    },
+    {
+      "id": 44,
+      "text": "我不知道穆罕默德长什么样，你知道吗？",
+      "scores": {
+        "punchline_preservation": 0.9318791627883911,
+        "cultural_adaptation": 0.8837493062019348,
+        "comedian_style_preservation": 0.9026837944984436,
+        "structural_integrity": 0.8930595517158508,
+        "fluency": 0.8904824256896973,
+        "overall": 0.9003707766532898,
+        "weighted_overall": 0.9040924906730652
+      }
+    },
+    {
+      "id": 45,
+      "text": "没人这么做。",
+      "scores": {
+        "punchline_preservation": 0.9180392026901245,
+        "cultural_adaptation": 0.8831279873847961,
+        "comedian_style_preservation": 0.8944867253303528,
+        "structural_integrity": 0.8756051659584045,
+        "fluency": 0.8578377366065979,
+        "overall": 0.8858193159103394,
+        "weighted_overall": 0.8932015299797058
+      }
+    },
+    {
+      "id": 46,
+      "text": "每次我们试图引诱敌人时，就会有人被击中。",
+      "scores": {
+        "punchline_preservation": 0.908190131187439,
+        "cultural_adaptation": 0.9026186466217041,
+        "comedian_style_preservation": 0.9028187394142151,
+        "structural_integrity": 0.898546576499939,
+        "fluency": 0.8529242873191833,
+        "overall": 0.8930196762084961,
+        "weighted_overall": 0.8992120027542114
+      }
+    },
+    {
+      "id": 47,
+      "text": "记住？",
+      "scores": {
+        "punchline_preservation": 0.9304056763648987,
+        "cultural_adaptation": 0.8503560423851013,
+        "comedian_style_preservation": 0.8665556311607361,
+        "structural_integrity": 0.8307651877403259,
+        "fluency": 0.8342570066452026,
+        "overall": 0.8624679446220398,
+        "weighted_overall": 0.8764243721961975
+      }
+    },
+    {
+      "id": 48,
+      "text": "我没有开那个玩笑。",
+      "scores": {
+        "punchline_preservation": 0.9186679720878601,
+        "cultural_adaptation": 0.8635808229446411,
+        "comedian_style_preservation": 0.8920140266418457,
+        "structural_integrity": 0.9071466326713562,
+        "fluency": 0.8759431838989258,
+        "overall": 0.8914705514907837,
+        "weighted_overall": 0.8912973999977112
+      }
+    },
+    {
+      "id": 49,
+      "text": "我被吓到了，好吗？",
+      "scores": {
+        "punchline_preservation": 0.9239172339439392,
+        "cultural_adaptation": 0.8887976408004761,
+        "comedian_style_preservation": 0.9202485084533691,
+        "structural_integrity": 0.8866057395935059,
+        "fluency": 0.8639217615127563,
+        "overall": 0.8966981768608093,
+        "weighted_overall": 0.9015278220176697
+      }
+    },
+    {
+      "id": 50,
+      "text": "我能感觉到你们因为这个笑话而变得紧张。",
+      "scores": {
+        "punchline_preservation": 0.9238010048866272,
+        "cultural_adaptation": 0.8887128233909607,
+        "comedian_style_preservation": 0.9079757332801819,
+        "structural_integrity": 0.9172942638397217,
+        "fluency": 0.8615289330482483,
+        "overall": 0.8998625874519348,
+        "weighted_overall": 0.903059720993042
+      }
+    },
+    {
+      "id": 51,
+      "text": "看看吧，伙计们。",
+      "scores": {
+        "punchline_preservation": 0.9264395833015442,
+        "cultural_adaptation": 0.882013738155365,
+        "comedian_style_preservation": 0.9109273552894592,
+        "structural_integrity": 0.890857994556427,
+        "fluency": 0.8400183320045471,
+        "overall": 0.8900513648986816,
+        "weighted_overall": 0.8971390128135681
+      }
+    },
+    {
+      "id": 52,
+      "text": "我相信世界和平的未来",
+      "scores": {
+        "punchline_preservation": 0.886491596698761,
+        "cultural_adaptation": 0.8665517568588257,
+        "comedian_style_preservation": 0.8821101188659668,
+        "structural_integrity": 0.844757080078125,
+        "fluency": 0.7798575758934021,
+        "overall": 0.8519536256790161,
+        "weighted_overall": 0.8642376661300659
+      }
+    },
+    {
+      "id": 53,
+      "text": "不会来自政治或经济。",
+      "scores": {
+        "punchline_preservation": 0.8683373332023621,
+        "cultural_adaptation": 0.8569536209106445,
+        "comedian_style_preservation": 0.8883932828903198,
+        "structural_integrity": 0.847001314163208,
+        "fluency": 0.8479323387145996,
+        "overall": 0.8617235422134399,
+        "weighted_overall": 0.862184464931488
+      }
+    },
+    {
+      "id": 54,
+      "text": "它将来自宗教。",
+      "scores": {
+        "punchline_preservation": 0.8884840607643127,
+        "cultural_adaptation": 0.8487375974655151,
+        "comedian_style_preservation": 0.8912242650985718,
+        "structural_integrity": 0.8902328014373779,
+        "fluency": 0.8569498062133789,
+        "overall": 0.8751257061958313,
+        "weighted_overall": 0.8718682527542114
+      }
+    },
+    {
+      "id": 55,
+      "text": "当世界上每一种宗教都学会",
+      "scores": {
+        "punchline_preservation": 0.8837759494781494,
+        "cultural_adaptation": 0.879157304763794,
+        "comedian_style_preservation": 0.8978995680809021,
+        "structural_integrity": 0.8499847650527954,
+        "fluency": 0.847364604473114,
+        "overall": 0.8716363906860352,
+        "weighted_overall": 0.8765515089035034
+      }
+    },
+    {
+      "id": 56,
+      "text": "享受乐趣、放松心情时，世界就会好起来。",
+      "scores": {
+        "punchline_preservation": 0.8939231634140015,
+        "cultural_adaptation": 0.8921535015106201,
+        "comedian_style_preservation": 0.900007426738739,
+        "structural_integrity": 0.8256874084472656,
+        "fluency": 0.8385419845581055,
+        "overall": 0.8700626492500305,
+        "weighted_overall": 0.8815505504608154
+      }
+    },
+    {
+      "id": 57,
+      "text": "我们能就此达成一致吗？",
+      "scores": {
+        "punchline_preservation": 0.9331015348434448,
+        "cultural_adaptation": 0.8605932593345642,
+        "comedian_style_preservation": 0.8876898288726807,
+        "structural_integrity": 0.9035270810127258,
+        "fluency": 0.8612672090530396,
+        "overall": 0.88923579454422,
+        "weighted_overall": 0.8930416107177734
+      }
+    },
+    {
+      "id": 58,
+      "text": "（欢呼和掌声）",
+      "scores": {
+        "punchline_preservation": 0.8880041241645813,
+        "cultural_adaptation": 0.8781402111053467,
+        "comedian_style_preservation": 0.8761074542999268,
+        "structural_integrity": 0.8537223935127258,
+        "fluency": 0.828238844871521,
+        "overall": 0.8648425936698914,
+        "weighted_overall": 0.8739572763442993
+      }
+    },
+    {
+      "id": 59,
+      "text": "两种宗教，具体来说，就是基督教和伊斯兰教。",
+      "scores": {
+        "punchline_preservation": 0.891273021697998,
+        "cultural_adaptation": 0.8136283755302429,
+        "comedian_style_preservation": 0.7927470803260803,
+        "structural_integrity": 0.8082720637321472,
+        "fluency": 0.872014582157135,
+        "overall": 0.8355870246887207,
+        "weighted_overall": 0.844018816947937
+      }
+    },
+    {
+      "id": 60,
+      "text": "你们必须努力解决问题，伙计们。",
+      "scores": {
+        "punchline_preservation": 0.9273167252540588,
+        "cultural_adaptation": 0.8917341828346252,
+        "comedian_style_preservation": 0.9002335667610168,
+        "structural_integrity": 0.9040643572807312,
+        "fluency": 0.8588241934776306,
+        "overall": 0.8964346051216125,
+        "weighted_overall": 0.9029800295829773
+      }
+    },
+    {
+      "id": 61,
+      "text": "我觉得，作为印度教徒，我们可以说这些话。",
+      "scores": {
+        "punchline_preservation": 0.9267240762710571,
+        "cultural_adaptation": 0.8608145713806152,
+        "comedian_style_preservation": 0.8989201188087463,
+        "structural_integrity": 0.901469886302948,
+        "fluency": 0.8585621118545532,
+        "overall": 0.889298141002655,
+        "weighted_overall": 0.8915337324142456
+      }
+    },
+    {
+      "id": 62,
+      "text": "因为印度教徒就像你们共同的最好的朋友，",
+      "scores": {
+        "punchline_preservation": 0.9106667041778564,
+        "cultural_adaptation": 0.8796285390853882,
+        "comedian_style_preservation": 0.8950446248054504,
+        "structural_integrity": 0.9004431962966919,
+        "fluency": 0.8834661841392517,
+        "overall": 0.8938498497009277,
+        "weighted_overall": 0.8944987058639526
+      }
+    },
+    {
+      "id": 63,
+      "text": "陷入了尴尬的分手之中。",
+      "scores": {
+        "punchline_preservation": 0.874261200428009,
+        "cultural_adaptation": 0.8635308146476746,
+        "comedian_style_preservation": 0.8807327747344971,
+        "structural_integrity": 0.8522264361381531,
+        "fluency": 0.7740164399147034,
+        "overall": 0.8489535450935364,
+        "weighted_overall": 0.8589247465133667
+      }
+    },
+    {
+      "id": 64,
+      "text": "（观众笑）",
+      "scores": {
+        "punchline_preservation": 0.8747158050537109,
+        "cultural_adaptation": 0.8997993469238281,
+        "comedian_style_preservation": 0.8738579154014587,
+        "structural_integrity": 0.88409823179245,
+        "fluency": 0.844143271446228,
+        "overall": 0.8753229379653931,
+        "weighted_overall": 0.8812901973724365
+      }
+    },
+    {
+      "id": 65,
+      "text": "我认为世界上唯一",
+      "scores": {
+        "punchline_preservation": 0.8721027374267578,
+        "cultural_adaptation": 0.8614165186882019,
+        "comedian_style_preservation": 0.8888458609580994,
+        "structural_integrity": 0.86953204870224,
+        "fluency": 0.8613473176956177,
+        "overall": 0.870648980140686,
+        "weighted_overall": 0.8687043190002441
+      }
+    },
+    {
+      "id": 66,
+      "text": "能够实现和平的国家就是你们。",
+      "scores": {
+        "punchline_preservation": 0.914818286895752,
+        "cultural_adaptation": 0.8807728290557861,
+        "comedian_style_preservation": 0.8840307593345642,
+        "structural_integrity": 0.8766581416130066,
+        "fluency": 0.8669359683990479,
+        "overall": 0.8846431970596313,
+        "weighted_overall": 0.8912193179130554
+      }
+    },
+    {
+      "id": 67,
+      "text": "美国。",
+      "scores": {
+        "punchline_preservation": 0.8732330203056335,
+        "cultural_adaptation": 0.873339056968689,
+        "comedian_style_preservation": 0.8675947785377502,
+        "structural_integrity": 0.8376191854476929,
+        "fluency": 0.7471038699150085,
+        "overall": 0.839777946472168,
+        "weighted_overall": 0.8565319776535034
+      }
+    },
+    {
+      "id": 68,
+      "text": "你能做到。",
+      "scores": {
+        "punchline_preservation": 0.9060183763504028,
+        "cultural_adaptation": 0.8670071959495544,
+        "comedian_style_preservation": 0.8888854384422302,
+        "structural_integrity": 0.8882122039794922,
+        "fluency": 0.8765406012535095,
+        "overall": 0.8853327631950378,
+        "weighted_overall": 0.8859227895736694
+      }
+    },
+    {
+      "id": 69,
+      "text": "你可以。",
+      "scores": {
+        "punchline_preservation": 0.8952012658119202,
+        "cultural_adaptation": 0.8635976314544678,
+        "comedian_style_preservation": 0.8866725564002991,
+        "structural_integrity": 0.8940954804420471,
+        "fluency": 0.8526526689529419,
+        "overall": 0.8784438967704773,
+        "weighted_overall": 0.8789216876029968
+      }
+    },
+    {
+      "id": 70,
+      "text": "你们美国，只需要与宗教有关...而",
+      "scores": {
+        "punchline_preservation": 0.9178919792175293,
+        "cultural_adaptation": 0.8723130226135254,
+        "comedian_style_preservation": 0.8938491940498352,
+        "structural_integrity": 0.8797203898429871,
+        "fluency": 0.8584033846855164,
+        "overall": 0.8844355344772339,
+        "weighted_overall": 0.8897690773010254
+      }
+    },
+    {
+      "id": 71,
+      "text": "你们在历史上一直做得很好...就是",
+      "scores": {
+        "punchline_preservation": 0.9196342825889587,
+        "cultural_adaptation": 0.8739660978317261,
+        "comedian_style_preservation": 0.9050289988517761,
+        "structural_integrity": 0.8926443457603455,
+        "fluency": 0.8580271005630493,
+        "overall": 0.8898601531982422,
+        "weighted_overall": 0.8933302164077759
+      }
+    },
+    {
+      "id": 72,
+      "text": "与外国食物有关。",
+      "scores": {
+        "punchline_preservation": 0.8528204560279846,
+        "cultural_adaptation": 0.8674013018608093,
+        "comedian_style_preservation": 0.852700412273407,
+        "structural_integrity": 0.84000563621521,
+        "fluency": 0.789932131767273,
+        "overall": 0.8405719995498657,
+        "weighted_overall": 0.8503414392471313
+      }
+    },
+    {
+      "id": 73,
+      "text": "（观众笑）",
+      "scores": {
+        "punchline_preservation": 0.8747158050537109,
+        "cultural_adaptation": 0.8997993469238281,
+        "comedian_style_preservation": 0.8738579154014587,
+        "structural_integrity": 0.88409823179245,
+        "fluency": 0.844143271446228,
+        "overall": 0.8753229379653931,
+        "weighted_overall": 0.8812901973724365
+      }
+    },
+    {
+      "id": 74,
+      "text": "只需将其结合起来，制作出你自己的愚蠢的美国版本。",
+      "scores": {
+        "punchline_preservation": 0.9194753766059875,
+        "cultural_adaptation": 0.8727741241455078,
+        "comedian_style_preservation": 0.9102545380592346,
+        "structural_integrity": 0.8912243843078613,
+        "fluency": 0.8577379584312439,
+        "overall": 0.8902932405471802,
+        "weighted_overall": 0.8932089805603027
+      }
+    },
+    {
+      "id": 75,
+      "text": "所以，来吧。",
+      "scores": {
+        "punchline_preservation": 0.9062072038650513,
+        "cultural_adaptation": 0.8888234496116638,
+        "comedian_style_preservation": 0.8924535512924194,
+        "structural_integrity": 0.8820058107376099,
+        "fluency": 0.8415485620498657,
+        "overall": 0.8822076916694641,
+        "weighted_overall": 0.889861524105072
+      }
+    },
+    {
+      "id": 76,
+      "text": "您不希望看到世界上有一个和平的宗教吗？",
+      "scores": {
+        "punchline_preservation": 0.9304510354995728,
+        "cultural_adaptation": 0.8739763498306274,
+        "comedian_style_preservation": 0.9026256799697876,
+        "structural_integrity": 0.8896653056144714,
+        "fluency": 0.8846027255058289,
+        "overall": 0.8962642550468445,
+        "weighted_overall": 0.8992390036582947
+      }
+    },
+    {
+      "id": 77,
+      "text": "女士们、先生们，你们想看这个吗？",
+      "scores": {
+        "punchline_preservation": 0.9372591376304626,
+        "cultural_adaptation": 0.8884600400924683,
+        "comedian_style_preservation": 0.9136742353439331,
+        "structural_integrity": 0.903336763381958,
+        "fluency": 0.8661879897117615,
+        "overall": 0.9017835855484009,
+        "weighted_overall": 0.9073216319084167
+      }
+    },
+    {
+      "id": 78,
+      "text": "是的？",
+      "scores": {
+        "punchline_preservation": 0.934637188911438,
+        "cultural_adaptation": 0.8718616366386414,
+        "comedian_style_preservation": 0.8800313472747803,
+        "structural_integrity": 0.8623022437095642,
+        "fluency": 0.8356148600578308,
+        "overall": 0.8768894076347351,
+        "weighted_overall": 0.8900694847106934
+      }
+    },
+    {
+      "id": 79,
+      "text": "是的？",
+      "scores": {
+        "punchline_preservation": 0.934637188911438,
+        "cultural_adaptation": 0.8718616366386414,
+        "comedian_style_preservation": 0.8800313472747803,
+        "structural_integrity": 0.8623022437095642,
+        "fluency": 0.8356148600578308,
+        "overall": 0.8768894076347351,
+        "weighted_overall": 0.8900694847106934
+      }
+    },
+    {
+      "id": 80,
+      "text": "一种新的和平宗教，",
+      "scores": {
+        "punchline_preservation": 0.8935396671295166,
+        "cultural_adaptation": 0.8580030202865601,
+        "comedian_style_preservation": 0.8921633958816528,
+        "structural_integrity": 0.8401455283164978,
+        "fluency": 0.8159382939338684,
+        "overall": 0.8599579930305481,
+        "weighted_overall": 0.8678646087646484
+      }
+    },
+    {
+      "id": 81,
+      "text": "穆斯林和基督徒可以在这里团聚",
+      "scores": {
+        "punchline_preservation": 0.8877156972885132,
+        "cultural_adaptation": 0.8847783803939819,
+        "comedian_style_preservation": 0.8882309794425964,
+        "structural_integrity": 0.874817430973053,
+        "fluency": 0.8551811575889587,
+        "overall": 0.8781447410583496,
+        "weighted_overall": 0.8821958303451538
+      }
+    },
+    {
+      "id": 82,
+      "text": "并和谐地祈祷。",
+      "scores": {
+        "punchline_preservation": 0.903379499912262,
+        "cultural_adaptation": 0.88289874792099,
+        "comedian_style_preservation": 0.8644577860832214,
+        "structural_integrity": 0.851048469543457,
+        "fluency": 0.7902895212173462,
+        "overall": 0.8584148287773132,
+        "weighted_overall": 0.875777006149292
+      }
+    },
+    {
+      "id": 83,
+      "text": "女士们、先生们，“克里斯拉姆……”",
+      "scores": {
+        "punchline_preservation": 0.9154046773910522,
+        "cultural_adaptation": 0.8948974013328552,
+        "comedian_style_preservation": 0.9100857377052307,
+        "structural_integrity": 0.879307210445404,
+        "fluency": 0.7870761156082153,
+        "overall": 0.8773542642593384,
+        "weighted_overall": 0.8912526369094849
+      }
+    },
+    {
+      "id": 84,
+      "text": "（观众笑）",
+      "scores": {
+        "punchline_preservation": 0.8747158050537109,
+        "cultural_adaptation": 0.8997993469238281,
+        "comedian_style_preservation": 0.8738579154014587,
+        "structural_integrity": 0.88409823179245,
+        "fluency": 0.844143271446228,
+        "overall": 0.8753229379653931,
+        "weighted_overall": 0.8812901973724365
+      }
+    },
+    {
+      "id": 85,
+      "text": "呼吸，呼吸，呼吸。",
+      "scores": {
+        "punchline_preservation": 0.8803324103355408,
+        "cultural_adaptation": 0.8747144341468811,
+        "comedian_style_preservation": 0.8570523262023926,
+        "structural_integrity": 0.8344293236732483,
+        "fluency": 0.8306844830513,
+        "overall": 0.8554426431655884,
+        "weighted_overall": 0.8664829730987549
+      }
+    },
+    {
+      "id": 86,
+      "text": "朋友们，伊斯兰教是一个伟大的宗教。",
+      "scores": {
+        "punchline_preservation": 0.9268477559089661,
+        "cultural_adaptation": 0.8826403617858887,
+        "comedian_style_preservation": 0.8858780860900879,
+        "structural_integrity": 0.8596222996711731,
+        "fluency": 0.857448935508728,
+        "overall": 0.8824874758720398,
+        "weighted_overall": 0.8936157822608948
+      }
+    },
+    {
+      "id": 87,
+      "text": "你们知道基督徒如何度过星期天吗？",
+      "scores": {
+        "punchline_preservation": 0.9352993965148926,
+        "cultural_adaptation": 0.8912850618362427,
+        "comedian_style_preservation": 0.8923518061637878,
+        "structural_integrity": 0.8904905915260315,
+        "fluency": 0.8855215907096863,
+        "overall": 0.8989896774291992,
+        "weighted_overall": 0.906140923500061
+      }
+    },
+    {
+      "id": 88,
+      "text": "穆斯林们，你们有星期五吗？",
+      "scores": {
+        "punchline_preservation": 0.9395972490310669,
+        "cultural_adaptation": 0.8882852792739868,
+        "comedian_style_preservation": 0.8958834409713745,
+        "structural_integrity": 0.8931803703308105,
+        "fluency": 0.8750532269477844,
+        "overall": 0.8983999490737915,
+        "weighted_overall": 0.9061706066131592
+      }
+    },
+    {
+      "id": 89,
+      "text": "因此，在伊斯兰教中，你会遇到星期六。",
+      "scores": {
+        "punchline_preservation": 0.8793864250183105,
+        "cultural_adaptation": 0.8692862391471863,
+        "comedian_style_preservation": 0.8686705231666565,
+        "structural_integrity": 0.8947104215621948,
+        "fluency": 0.8918036818504333,
+        "overall": 0.8807714581489563,
+        "weighted_overall": 0.8775538206100464
+      }
+    },
+    {
+      "id": 90,
+      "text": "星期六醒来后，你去了“chosque”。",
+      "scores": {
+        "punchline_preservation": 0.9165153503417969,
+        "cultural_adaptation": 0.8938385248184204,
+        "comedian_style_preservation": 0.9209834933280945,
+        "structural_integrity": 0.8847064971923828,
+        "fluency": 0.8459577560424805,
+        "overall": 0.8924003839492798,
+        "weighted_overall": 0.8987886309623718
+      }
+    },
+    {
+      "id": 91,
+      "text": "（观众笑）朋友们，伊斯兰教",
+      "scores": {
+        "punchline_preservation": 0.9157873392105103,
+        "cultural_adaptation": 0.8953235149383545,
+        "comedian_style_preservation": 0.8859628438949585,
+        "structural_integrity": 0.8609482049942017,
+        "fluency": 0.8228489756584167,
+        "overall": 0.8761741518974304,
+        "weighted_overall": 0.8908647298812866
+      }
+    },
+    {
+      "id": 92,
+      "text": "有很多盛大的节日。",
+      "scores": {
+        "punchline_preservation": 0.8973572254180908,
+        "cultural_adaptation": 0.8852907419204712,
+        "comedian_style_preservation": 0.8797898888587952,
+        "structural_integrity": 0.7867103219032288,
+        "fluency": 0.8058719635009766,
+        "overall": 0.8510040044784546,
+        "weighted_overall": 0.8711639642715454
+      }
+    },
+    {
+      "id": 93,
+      "text": "那是开斋节。",
+      "scores": {
+        "punchline_preservation": 0.9058612585067749,
+        "cultural_adaptation": 0.8912481665611267,
+        "comedian_style_preservation": 0.8703868985176086,
+        "structural_integrity": 0.838821291923523,
+        "fluency": 0.8522857427597046,
+        "overall": 0.8717206716537476,
+        "weighted_overall": 0.885137677192688
+      }
+    },
+    {
+      "id": 94,
+      "text": "啊啊！",
+      "scores": {
+        "punchline_preservation": 0.8946908116340637,
+        "cultural_adaptation": 0.8774518966674805,
+        "comedian_style_preservation": 0.9012167453765869,
+        "structural_integrity": 0.8723753690719604,
+        "fluency": 0.8777061700820923,
+        "overall": 0.8846881985664368,
+        "weighted_overall": 0.8853798508644104
+      }
+    },
+    {
+      "id": 95,
+      "text": "你只需将巧克力山羊藏在花园里即可。",
+      "scores": {
+        "punchline_preservation": 0.8942738175392151,
+        "cultural_adaptation": 0.8801613450050354,
+        "comedian_style_preservation": 0.8908899426460266,
+        "structural_integrity": 0.8821373581886292,
+        "fluency": 0.9011213183403015,
+        "overall": 0.8897167444229126,
+        "weighted_overall": 0.8884671330451965
+      }
+    },
+    {
+      "id": 96,
+      "text": "非常有趣。 非常有趣。",
+      "scores": {
+        "punchline_preservation": 0.9081191420555115,
+        "cultural_adaptation": 0.8716381788253784,
+        "comedian_style_preservation": 0.8718986511230469,
+        "structural_integrity": 0.8604504466056824,
+        "fluency": 0.8178281188011169,
+        "overall": 0.8659869432449341,
+        "weighted_overall": 0.8779327273368835
+      }
+    },
+    {
+      "id": 97,
+      "text": "有 Shukriya-giving...",
+      "scores": {
+        "punchline_preservation": 0.8835130333900452,
+        "cultural_adaptation": 0.8570597767829895,
+        "comedian_style_preservation": 0.8418233394622803,
+        "structural_integrity": 0.8367711901664734,
+        "fluency": 0.7668594121932983,
+        "overall": 0.8372052907943726,
+        "weighted_overall": 0.8537458777427673
+      }
+    },
+    {
+      "id": 98,
+      "text": "（观众笑）",
+      "scores": {
+        "punchline_preservation": 0.8747158050537109,
+        "cultural_adaptation": 0.8997993469238281,
+        "comedian_style_preservation": 0.8738579154014587,
+        "structural_integrity": 0.88409823179245,
+        "fluency": 0.844143271446228,
+        "overall": 0.8753229379653931,
+        "weighted_overall": 0.8812901973724365
+      }
+    },
+    {
+      "id": 99,
+      "text": "...将火鸡塞进罩袍里。 朋友们，",
+      "scores": {
+        "punchline_preservation": 0.9226999282836914,
+        "cultural_adaptation": 0.9017848372459412,
+        "comedian_style_preservation": 0.9013277888298035,
+        "structural_integrity": 0.8710492849349976,
+        "fluency": 0.8168756365776062,
+        "overall": 0.88274747133255,
+        "weighted_overall": 0.897494912147522
+      }
+    },
+    {
+      "id": 100,
+      "text": "我最喜欢的节日是清真节日。",
+      "scores": {
+        "punchline_preservation": 0.9111483097076416,
+        "cultural_adaptation": 0.8927011489868164,
+        "comedian_style_preservation": 0.9085286855697632,
+        "structural_integrity": 0.8533211350440979,
+        "fluency": 0.8415008783340454,
+        "overall": 0.8814399838447571,
+        "weighted_overall": 0.8916823267936707
+      }
+    },
+    {
+      "id": 101,
+      "text": "嗯...",
+      "scores": {
+        "punchline_preservation": 0.8846783638000488,
+        "cultural_adaptation": 0.8661465644836426,
+        "comedian_style_preservation": 0.8918372988700867,
+        "structural_integrity": 0.8575858473777771,
+        "fluency": 0.7544740438461304,
+        "overall": 0.8509443998336792,
+        "weighted_overall": 0.8631783723831177
+      }
+    },
+    {
+      "id": 102,
+      "text": "Halal-oween 太有趣了。",
+      "scores": {
+        "punchline_preservation": 0.9144041538238525,
+        "cultural_adaptation": 0.8493539690971375,
+        "comedian_style_preservation": 0.8712060451507568,
+        "structural_integrity": 0.8834990859031677,
+        "fluency": 0.8519875407218933,
+        "overall": 0.8740901947021484,
+        "weighted_overall": 0.8779845237731934
+      }
+    },
+    {
+      "id": 103,
+      "text": "你知道，",
+      "scores": {
+        "punchline_preservation": 0.900957465171814,
+        "cultural_adaptation": 0.8754423260688782,
+        "comedian_style_preservation": 0.9036134481430054,
+        "structural_integrity": 0.9037623405456543,
+        "fluency": 0.8454957604408264,
+        "overall": 0.8858542442321777,
+        "weighted_overall": 0.8870270252227783
+      }
+    },
+    {
+      "id": 104,
+      "text": "基督徒和穆斯林聚在一起，",
+      "scores": {
+        "punchline_preservation": 0.9075759053230286,
+        "cultural_adaptation": 0.8553698062896729,
+        "comedian_style_preservation": 0.8829260468482971,
+        "structural_integrity": 0.852516233921051,
+        "fluency": 0.8019928932189941,
+        "overall": 0.8600761294364929,
+        "weighted_overall": 0.870774507522583
+      }
+    },
+    {
+      "id": 105,
+      "text": "打扮成令他们害怕的人。",
+      "scores": {
+        "punchline_preservation": 0.860569179058075,
+        "cultural_adaptation": 0.851819634437561,
+        "comedian_style_preservation": 0.8753198981285095,
+        "structural_integrity": 0.8350459337234497,
+        "fluency": 0.8079178333282471,
+        "overall": 0.8461345434188843,
+        "weighted_overall": 0.8511644005775452
+      }
+    },
+    {
+      "id": 106,
+      "text": "所以，你知道，印度教徒。",
+      "scores": {
+        "punchline_preservation": 0.9101884961128235,
+        "cultural_adaptation": 0.849019467830658,
+        "comedian_style_preservation": 0.8920424580574036,
+        "structural_integrity": 0.8983972668647766,
+        "fluency": 0.8671121597290039,
+        "overall": 0.8833519220352173,
+        "weighted_overall": 0.8814780116081238
+      }
+    },
+    {
+      "id": 107,
+      "text": "然后你们在 chosque 中进行共同祈祷。",
+      "scores": {
+        "punchline_preservation": 0.9012999534606934,
+        "cultural_adaptation": 0.8804746866226196,
+        "comedian_style_preservation": 0.8905327320098877,
+        "structural_integrity": 0.8769189715385437,
+        "fluency": 0.8829842805862427,
+        "overall": 0.8864421844482422,
+        "weighted_overall": 0.888664722442627
+      }
+    },
+    {
+      "id": 108,
+      "text": "共同祈祷是一件美好的事情。",
+      "scores": {
+        "punchline_preservation": 0.9159624576568604,
+        "cultural_adaptation": 0.8884958028793335,
+        "comedian_style_preservation": 0.8768951296806335,
+        "structural_integrity": 0.8209973573684692,
+        "fluency": 0.8197171688079834,
+        "overall": 0.8644136190414429,
+        "weighted_overall": 0.8833213448524475
+      }
+    },
+    {
+      "id": 109,
+      "text": "我们在天上的父...",
+      "scores": {
+        "punchline_preservation": 0.9074782729148865,
+        "cultural_adaptation": 0.8989160656929016,
+        "comedian_style_preservation": 0.9082486629486084,
+        "structural_integrity": 0.8811023831367493,
+        "fluency": 0.8149556517601013,
+        "overall": 0.8821401596069336,
+        "weighted_overall": 0.8926686644554138
+      }
+    },
+    {
+      "id": 110,
+      "text": "我们的父亲...真主至大。",
+      "scores": {
+        "punchline_preservation": 0.8985632061958313,
+        "cultural_adaptation": 0.8790506720542908,
+        "comedian_style_preservation": 0.9023986458778381,
+        "structural_integrity": 0.885565996170044,
+        "fluency": 0.7978320717811584,
+        "overall": 0.8726820945739746,
+        "weighted_overall": 0.8807445168495178
+      }
+    },
+    {
+      "id": 111,
+      "text": "以你的名义神圣...",
+      "scores": {
+        "punchline_preservation": 0.8855628371238708,
+        "cultural_adaptation": 0.8791167140007019,
+        "comedian_style_preservation": 0.9088128805160522,
+        "structural_integrity": 0.8775681853294373,
+        "fluency": 0.8069919347763062,
+        "overall": 0.8716105222702026,
+        "weighted_overall": 0.8769751787185669
+      }
+    },
+    {
+      "id": 112,
+      "text": "Yalla 是你的名字。",
+      "scores": {
+        "punchline_preservation": 0.9229416251182556,
+        "cultural_adaptation": 0.8848341107368469,
+        "comedian_style_preservation": 0.8876001238822937,
+        "structural_integrity": 0.8819215893745422,
+        "fluency": 0.8680384755134583,
+        "overall": 0.8890671730041504,
+        "weighted_overall": 0.8964775800704956
+      }
+    },
+    {
+      "id": 113,
+      "text": "今天赐予我们皮塔饼。",
+      "scores": {
+        "punchline_preservation": 0.9089862108230591,
+        "cultural_adaptation": 0.8920482397079468,
+        "comedian_style_preservation": 0.9002737402915955,
+        "structural_integrity": 0.892854630947113,
+        "fluency": 0.8621901869773865,
+        "overall": 0.891270637512207,
+        "weighted_overall": 0.8958938717842102
+      }
+    },
+    {
+      "id": 114,
+      "text": "正如我们原谅那些反对我们的人一样。",
+      "scores": {
+        "punchline_preservation": 0.897598922252655,
+        "cultural_adaptation": 0.8761878609657288,
+        "comedian_style_preservation": 0.8974816203117371,
+        "structural_integrity": 0.8980048298835754,
+        "fluency": 0.8765526413917542,
+        "overall": 0.8891652226448059,
+        "weighted_overall": 0.8880292773246765
+      }
+    },
+    {
+      "id": 115,
+      "text": "哈利路亚......",
+      "scores": {
+        "punchline_preservation": 0.8794245719909668,
+        "cultural_adaptation": 0.8518823981285095,
+        "comedian_style_preservation": 0.8978550434112549,
+        "structural_integrity": 0.8731696605682373,
+        "fluency": 0.7852206230163574,
+        "overall": 0.8575104475021362,
+        "weighted_overall": 0.8615819811820984
+      }
+    },
+    {
+      "id": 116,
+      "text": "呀拉啊！",
+      "scores": {
+        "punchline_preservation": 0.9023258090019226,
+        "cultural_adaptation": 0.8840354681015015,
+        "comedian_style_preservation": 0.8786181807518005,
+        "structural_integrity": 0.8721986413002014,
+        "fluency": 0.8843123912811279,
+        "overall": 0.8842981457710266,
+        "weighted_overall": 0.8887393474578857
+      }
+    },
+    {
+      "id": 117,
+      "text": "（欢呼鼓掌）",
+      "scores": {
+        "punchline_preservation": 0.8798846006393433,
+        "cultural_adaptation": 0.8914125561714172,
+        "comedian_style_preservation": 0.8737992644309998,
+        "structural_integrity": 0.8629044890403748,
+        "fluency": 0.8420209288597107,
+        "overall": 0.8700043559074402,
+        "weighted_overall": 0.8778265118598938
+      }
+    }
+  ],
+  "average_scores": {
+    "punchline_preservation": 0.904508113861084,
+    "cultural_adaptation": 0.876908004283905,
+    "comedian_style_preservation": 0.8892293572425842,
+    "structural_integrity": 0.8741535544395447,
+    "fluency": 0.8449159264564514,
+    "overall": 0.8779429604864528,
+    "weighted_overall": 0.8843254722081698
+  },
+  "sum_scores": {
+    "punchline_preservation": 105.82744598388672,
+    "cultural_adaptation": 102.59823608398438,
+    "comedian_style_preservation": 104.03983306884766,
+    "structural_integrity": 102.27596282958984,
+    "fluency": 98.85516357421875,
+    "overall": 102.71932637691498,
+    "weighted_overall": 103.46608024835587
+  }
+}

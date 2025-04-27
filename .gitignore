@@ -1,3 +1,6 @@
-notingit/
-evaluation_system/
-evaluation_system/fivedimensions_evaluation_v2/five_dimension_quality_model_weights.h5
+node_modules/
+build/
+build.zip
+punchlinepro.zip
+.DS_Store
+*.log

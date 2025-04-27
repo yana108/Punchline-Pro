@@ -1,0 +1,997 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "text": "是啊，我就是在这样的家庭里长大的。",
+      "scores": {
+        "punchline_preservation": 0.9215850234031677,
+        "cultural_adaptation": 0.8834906816482544,
+        "comedian_style_preservation": 0.9166059494018555,
+        "structural_integrity": 0.8952122330665588,
+        "fluency": 0.8660493493080139,
+        "overall": 0.8965886235237122,
+        "weighted_overall": 0.8995633125305176
+      }
+    },
+    {
+      "id": 2,
+      "text": "而我们终究无法共处一室。",
+      "scores": {
+        "punchline_preservation": 0.9181275367736816,
+        "cultural_adaptation": 0.8847178816795349,
+        "comedian_style_preservation": 0.8976058959960938,
+        "structural_integrity": 0.8877101540565491,
+        "fluency": 0.8514413237571716,
+        "overall": 0.8879205584526062,
+        "weighted_overall": 0.8946716785430908
+      }
+    },
+    {
+      "id": 3,
+      "text": "我可以和妈妈一起住，但父亲显然无法与我们同住，因为他见不得光。",
+      "scores": {
+        "punchline_preservation": 0.9123430848121643,
+        "cultural_adaptation": 0.8788216710090637,
+        "comedian_style_preservation": 0.9169901609420776,
+        "structural_integrity": 0.89874267578125,
+        "fluency": 0.8566613793373108,
+        "overall": 0.8927118182182312,
+        "weighted_overall": 0.8941470980644226
+      }
+    },
+    {
+      "id": 4,
+      "text": "人们总对我们抱有偏见。",
+      "scores": {
+        "punchline_preservation": 0.9097042083740234,
+        "cultural_adaptation": 0.8602228164672852,
+        "comedian_style_preservation": 0.9017183184623718,
+        "structural_integrity": 0.8833659291267395,
+        "fluency": 0.8631612062454224,
+        "overall": 0.8836344480514526,
+        "weighted_overall": 0.8842989802360535
+      }
+    },
+    {
+      "id": 5,
+      "text": "但我在成长过程中确实很幸运，因为我妈大概是最彪悍的主儿。",
+      "scores": {
+        "punchline_preservation": 0.929824709892273,
+        "cultural_adaptation": 0.8766893744468689,
+        "comedian_style_preservation": 0.9152296781539917,
+        "structural_integrity": 0.8888105154037476,
+        "fluency": 0.8651831746101379,
+        "overall": 0.8951475024223328,
+        "weighted_overall": 0.8992023468017578
+      }
+    },
+    {
+      "id": 6,
+      "text": "你这辈子能遇到的最好的缘分，对吧？",
+      "scores": {
+        "punchline_preservation": 0.9239906072616577,
+        "cultural_adaptation": 0.8868022561073303,
+        "comedian_style_preservation": 0.9071549773216248,
+        "structural_integrity": 0.8908571004867554,
+        "fluency": 0.8356907963752747,
+        "overall": 0.8888992071151733,
+        "weighted_overall": 0.8971477746963501
+      }
+    },
+    {
+      "id": 7,
+      "text": "什么都伤不了她的心，什么都动摇不了她。",
+      "scores": {
+        "punchline_preservation": 0.9229275584220886,
+        "cultural_adaptation": 0.8843604922294617,
+        "comedian_style_preservation": 0.904381513595581,
+        "structural_integrity": 0.8973818421363831,
+        "fluency": 0.8379961252212524,
+        "overall": 0.8894094228744507,
+        "weighted_overall": 0.8965267539024353
+      }
+    },
+    {
+      "id": 8,
+      "text": "而那一日，我至今难忘。",
+      "scores": {
+        "punchline_preservation": 0.9106623530387878,
+        "cultural_adaptation": 0.8749762177467346,
+        "comedian_style_preservation": 0.8964646458625793,
+        "structural_integrity": 0.90388423204422,
+        "fluency": 0.815022349357605,
+        "overall": 0.8802019357681274,
+        "weighted_overall": 0.8865106105804443
+      }
+    },
+    {
+      "id": 9,
+      "text": "我们并肩穿过街巷，却像隔着千山万水。",
+      "scores": {
+        "punchline_preservation": 0.9310485124588013,
+        "cultural_adaptation": 0.8848427534103394,
+        "comedian_style_preservation": 0.9064546227455139,
+        "structural_integrity": 0.9064815044403076,
+        "fluency": 0.8443384170532227,
+        "overall": 0.8946331143379211,
+        "weighted_overall": 0.9012894034385681
+      }
+    },
+    {
+      "id": 10,
+      "text": "有个路人横穿马路，像极了我那总不按常理出牌的舅舅，总以为抄近道能赶上家族聚会，却往往错过最精彩的部分。",
+      "scores": {
+        "punchline_preservation": 0.9108654856681824,
+        "cultural_adaptation": 0.8785955905914307,
+        "comedian_style_preservation": 0.9178933501243591,
+        "structural_integrity": 0.8994943499565125,
+        "fluency": 0.8483784794807434,
+        "overall": 0.8910454511642456,
+        "weighted_overall": 0.8928879499435425
+      }
+    },
+    {
+      "id": 11,
+      "text": "冲我们吼了些难听的话。",
+      "scores": {
+        "punchline_preservation": 0.9154228568077087,
+        "cultural_adaptation": 0.8719820380210876,
+        "comedian_style_preservation": 0.8908826112747192,
+        "structural_integrity": 0.8732686042785645,
+        "fluency": 0.8597452640533447,
+        "overall": 0.8822603225708008,
+        "weighted_overall": 0.8879814147949219
+      }
+    },
+    {
+      "id": 12,
+      "text": "那时我才四五岁光景。",
+      "scores": {
+        "punchline_preservation": 0.9137092232704163,
+        "cultural_adaptation": 0.8903470039367676,
+        "comedian_style_preservation": 0.8902190923690796,
+        "structural_integrity": 0.8934873342514038,
+        "fluency": 0.8429242968559265,
+        "overall": 0.8861373662948608,
+        "weighted_overall": 0.8940827250480652
+      }
+    },
+    {
+      "id": 13,
+      "text": "我转过身，看着母亲，说道：“妈妈，要是有人对我们种族歧视，我们该怎么办呀？”",
+      "scores": {
+        "punchline_preservation": 0.9089622497558594,
+        "cultural_adaptation": 0.8896085023880005,
+        "comedian_style_preservation": 0.8955308794975281,
+        "structural_integrity": 0.8705928325653076,
+        "fluency": 0.8522721529006958,
+        "overall": 0.8833932876586914,
+        "weighted_overall": 0.8913393616676331
+      }
+    },
+    {
+      "id": 14,
+      "text": "而我妈却说：“哦宝贝，你知道咱们家的规矩。”",
+      "scores": {
+        "punchline_preservation": 0.9090892672538757,
+        "cultural_adaptation": 0.8934920430183411,
+        "comedian_style_preservation": 0.8992504477500916,
+        "structural_integrity": 0.8905802965164185,
+        "fluency": 0.8442943096160889,
+        "overall": 0.887341320514679,
+        "weighted_overall": 0.8943160176277161
+      }
+    },
+    {
+      "id": 15,
+      "text": "若有人心存种族偏见？",
+      "scores": {
+        "punchline_preservation": 0.9321215748786926,
+        "cultural_adaptation": 0.8292912840843201,
+        "comedian_style_preservation": 0.8485757112503052,
+        "structural_integrity": 0.833828330039978,
+        "fluency": 0.8158037662506104,
+        "overall": 0.8519241213798523,
+        "weighted_overall": 0.8663153052330017
+      }
+    },
+    {
+      "id": 16,
+      "text": "我们视他们的种族歧视为文化差异、家庭关系、期望与现实，用耶稣之爱搅动生活。",
+      "scores": {
+        "punchline_preservation": 0.9105903506278992,
+        "cultural_adaptation": 0.8707138895988464,
+        "comedian_style_preservation": 0.8932735323905945,
+        "structural_integrity": 0.8678271770477295,
+        "fluency": 0.8289706707000732,
+        "overall": 0.8742750883102417,
+        "weighted_overall": 0.8824635744094849
+      }
+    },
+    {
+      "id": 17,
+      "text": "“然后我们把它寄回去。”",
+      "scores": {
+        "punchline_preservation": 0.9020928740501404,
+        "cultural_adaptation": 0.8822537064552307,
+        "comedian_style_preservation": 0.9067469239234924,
+        "structural_integrity": 0.8804781436920166,
+        "fluency": 0.8467949628829956,
+        "overall": 0.8836733102798462,
+        "weighted_overall": 0.8879233002662659
+      }
+    },
+    {
+      "id": 18,
+      "text": "我当时的反应就是：“啥？”",
+      "scores": {
+        "punchline_preservation": 0.9041597843170166,
+        "cultural_adaptation": 0.8957834243774414,
+        "comedian_style_preservation": 0.9057055115699768,
+        "structural_integrity": 0.8924000263214111,
+        "fluency": 0.8094155788421631,
+        "overall": 0.8814927935600281,
+        "weighted_overall": 0.8907322287559509
+      }
+    },
+    {
+      "id": 19,
+      "text": "我当时就想：“这大姐怕不是疯了吧。”",
+      "scores": {
+        "punchline_preservation": 0.9029626250267029,
+        "cultural_adaptation": 0.905758261680603,
+        "comedian_style_preservation": 0.9086036682128906,
+        "structural_integrity": 0.8980963826179504,
+        "fluency": 0.8575218915939331,
+        "overall": 0.8945885896682739,
+        "weighted_overall": 0.8994745016098022
+      }
+    },
+    {
+      "id": 20,
+      "text": "她虽疯癫，却也道破了天机。",
+      "scores": {
+        "punchline_preservation": 0.9168499708175659,
+        "cultural_adaptation": 0.8874478340148926,
+        "comedian_style_preservation": 0.892335057258606,
+        "structural_integrity": 0.8957521319389343,
+        "fluency": 0.8352224826812744,
+        "overall": 0.8855215311050415,
+        "weighted_overall": 0.8938352465629578
+      }
+    },
+    {
+      "id": 21,
+      "text": "我竟从未察觉母亲的眼光如此犀利。",
+      "scores": {
+        "punchline_preservation": 0.9261468052864075,
+        "cultural_adaptation": 0.8742965459823608,
+        "comedian_style_preservation": 0.8924352526664734,
+        "structural_integrity": 0.8960980176925659,
+        "fluency": 0.8443557620048523,
+        "overall": 0.886666476726532,
+        "weighted_overall": 0.8934440612792969
+      }
+    },
+    {
+      "id": 22,
+      "text": "直到数十年后，我才明白这不过是代代相传的宿命轮回。",
+      "scores": {
+        "punchline_preservation": 0.9258119463920593,
+        "cultural_adaptation": 0.8602523803710938,
+        "comedian_style_preservation": 0.8814140558242798,
+        "structural_integrity": 0.8862724304199219,
+        "fluency": 0.8146243691444397,
+        "overall": 0.8736750483512878,
+        "weighted_overall": 0.883353590965271
+      }
+    },
+    {
+      "id": 23,
+      "text": "和父母一起住吧？",
+      "scores": {
+        "punchline_preservation": 0.9347402453422546,
+        "cultural_adaptation": 0.8741927146911621,
+        "comedian_style_preservation": 0.8951482176780701,
+        "structural_integrity": 0.8666049838066101,
+        "fluency": 0.8166192770004272,
+        "overall": 0.8774611353874207,
+        "weighted_overall": 0.8909637928009033
+      }
+    },
+    {
+      "id": 24,
+      "text": "他们疯疯癫癫的，可等你活到他们那把岁数，然后你就会恍然大悟：“哦！原来是这个意思。”",
+      "scores": {
+        "punchline_preservation": 0.9038596749305725,
+        "cultural_adaptation": 0.8960447907447815,
+        "comedian_style_preservation": 0.9093597531318665,
+        "structural_integrity": 0.9008045196533203,
+        "fluency": 0.8357443809509277,
+        "overall": 0.8891626596450806,
+        "weighted_overall": 0.8945574164390564
+      }
+    },
+    {
+      "id": 25,
+      "text": "直到多年以后，我才真正懂得母亲当年那番苦心的深意。",
+      "scores": {
+        "punchline_preservation": 0.9122189879417419,
+        "cultural_adaptation": 0.8651869297027588,
+        "comedian_style_preservation": 0.8972375988960266,
+        "structural_integrity": 0.8926210999488831,
+        "fluency": 0.8260572552680969,
+        "overall": 0.8786643743515015,
+        "weighted_overall": 0.8836836218833923
+      }
+    },
+    {
+      "id": 26,
+      "text": "当我已为人父，我漫步在芝加哥的街头。",
+      "scores": {
+        "punchline_preservation": 0.9121223092079163,
+        "cultural_adaptation": 0.8787846565246582,
+        "comedian_style_preservation": 0.907965362071991,
+        "structural_integrity": 0.8879088759422302,
+        "fluency": 0.8308688998222351,
+        "overall": 0.8835300207138062,
+        "weighted_overall": 0.8894917964935303
+      }
+    },
+    {
+      "id": 27,
+      "text": "我正自顾自地走着，突然一辆车擦身而过。",
+      "scores": {
+        "punchline_preservation": 0.9218588471412659,
+        "cultural_adaptation": 0.8653864860534668,
+        "comedian_style_preservation": 0.8790411353111267,
+        "structural_integrity": 0.8667158484458923,
+        "fluency": 0.7973174452781677,
+        "overall": 0.8660639524459839,
+        "weighted_overall": 0.8798432946205139
+      }
+    },
+    {
+      "id": 28,
+      "text": "他开着小货车，冲我喊黑鬼。",
+      "scores": {
+        "punchline_preservation": 0.9191185832023621,
+        "cultural_adaptation": 0.8762990236282349,
+        "comedian_style_preservation": 0.8758153915405273,
+        "structural_integrity": 0.8640868663787842,
+        "fluency": 0.8110356330871582,
+        "overall": 0.8692710995674133,
+        "weighted_overall": 0.8834899067878723
+      }
+    },
+    {
+      "id": 29,
+      "text": "说实话，我挺失望的，主要就是因为他开的是辆皮卡。",
+      "scores": {
+        "punchline_preservation": 0.9196709394454956,
+        "cultural_adaptation": 0.8803756833076477,
+        "comedian_style_preservation": 0.8824265599250793,
+        "structural_integrity": 0.8916543126106262,
+        "fluency": 0.8790597915649414,
+        "overall": 0.8906373977661133,
+        "weighted_overall": 0.8953304290771484
+      }
+    },
+    {
+      "id": 30,
+      "text": "是啊，我就是觉得这种刻板印象太没必要了。",
+      "scores": {
+        "punchline_preservation": 0.9245118498802185,
+        "cultural_adaptation": 0.8643766045570374,
+        "comedian_style_preservation": 0.9045939445495605,
+        "structural_integrity": 0.9057769179344177,
+        "fluency": 0.858111560344696,
+        "overall": 0.8914741277694702,
+        "weighted_overall": 0.8929591178894043
+      }
+    },
+    {
+      "id": 31,
+      "text": "他无需延续的。",
+      "scores": {
+        "punchline_preservation": 0.91987144947052,
+        "cultural_adaptation": 0.8619889616966248,
+        "comedian_style_preservation": 0.894443929195404,
+        "structural_integrity": 0.8878158330917358,
+        "fluency": 0.8092781901359558,
+        "overall": 0.874679684638977,
+        "weighted_overall": 0.8828049898147583
+      }
+    },
+    {
+      "id": 32,
+      "text": "要知道，我觉得你要是存心搞种族歧视，换点新花样吧，你懂的。",
+      "scores": {
+        "punchline_preservation": 0.9284101128578186,
+        "cultural_adaptation": 0.8767797350883484,
+        "comedian_style_preservation": 0.9124715924263,
+        "structural_integrity": 0.9016910791397095,
+        "fluency": 0.8457964658737183,
+        "overall": 0.8930298089981079,
+        "weighted_overall": 0.8978123664855957
+      }
+    },
+    {
+      "id": 33,
+      "text": "跳出窠臼。",
+      "scores": {
+        "punchline_preservation": 0.8842485547065735,
+        "cultural_adaptation": 0.8758246898651123,
+        "comedian_style_preservation": 0.8564442992210388,
+        "structural_integrity": 0.8462217450141907,
+        "fluency": 0.7732629179954529,
+        "overall": 0.8472003936767578,
+        "weighted_overall": 0.8636184930801392
+      }
+    },
+    {
+      "id": 34,
+      "text": "开辆普锐斯吧，环保又省钱，可邻居们都在换特斯拉。",
+      "scores": {
+        "punchline_preservation": 0.9194303750991821,
+        "cultural_adaptation": 0.8896422386169434,
+        "comedian_style_preservation": 0.8946479558944702,
+        "structural_integrity": 0.894133985042572,
+        "fluency": 0.8553324341773987,
+        "overall": 0.8906373977661133,
+        "weighted_overall": 0.8975868225097656
+      }
+    },
+    {
+      "id": 35,
+      "text": "是啊，环保又清净，正合咱家心意。",
+      "scores": {
+        "punchline_preservation": 0.9217755198478699,
+        "cultural_adaptation": 0.9066547751426697,
+        "comedian_style_preservation": 0.8940777778625488,
+        "structural_integrity": 0.9028127193450928,
+        "fluency": 0.867035448551178,
+        "overall": 0.8984712362289429,
+        "weighted_overall": 0.9063432216644287
+      }
+    },
+    {
+      "id": 36,
+      "text": "你可以偷偷靠近我。",
+      "scores": {
+        "punchline_preservation": 0.9161121249198914,
+        "cultural_adaptation": 0.8724145889282227,
+        "comedian_style_preservation": 0.9124680161476135,
+        "structural_integrity": 0.8898087739944458,
+        "fluency": 0.8535141348838806,
+        "overall": 0.8888635635375977,
+        "weighted_overall": 0.891563355922699
+      }
+    },
+    {
+      "id": 37,
+      "text": "双赢。",
+      "scores": {
+        "punchline_preservation": 0.8731448650360107,
+        "cultural_adaptation": 0.8762995004653931,
+        "comedian_style_preservation": 0.8581461310386658,
+        "structural_integrity": 0.853026807308197,
+        "fluency": 0.83991539478302,
+        "overall": 0.8601065874099731,
+        "weighted_overall": 0.8674143552780151
+      }
+    },
+    {
+      "id": 38,
+      "text": "可这家伙，开着一辆皮卡，骂我是黑鬼，唉，说来话长。",
+      "scores": {
+        "punchline_preservation": 0.9141761660575867,
+        "cultural_adaptation": 0.8812112808227539,
+        "comedian_style_preservation": 0.8998317718505859,
+        "structural_integrity": 0.8949885964393616,
+        "fluency": 0.8373733162879944,
+        "overall": 0.8855162858963013,
+        "weighted_overall": 0.8916049599647522
+      }
+    },
+    {
+      "id": 39,
+      "text": "我横穿马路了，好吧，我横穿马路了，是啊。",
+      "scores": {
+        "punchline_preservation": 0.9143431782722473,
+        "cultural_adaptation": 0.8985098004341125,
+        "comedian_style_preservation": 0.9087466597557068,
+        "structural_integrity": 0.8913131952285767,
+        "fluency": 0.869586169719696,
+        "overall": 0.896499752998352,
+        "weighted_overall": 0.9014631509780884
+      }
+    },
+    {
+      "id": 40,
+      "text": "我告诉你这些，并不是要为他开脱。",
+      "scores": {
+        "punchline_preservation": 0.9297260642051697,
+        "cultural_adaptation": 0.8791583776473999,
+        "comedian_style_preservation": 0.9027207493782043,
+        "structural_integrity": 0.90524822473526,
+        "fluency": 0.8636782765388489,
+        "overall": 0.8961063623428345,
+        "weighted_overall": 0.9002742767333984
+      }
+    },
+    {
+      "id": 41,
+      "text": "我只是想让你明白，我并非完人，懂吗？",
+      "scores": {
+        "punchline_preservation": 0.9277053475379944,
+        "cultural_adaptation": 0.8829772472381592,
+        "comedian_style_preservation": 0.9161823391914368,
+        "structural_integrity": 0.8984650373458862,
+        "fluency": 0.8794750571250916,
+        "overall": 0.9009610414505005,
+        "weighted_overall": 0.9031510949134827
+      }
+    },
+    {
+      "id": 42,
+      "text": "是啊。",
+      "scores": {
+        "punchline_preservation": 0.8850703835487366,
+        "cultural_adaptation": 0.8767833113670349,
+        "comedian_style_preservation": 0.8729121088981628,
+        "structural_integrity": 0.8702083230018616,
+        "fluency": 0.8554383516311646,
+        "overall": 0.872082531452179,
+        "weighted_overall": 0.87650465965271
+      }
+    },
+    {
+      "id": 43,
+      "text": "好吧，我正过马路呢，而后，我的希望之光熄灭了。",
+      "scores": {
+        "punchline_preservation": 0.9099007248878479,
+        "cultural_adaptation": 0.8928011655807495,
+        "comedian_style_preservation": 0.909187376499176,
+        "structural_integrity": 0.90841144323349,
+        "fluency": 0.8494545221328735,
+        "overall": 0.8939510583877563,
+        "weighted_overall": 0.897650957107544
+      }
+    },
+    {
+      "id": 44,
+      "text": "但我还是决定继续前行，因为在我眼中并无肤色之分。",
+      "scores": {
+        "punchline_preservation": 0.9227230548858643,
+        "cultural_adaptation": 0.8705419898033142,
+        "comedian_style_preservation": 0.896827757358551,
+        "structural_integrity": 0.8989206552505493,
+        "fluency": 0.8395898938179016,
+        "overall": 0.8857207298278809,
+        "weighted_overall": 0.8911765813827515
+      }
+    },
+    {
+      "id": 45,
+      "text": "这个男人，这个男人被我做的事伤透了心。",
+      "scores": {
+        "punchline_preservation": 0.9019178152084351,
+        "cultural_adaptation": 0.880766749382019,
+        "comedian_style_preservation": 0.9074960947036743,
+        "structural_integrity": 0.8968076109886169,
+        "fluency": 0.8386322855949402,
+        "overall": 0.8851240873336792,
+        "weighted_overall": 0.8882333040237427
+      }
+    },
+    {
+      "id": 46,
+      "text": "他开着卡车绕到我身旁，摇下车窗。",
+      "scores": {
+        "punchline_preservation": 0.9271978735923767,
+        "cultural_adaptation": 0.8832327723503113,
+        "comedian_style_preservation": 0.8789770603179932,
+        "structural_integrity": 0.8474579453468323,
+        "fluency": 0.8229300379753113,
+        "overall": 0.8719590902328491,
+        "weighted_overall": 0.888587236404419
+      }
+    },
+    {
+      "id": 47,
+      "text": "他直勾勾地盯着我，那眼神仿佛在说：“让开道儿，黑小子！”",
+      "scores": {
+        "punchline_preservation": 0.9085220694541931,
+        "cultural_adaptation": 0.8828518390655518,
+        "comedian_style_preservation": 0.8897921442985535,
+        "structural_integrity": 0.8889998197555542,
+        "fluency": 0.8255040645599365,
+        "overall": 0.8791339993476868,
+        "weighted_overall": 0.8874105215072632
+      }
+    },
+    {
+      "id": 48,
+      "text": "哦，你看得出来他是存心要伤我的。",
+      "scores": {
+        "punchline_preservation": 0.9055848121643066,
+        "cultural_adaptation": 0.8908738493919373,
+        "comedian_style_preservation": 0.8967760801315308,
+        "structural_integrity": 0.9042708277702332,
+        "fluency": 0.8573738932609558,
+        "overall": 0.8909759521484375,
+        "weighted_overall": 0.8946026563644409
+      }
+    },
+    {
+      "id": 49,
+      "text": "我们四目相对，那一刻我分明看见，他原以为我会说“不要！”",
+      "scores": {
+        "punchline_preservation": 0.9057767987251282,
+        "cultural_adaptation": 0.8843356966972351,
+        "comedian_style_preservation": 0.896903395652771,
+        "structural_integrity": 0.8930870890617371,
+        "fluency": 0.829633891582489,
+        "overall": 0.88194739818573,
+        "weighted_overall": 0.8885018229484558
+      }
+    },
+    {
+      "id": 50,
+      "text": "可那人不知道的是，我来自一个怎样的家。",
+      "scores": {
+        "punchline_preservation": 0.9232724905014038,
+        "cultural_adaptation": 0.8664461374282837,
+        "comedian_style_preservation": 0.9007182717323303,
+        "structural_integrity": 0.8780748248100281,
+        "fluency": 0.8425292372703552,
+        "overall": 0.8822081685066223,
+        "weighted_overall": 0.8885337114334106
+      }
+    },
+    {
+      "id": 51,
+      "text": "更重要的是，他不认识的那个人，竟是我的母亲。",
+      "scores": {
+        "punchline_preservation": 0.9247103929519653,
+        "cultural_adaptation": 0.8647640347480774,
+        "comedian_style_preservation": 0.8948022127151489,
+        "structural_integrity": 0.8790199756622314,
+        "fluency": 0.8595101833343506,
+        "overall": 0.8845613598823547,
+        "weighted_overall": 0.8896493315696716
+      }
+    },
+    {
+      "id": 52,
+      "text": "因为他以为今天也不过是平平无奇的种族歧视日。",
+      "scores": {
+        "punchline_preservation": 0.9169886112213135,
+        "cultural_adaptation": 0.8672863841056824,
+        "comedian_style_preservation": 0.886637806892395,
+        "structural_integrity": 0.8807823657989502,
+        "fluency": 0.843292236328125,
+        "overall": 0.8789974451065063,
+        "weighted_overall": 0.8855674862861633
+      }
+    },
+    {
+      "id": 53,
+      "text": "他原以为会开车经过，却不想就此擦肩而过。",
+      "scores": {
+        "punchline_preservation": 0.8916460871696472,
+        "cultural_adaptation": 0.880752444267273,
+        "comedian_style_preservation": 0.8831040263175964,
+        "structural_integrity": 0.8651485443115234,
+        "fluency": 0.8264143466949463,
+        "overall": 0.8694130778312683,
+        "weighted_overall": 0.8778061866760254
+      }
+    },
+    {
+      "id": 54,
+      "text": "将那个词抛之窗外，继续过他的日子。",
+      "scores": {
+        "punchline_preservation": 0.9101319909095764,
+        "cultural_adaptation": 0.8802549839019775,
+        "comedian_style_preservation": 0.8936843872070312,
+        "structural_integrity": 0.8806435465812683,
+        "fluency": 0.8185843825340271,
+        "overall": 0.8766598701477051,
+        "weighted_overall": 0.8859267234802246
+      }
+    },
+    {
+      "id": 55,
+      "text": "他竟未察觉，那便是帕特里夏的骨肉，踏入人生路。",
+      "scores": {
+        "punchline_preservation": 0.9137988090515137,
+        "cultural_adaptation": 0.8731962442398071,
+        "comedian_style_preservation": 0.870821475982666,
+        "structural_integrity": 0.8823010921478271,
+        "fluency": 0.8159513473510742,
+        "overall": 0.8712137341499329,
+        "weighted_overall": 0.8823556303977966
+      }
+    },
+    {
+      "id": 56,
+      "text": "弹指间铸就一生牵绊。",
+      "scores": {
+        "punchline_preservation": 0.8883944749832153,
+        "cultural_adaptation": 0.8779416680335999,
+        "comedian_style_preservation": 0.87900310754776,
+        "structural_integrity": 0.8701898455619812,
+        "fluency": 0.8164615035057068,
+        "overall": 0.8663981556892395,
+        "weighted_overall": 0.8747830986976624
+      }
+    },
+    {
+      "id": 57,
+      "text": "因为我压根就没过脑子。",
+      "scores": {
+        "punchline_preservation": 0.9125213623046875,
+        "cultural_adaptation": 0.8823027610778809,
+        "comedian_style_preservation": 0.8860810399055481,
+        "structural_integrity": 0.87959885597229,
+        "fluency": 0.8904501795768738,
+        "overall": 0.8901907801628113,
+        "weighted_overall": 0.8938014507293701
+      }
+    },
+    {
+      "id": 58,
+      "text": "他吼出那句话的瞬间，我的身体突然像被雷击中似的……母亲总说我们骨子里流着相同的血，可这血脉相连的默契，怎么一到关键时候就变成了跨不过去的鸿沟？",
+      "scores": {
+        "punchline_preservation": 0.9233887195587158,
+        "cultural_adaptation": 0.8860418200492859,
+        "comedian_style_preservation": 0.902690589427948,
+        "structural_integrity": 0.8910084962844849,
+        "fluency": 0.8385218977928162,
+        "overall": 0.888330340385437,
+        "weighted_overall": 0.8965227603912354
+      }
+    },
+    {
+      "id": 59,
+      "text": "我当时就懵了：“完了完了，这下彻底完犊子了！”",
+      "scores": {
+        "punchline_preservation": 0.9027097821235657,
+        "cultural_adaptation": 0.8995294570922852,
+        "comedian_style_preservation": 0.9017294645309448,
+        "structural_integrity": 0.8828453421592712,
+        "fluency": 0.8391014933586121,
+        "overall": 0.8851830363273621,
+        "weighted_overall": 0.8931514024734497
+      }
+    },
+    {
+      "id": 60,
+      "text": "洛杉矶，听我说句掏心窝子的话，正因未曾期待，才觉分外美好。",
+      "scores": {
+        "punchline_preservation": 0.9102162718772888,
+        "cultural_adaptation": 0.8843711018562317,
+        "comedian_style_preservation": 0.9118207693099976,
+        "structural_integrity": 0.8930761814117432,
+        "fluency": 0.8175264000892639,
+        "overall": 0.8834021687507629,
+        "weighted_overall": 0.8903478384017944
+      }
+    },
+    {
+      "id": 61,
+      "text": "我压根没往那方面想。",
+      "scores": {
+        "punchline_preservation": 0.9078717231750488,
+        "cultural_adaptation": 0.8739272356033325,
+        "comedian_style_preservation": 0.9003891348838806,
+        "structural_integrity": 0.8830582499504089,
+        "fluency": 0.8529335856437683,
+        "overall": 0.8836359977722168,
+        "weighted_overall": 0.8872677087783813
+      }
+    },
+    {
+      "id": 62,
+      "text": "我只记得我踏上了那条路，他开着卡车绕到我身旁，摇下车窗，眼神里既有父亲的威严，又藏着几分市井百姓的无奈。",
+      "scores": {
+        "punchline_preservation": 0.9192112684249878,
+        "cultural_adaptation": 0.8675433993339539,
+        "comedian_style_preservation": 0.9011091589927673,
+        "structural_integrity": 0.8927401900291443,
+        "fluency": 0.8266751170158386,
+        "overall": 0.8814557790756226,
+        "weighted_overall": 0.8874165415763855
+      }
+    },
+    {
+      "id": 63,
+      "text": "他直勾勾地盯着我，那眼神仿佛在说：“让开，黑鬼！”",
+      "scores": {
+        "punchline_preservation": 0.9043136239051819,
+        "cultural_adaptation": 0.8855355978012085,
+        "comedian_style_preservation": 0.889731228351593,
+        "structural_integrity": 0.8926893472671509,
+        "fluency": 0.8165497779846191,
+        "overall": 0.8777639269828796,
+        "weighted_overall": 0.8863441944122314
+      }
+    },
+    {
+      "id": 64,
+      "text": "我转过身，脱口而出：“你可是我自家人啊！”",
+      "scores": {
+        "punchline_preservation": 0.8971250653266907,
+        "cultural_adaptation": 0.8950099349021912,
+        "comedian_style_preservation": 0.8918189406394958,
+        "structural_integrity": 0.8863490223884583,
+        "fluency": 0.8418946266174316,
+        "overall": 0.8824394941329956,
+        "weighted_overall": 0.8892534971237183
+      }
+    },
+    {
+      "id": 65,
+      "text": "他险些车毁人亡，却让全家人的心都提到了嗓子眼。",
+      "scores": {
+        "punchline_preservation": 0.9161827564239502,
+        "cultural_adaptation": 0.887957751750946,
+        "comedian_style_preservation": 0.8896048069000244,
+        "structural_integrity": 0.8853493928909302,
+        "fluency": 0.8196110129356384,
+        "overall": 0.8797411918640137,
+        "weighted_overall": 0.8909056782722473
+      }
+    },
+    {
+      "id": 66,
+      "text": "是啊，我还真没见过哪个活人跟自己较劲的。",
+      "scores": {
+        "punchline_preservation": 0.9293649792671204,
+        "cultural_adaptation": 0.8889709115028381,
+        "comedian_style_preservation": 0.9097390174865723,
+        "structural_integrity": 0.9073680639266968,
+        "fluency": 0.8754112720489502,
+        "overall": 0.9021709561347961,
+        "weighted_overall": 0.9056693911552429
+      }
+    },
+    {
+      "id": 67,
+      "text": "我这一生中，多少次电光火石间啊，对吧？",
+      "scores": {
+        "punchline_preservation": 0.924312174320221,
+        "cultural_adaptation": 0.8893749117851257,
+        "comedian_style_preservation": 0.9133180975914001,
+        "structural_integrity": 0.894298255443573,
+        "fluency": 0.8355140089988708,
+        "overall": 0.8913635015487671,
+        "weighted_overall": 0.8991035223007202
+      }
+    },
+    {
+      "id": 68,
+      "text": "因为我当时笑着，从他脸上我能看出，他一脸懵：“等等，咱俩认识？”",
+      "scores": {
+        "punchline_preservation": 0.9094051718711853,
+        "cultural_adaptation": 0.8993730545043945,
+        "comedian_style_preservation": 0.9140602350234985,
+        "structural_integrity": 0.904757022857666,
+        "fluency": 0.8421008586883545,
+        "overall": 0.893939197063446,
+        "weighted_overall": 0.8991641998291016
+      }
+    },
+    {
+      "id": 69,
+      "text": "“我是不是长得像你认识的某个人？”",
+      "scores": {
+        "punchline_preservation": 0.9049457311630249,
+        "cultural_adaptation": 0.884631872177124,
+        "comedian_style_preservation": 0.9054633378982544,
+        "structural_integrity": 0.8803215026855469,
+        "fluency": 0.8648502826690674,
+        "overall": 0.8880425691604614,
+        "weighted_overall": 0.8914156556129456
+      }
+    },
+    {
+      "id": 70,
+      "text": "我不明白他为何如此，但这份记忆永难磨灭。",
+      "scores": {
+        "punchline_preservation": 0.9273337125778198,
+        "cultural_adaptation": 0.8621629476547241,
+        "comedian_style_preservation": 0.8964472413063049,
+        "structural_integrity": 0.8989177346229553,
+        "fluency": 0.8133426308631897,
+        "overall": 0.8796408772468567,
+        "weighted_overall": 0.8871946334838867
+      }
+    },
+    {
+      "id": 71,
+      "text": "他低头看着自己粗糙的掌心，想起父亲那双布满老茧的手曾如何托起全家人的希望。",
+      "scores": {
+        "punchline_preservation": 0.8961822986602783,
+        "cultural_adaptation": 0.8683046698570251,
+        "comedian_style_preservation": 0.8908989429473877,
+        "structural_integrity": 0.8575432300567627,
+        "fluency": 0.8206638097763062,
+        "overall": 0.866718590259552,
+        "weighted_overall": 0.8744809627532959
+      }
+    },
+    {
+      "id": 72,
+      "text": "他低头看着自己粗糙的掌心，仿佛它们被施了魔法，突然变得漆黑。",
+      "scores": {
+        "punchline_preservation": 0.8967840671539307,
+        "cultural_adaptation": 0.8736865520477295,
+        "comedian_style_preservation": 0.890265941619873,
+        "structural_integrity": 0.8766738772392273,
+        "fluency": 0.813578188419342,
+        "overall": 0.8701977729797363,
+        "weighted_overall": 0.8777164816856384
+      }
+    },
+    {
+      "id": 73,
+      "text": "就像我……",
+      "scores": {
+        "punchline_preservation": 0.9018518328666687,
+        "cultural_adaptation": 0.891817033290863,
+        "comedian_style_preservation": 0.9131035804748535,
+        "structural_integrity": 0.8707036972045898,
+        "fluency": 0.8176265954971313,
+        "overall": 0.8790205121040344,
+        "weighted_overall": 0.8879275321960449
+      }
+    },
+    {
+      "id": 74,
+      "text": "就像我对他下了个黑鬼咒似的。",
+      "scores": {
+        "punchline_preservation": 0.9176465272903442,
+        "cultural_adaptation": 0.8673314452171326,
+        "comedian_style_preservation": 0.9059205055236816,
+        "structural_integrity": 0.9026849269866943,
+        "fluency": 0.8737754821777344,
+        "overall": 0.8934717178344727,
+        "weighted_overall": 0.8929803371429443
+      }
+    },
+    {
+      "id": 75,
+      "text": "我真是搞不懂他脑子里装的什么。",
+      "scores": {
+        "punchline_preservation": 0.9211909174919128,
+        "cultural_adaptation": 0.8776851892471313,
+        "comedian_style_preservation": 0.9040725827217102,
+        "structural_integrity": 0.8963370323181152,
+        "fluency": 0.8558177351951599,
+        "overall": 0.891020655632019,
+        "weighted_overall": 0.8952293395996094
+      }
+    }
+  ],
+  "average_scores": {
+    "punchline_preservation": 0.9135231375694275,
+    "cultural_adaptation": 0.8798032402992249,
+    "comedian_style_preservation": 0.8968420624732971,
+    "structural_integrity": 0.8865729570388794,
+    "fluency": 0.8397623300552368,
+    "overall": 0.8833007192611695,
+    "weighted_overall": 0.8899819564819336
+  },
+  "sum_scores": {
+    "punchline_preservation": 68.51423645019531,
+    "cultural_adaptation": 65.98524475097656,
+    "comedian_style_preservation": 67.26315307617188,
+    "structural_integrity": 66.49297332763672,
+    "fluency": 62.982173919677734,
+    "overall": 66.24755394458771,
+    "weighted_overall": 66.74864673614502
+  }
+}

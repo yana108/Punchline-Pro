@@ -1,0 +1,3656 @@
+{
+  "avg_joke_bleu": {
+    "bleu1": 0.00551138402776611,
+    "bleu2": 0.00021579602163392586,
+    "bleu3": 2.7873719363734316e-105,
+    "bleu4": 2.7797643244107222e-157
+  },
+  "avg_punchline_bleu": {
+    "bleu1": 0.00953879678496416,
+    "bleu2": 6.042995247704284e-156,
+    "bleu3": 6.0063156662935825e-205,
+    "bleu4": 1.5689535247753988e-232
+  },
+  "joke_bleu_details": [
+    {
+      "id": "joke001",
+      "bleu1": 0.028305639002790484,
+      "bleu2": 2.3884720770791072e-155,
+      "bleu3": 2.5678566387405692e-204,
+      "bleu4": 6.938151373822962e-232
+    },
+    {
+      "id": "joke002",
+      "bleu1": 0.10427165076764952,
+      "bleu2": 4.745930214360237e-155,
+      "bleu3": 4.136381977573777e-204,
+      "bleu4": 1.0125090118422978e-231
+    },
+    {
+      "id": "joke003",
+      "bleu1": 0.09772948775369583,
+      "bleu2": 0.013437813084019425,
+      "bleu3": 1.6797451823473533e-103,
+      "bleu4": 1.6486742302223305e-155
+    },
+    {
+      "id": "joke004",
+      "bleu1": 0.06719880995976442,
+      "bleu2": 3.522321955258193e-155,
+      "bleu3": 3.220879999034363e-204,
+      "bleu4": 8.06422773237927e-232
+    },
+    {
+      "id": "joke005",
+      "bleu1": 0.004995230742772076,
+      "bleu2": 9.51308926963788e-156,
+      "bleu3": 1.3488652734733264e-204,
+      "bleu4": 4.1514955915506045e-232
+    },
+    {
+      "id": "joke006",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke007",
+      "bleu1": 0.005727410656591436,
+      "bleu2": 9.358821454191286e-156,
+      "bleu3": 1.2596708596929247e-204,
+      "bleu4": 3.783141464427575e-232
+    },
+    {
+      "id": "joke008",
+      "bleu1": 0.004467876507057421,
+      "bleu2": 8.534838357374803e-156,
+      "bleu3": 1.2114175569331403e-204,
+      "bleu4": 3.730288060568979e-232
+    },
+    {
+      "id": "joke009",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke010",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke011",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke012",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke013",
+      "bleu1": 0.0021365769446691544,
+      "bleu2": 6.06380237344637e-156,
+      "bleu3": 9.846924424257931e-205,
+      "bleu4": 3.230414784087228e-232
+    },
+    {
+      "id": "joke014",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke015",
+      "bleu1": 0.006412014089969178,
+      "bleu2": 1.127649375812811e-155,
+      "bleu3": 1.556186734522346e-204,
+      "bleu4": 4.7289409578911985e-232
+    },
+    {
+      "id": "joke016",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke017",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke018",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke019",
+      "bleu1": 0.005264144013240225,
+      "bleu2": 9.696944266123368e-156,
+      "bleu3": 1.3594582729051403e-204,
+      "bleu4": 4.1618695953024536e-232
+    },
+    {
+      "id": "joke020",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke021",
+      "bleu1": 0.0023223320676496713,
+      "bleu2": 6.876138975402525e-156,
+      "bleu3": 1.1328022748410642e-204,
+      "bleu4": 3.74157804943246e-232
+    },
+    {
+      "id": "joke022",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke023",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke024",
+      "bleu1": 0.005952380952380953,
+      "bleu2": 1.150846959982935e-155,
+      "bleu3": 1.6401941619936288e-204,
+      "bleu4": 5.0603552106552585e-232
+    },
+    {
+      "id": "joke025",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke026",
+      "bleu1": 0.005235048476828937,
+      "bleu2": 9.595804625565517e-156,
+      "bleu3": 1.343020330558561e-204,
+      "bleu4": 4.108296141613648e-232
+    },
+    {
+      "id": "joke027",
+      "bleu1": 0.006965927452497209,
+      "bleu2": 1.1686821896917762e-155,
+      "bleu3": 1.5871827104206451e-204,
+      "bleu4": 4.7869089259390976e-232
+    },
+    {
+      "id": "joke028",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke029",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke030",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke031",
+      "bleu1": 0.014128844771249382,
+      "bleu2": 1.6728197378431034e-155,
+      "bleu3": 2.017958109677376e-204,
+      "bleu4": 5.755994752806128e-232
+    },
+    {
+      "id": "joke032",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke033",
+      "bleu1": 0.02270098665520168,
+      "bleu2": 2.0846663397267194e-155,
+      "bleu3": 2.306642707850999e-204,
+      "bleu4": 6.31731400766739e-232
+    },
+    {
+      "id": "joke034",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke035",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke036",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke037",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke038",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke039",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke040",
+      "bleu1": 0.03263376828997805,
+      "bleu2": 0.009436565209176719,
+      "bleu3": 1.2748690702084843e-103,
+      "bleu4": 1.297875953653035e-155
+    },
+    {
+      "id": "joke041",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke042",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke043",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke044",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke045",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke046",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke047",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke048",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke049",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke050",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke051",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke052",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke053",
+      "bleu1": 0.009611226014959427,
+      "bleu2": 1.4408265172283178e-155,
+      "bleu3": 1.8833083645407014e-204,
+      "bleu4": 5.578637527686174e-232
+    },
+    {
+      "id": "joke054",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke055",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke056",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke057",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke058",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke059",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke060",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke061",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke062",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke063",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke064",
+      "bleu1": 0.009613560199255971,
+      "bleu2": 1.4482934006058132e-155,
+      "bleu3": 1.8962416874068398e-204,
+      "bleu4": 5.6213768722543355e-232
+    },
+    {
+      "id": "joke065",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke066",
+      "bleu1": 0.034085751558648465,
+      "bleu2": 2.5422314920344515e-155,
+      "bleu3": 2.6208369603753454e-204,
+      "bleu4": 6.942824770835947e-232
+    },
+    {
+      "id": "joke067",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke068",
+      "bleu1": 0.008690139930604295,
+      "bleu2": 1.365716243118664e-155,
+      "bleu3": 1.814013397036208e-204,
+      "bleu4": 5.414113142219475e-232
+    },
+    {
+      "id": "joke069",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke070",
+      "bleu1": 0.017977677171021795,
+      "bleu2": 1.8482154567661098e-155,
+      "bleu3": 2.125032715963728e-204,
+      "bleu4": 5.926006291441677e-232
+    },
+    {
+      "id": "joke071",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke072",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke073",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke074",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke075",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke076",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke077",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke078",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke079",
+      "bleu1": 0.0144927536231884,
+      "bleu2": 1.7957574230598244e-155,
+      "bleu3": 2.2000225118564335e-204,
+      "bleu4": 6.3211493403261365e-232
+    },
+    {
+      "id": "joke080",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke081",
+      "bleu1": 0.02627665191407682,
+      "bleu2": 2.3517626790039815e-155,
+      "bleu3": 2.5795267045211974e-204,
+      "bleu4": 7.035666208648504e-232
+    },
+    {
+      "id": "joke082",
+      "bleu1": 0.006802721088435376,
+      "bleu2": 1.23030715110469e-155,
+      "bleu3": 1.7140859861296005e-204,
+      "bleu4": 5.232135586792358e-232
+    },
+    {
+      "id": "joke083",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke084",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke085",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke086",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke087",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke088",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke089",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke090",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke091",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke092",
+      "bleu1": 0.006802721088435376,
+      "bleu2": 1.23030715110469e-155,
+      "bleu3": 1.7140859861296005e-204,
+      "bleu4": 5.232135586792358e-232
+    },
+    {
+      "id": "joke093",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke094",
+      "bleu1": 0.0072463768115942,
+      "bleu2": 1.2697922512116445e-155,
+      "bleu3": 1.7501981732638395e-204,
+      "bleu4": 5.315431820564006e-232
+    },
+    {
+      "id": "joke095",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke096",
+      "bleu1": 0.012261047233137585,
+      "bleu2": 1.4401098667553753e-155,
+      "bleu3": 1.732516271642139e-204,
+      "bleu4": 4.9354829523009246e-232
+    },
+    {
+      "id": "joke097",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke098",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke099",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke100",
+      "bleu1": 0.005434782608695651,
+      "bleu2": 1.0996723470779437e-155,
+      "bleu3": 1.591686171412477e-204,
+      "bleu4": 4.946566680442706e-232
+    },
+    {
+      "id": "joke101",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke102",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke103",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke104",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke105",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "id": "joke106",
+      "bleu1": 0.008463168597168698,
+      "bleu2": 1.2749856425138324e-155,
+      "bleu3": 1.6693309001950994e-204,
+      "bleu4": 4.948703626133767e-232
+    }
+  ],
+  "punchline_bleu_details": [
+    {
+      "joke_id": "joke001",
+      "humor_technique": "铺垫和自嘲",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke001",
+      "humor_technique": "类比和反讽",
+      "bleu1": 0.04997660981250929,
+      "bleu2": 2.7893500898575887e-155,
+      "bleu3": 2.605672928104211e-204,
+      "bleu4": 6.589783438757505e-232
+    },
+    {
+      "joke_id": "joke001",
+      "humor_technique": "核心反讽",
+      "bleu1": 0.056906897586252135,
+      "bleu2": 3.395448257230298e-155,
+      "bleu3": 3.2446856104121844e-204,
+      "bleu4": 8.29398451541838e-232
+    },
+    {
+      "joke_id": "joke001",
+      "humor_technique": "收尾讽刺",
+      "bleu1": 0.043478260869565216,
+      "bleu2": 3.110343094808483e-155,
+      "bleu3": 3.161383183841234e-204,
+      "bleu4": 8.319100378795605e-232
+    },
+    {
+      "joke_id": "joke002",
+      "humor_technique": "铺垫和夸张",
+      "bleu1": 0.061878908386459854,
+      "bleu2": 3.24156768340105e-155,
+      "bleu3": 2.9635610815142073e-204,
+      "bleu4": 7.419272445140907e-232
+    },
+    {
+      "joke_id": "joke002",
+      "humor_technique": "夸张和类比",
+      "bleu1": 0.056405715837704096,
+      "bleu2": 2.726402557094298e-155,
+      "bleu3": 2.4253100716599518e-204,
+      "bleu4": 5.9940921190510514e-232
+    },
+    {
+      "joke_id": "joke002",
+      "humor_technique": "核心讽刺",
+      "bleu1": 0.1042155049196271,
+      "bleu2": 3.1090989806586377e-155,
+      "bleu3": 2.3472527466712286e-204,
+      "bleu4": 5.3701405702879534e-232
+    },
+    {
+      "joke_id": "joke002",
+      "humor_technique": "收尾讽刺",
+      "bleu1": 0.09942659075715217,
+      "bleu2": 4.4493443496507244e-155,
+      "bleu3": 3.855603396520171e-204,
+      "bleu4": 9.412234823955334e-232
+    },
+    {
+      "joke_id": "joke003",
+      "humor_technique": "铺垫",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke003",
+      "humor_technique": "夸张与质疑",
+      "bleu1": 0.12383969996431167,
+      "bleu2": 4.887436488566011e-155,
+      "bleu3": 4.0581014757872126e-204,
+      "bleu4": 9.709385502639237e-232
+    },
+    {
+      "joke_id": "joke003",
+      "humor_technique": "夸张与对比",
+      "bleu1": 0.06191984998215582,
+      "bleu2": 3.455939483683493e-155,
+      "bleu3": 3.2283677787682356e-204,
+      "bleu4": 8.164587463486296e-232
+    },
+    {
+      "joke_id": "joke003",
+      "humor_technique": "夸张与荒诞",
+      "bleu1": 0.08187307530779821,
+      "bleu2": 3.862009336171134e-155,
+      "bleu3": 3.407127833460993e-204,
+      "bleu4": 8.387826279040936e-232
+    },
+    {
+      "joke_id": "joke003",
+      "humor_technique": "细节描写与对比",
+      "bleu1": 0.09942659075715217,
+      "bleu2": 4.4493443496507244e-155,
+      "bleu3": 3.855603396520171e-204,
+      "bleu4": 9.412234823955334e-232
+    },
+    {
+      "joke_id": "joke003",
+      "humor_technique": "讽刺与现实对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke004",
+      "humor_technique": "核心比喻",
+      "bleu1": 0.02702702702702703,
+      "bleu2": 2.452287326375221e-155,
+      "bleu3": 2.7023447668783616e-204,
+      "bleu4": 7.386826398032373e-232
+    },
+    {
+      "joke_id": "joke004",
+      "humor_technique": "反击嘲笑者",
+      "bleu1": 0.05841005873035536,
+      "bleu2": 3.181480216003636e-155,
+      "bleu3": 2.947432861031326e-204,
+      "bleu4": 7.425060880573904e-232
+    },
+    {
+      "joke_id": "joke004",
+      "humor_technique": "状态描述",
+      "bleu1": 0.043478260869565216,
+      "bleu2": 3.110343094808483e-155,
+      "bleu3": 3.161383183841234e-204,
+      "bleu4": 8.319100378795605e-232
+    },
+    {
+      "joke_id": "joke004",
+      "humor_technique": "比喻拓展",
+      "bleu1": 0.060606060606060615,
+      "bleu2": 3.6722331233414004e-155,
+      "bleu3": 3.527586103964264e-204,
+      "bleu4": 9.039352811507815e-232
+    },
+    {
+      "joke_id": "joke004",
+      "humor_technique": "比喻结论",
+      "bleu1": 0.03333333333333333,
+      "bleu2": 2.723400973358595e-155,
+      "bleu3": 2.8959916856509815e-204,
+      "bleu4": 7.784451369270533e-232
+    },
+    {
+      "joke_id": "joke005",
+      "humor_technique": "铺垫",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke005",
+      "humor_technique": "夸张",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke005",
+      "humor_technique": "误解与反转",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke005",
+      "humor_technique": "语言游戏与争执",
+      "bleu1": 0.0324500326279752,
+      "bleu2": 2.371335344018341e-155,
+      "bleu3": 2.4277501771866192e-204,
+      "bleu4": 6.4103522193116514e-232
+    },
+    {
+      "joke_id": "joke006",
+      "humor_technique": "自嘲与反差",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke006",
+      "humor_technique": "夸张与讽刺",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke006",
+      "humor_technique": "夸张与荒诞",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke006",
+      "humor_technique": "夸张与荒诞",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke006",
+      "humor_technique": "误解与现实对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke007",
+      "humor_technique": "夸张讽刺",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke007",
+      "humor_technique": "自嘲妥协",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke007",
+      "humor_technique": "误解反转",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke007",
+      "humor_technique": "文化洞察",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke007",
+      "humor_technique": "角色模拟",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke008",
+      "humor_technique": "逻辑质疑",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke008",
+      "humor_technique": "荒谬提议",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke008",
+      "humor_technique": "过度自信",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke008",
+      "humor_technique": "技术对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke008",
+      "humor_technique": "讽刺收尾",
+      "bleu1": 0.03439270021826593,
+      "bleu2": 2.6657558565328963e-155,
+      "bleu3": 2.784372404848005e-204,
+      "bleu4": 7.421597903312336e-232
+    },
+    {
+      "joke_id": "joke009",
+      "humor_technique": "简洁观察",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke009",
+      "humor_technique": "社会矛盾",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke009",
+      "humor_technique": "夸张比喻",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke010",
+      "humor_technique": "对比引入",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke010",
+      "humor_technique": "身体类比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke010",
+      "humor_technique": "场景对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke011",
+      "humor_technique": "夸张列举",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke011",
+      "humor_technique": "场景对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke011",
+      "humor_technique": "夸张类比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke011",
+      "humor_technique": "性意识觉醒",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke012",
+      "humor_technique": "夸张宣告",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke012",
+      "humor_technique": "自嘲描述",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke012",
+      "humor_technique": "战略适应",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke012",
+      "humor_technique": "黑色幽默",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke013",
+      "humor_technique": "事实引入",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke013",
+      "humor_technique": "逻辑转折",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke013",
+      "humor_technique": "医疗详述",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke013",
+      "humor_technique": "态度对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke013",
+      "humor_technique": "荒谬类比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke014",
+      "humor_technique": "自我承认",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke014",
+      "humor_technique": "自我价值揭示",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke014",
+      "humor_technique": "技术挫折",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke014",
+      "humor_technique": "行为心态对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke014",
+      "humor_technique": "自我贬低类比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke015",
+      "humor_technique": "消费进阶",
+      "bleu1": 0.026315789473684213,
+      "bleu2": 2.4198052653854823e-155,
+      "bleu3": 2.6786670644398614e-204,
+      "bleu4": 7.337741777064293e-232
+    },
+    {
+      "joke_id": "joke015",
+      "humor_technique": "价格矛盾",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke015",
+      "humor_technique": "身体部位拟人",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke015",
+      "humor_technique": "用途限制",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke015",
+      "humor_technique": "身体语言模仿",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke016",
+      "humor_technique": "语言扩展",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke016",
+      "humor_technique": "阶层词汇",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke016",
+      "humor_technique": "表达对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke016",
+      "humor_technique": "权力表达",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke017",
+      "humor_technique": "观众挑战",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke017",
+      "humor_technique": "防御反击",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke017",
+      "humor_technique": "创意列举",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke017",
+      "humor_technique": "母亲模仿",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke017",
+      "humor_technique": "实用警告",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke018",
+      "humor_technique": "行为对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke018",
+      "humor_technique": "夸张反问",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke018",
+      "humor_technique": "物品错置比喻",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke018",
+      "humor_technique": "性暗示",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke018",
+      "humor_technique": "夸张类比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke019",
+      "humor_technique": "尖锐讽刺",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke019",
+      "humor_technique": "对比讽刺",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke019",
+      "humor_technique": "历史人物解构",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke019",
+      "humor_technique": "外表现实主义",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke019",
+      "humor_technique": "历史联系",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke020",
+      "humor_technique": "恐惧夸张",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke020",
+      "humor_technique": "死亡夸张",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke020",
+      "humor_technique": "社会质疑",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke020",
+      "humor_technique": "类比转换",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke020",
+      "humor_technique": "荒谬升级",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke021",
+      "humor_technique": "投射认同",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke021",
+      "humor_technique": "特权表现",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke021",
+      "humor_technique": "期望反转",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke021",
+      "humor_technique": "夸张损失",
+      "bleu1": 0.047619047619047616,
+      "bleu2": 3.2550867580473435e-155,
+      "bleu3": 3.257729026670978e-204,
+      "bleu4": 8.510469113101058e-232
+    },
+    {
+      "joke_id": "joke021",
+      "humor_technique": "文化无知",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke022",
+      "humor_technique": "文化反转",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke022",
+      "humor_technique": "期望设定",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke022",
+      "humor_technique": "想象场景",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke022",
+      "humor_technique": "现实反转",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke023",
+      "humor_technique": "悲观预测",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke023",
+      "humor_technique": "讽刺反转",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke023",
+      "humor_technique": "政治观察",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke023",
+      "humor_technique": "模仿极端言论",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke023",
+      "humor_technique": "危险奖励",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke024",
+      "humor_technique": "直接挑衅",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke024",
+      "humor_technique": "移民反讽",
+      "bleu1": 0.03571428571428572,
+      "bleu2": 2.8189878239914012e-155,
+      "bleu3": 2.9626829242377775e-204,
+      "bleu4": 7.919883909890055e-232
+    },
+    {
+      "joke_id": "joke024",
+      "humor_technique": "问题列举",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke024",
+      "humor_technique": "假设反转",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke024",
+      "humor_technique": "讽刺哀求",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke025",
+      "humor_technique": "自我指责",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke025",
+      "humor_technique": "技巧解释",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke025",
+      "humor_technique": "喜剧教学",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke025",
+      "humor_technique": "假装困难",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke025",
+      "humor_technique": "多层讽刺",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke026",
+      "humor_technique": "现状批评",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke026",
+      "humor_technique": "产品介绍",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke026",
+      "humor_technique": "产品描述",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke026",
+      "humor_technique": "观众指示",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke026",
+      "humor_technique": "记忆模拟",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke027",
+      "humor_technique": "夸张和讽刺",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke027",
+      "humor_technique": "观察与夸张",
+      "bleu1": 0.037037037037037035,
+      "bleu2": 2.8707166859108942e-155,
+      "bleu3": 2.9984532539986465e-204,
+      "bleu4": 7.992219124248642e-232
+    },
+    {
+      "joke_id": "joke027",
+      "humor_technique": "直言不讳",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke027",
+      "humor_technique": "情境描述",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke027",
+      "humor_technique": "荒谬类比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke028",
+      "humor_technique": "理性呼吁",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke028",
+      "humor_technique": "荒谬比较",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke028",
+      "humor_technique": "现实讽刺",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke028",
+      "humor_technique": "双关语",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke028",
+      "humor_technique": "夸张模仿",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke028",
+      "humor_technique": "荒谬结论",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke029",
+      "humor_technique": "夸张比喻",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke029",
+      "humor_technique": "宗教参考夸张",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke029",
+      "humor_technique": "体育比喻",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke029",
+      "humor_technique": "宗教幽默",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke029",
+      "humor_technique": "双关语",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke030",
+      "humor_technique": "政策讽刺",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke030",
+      "humor_technique": "尴尬情境",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke030",
+      "humor_technique": "直接冲击",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke030",
+      "humor_technique": "荒谬极端化",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke031",
+      "humor_technique": "年龄夸张",
+      "bleu1": 0.026984546771282,
+      "bleu2": 2.381339775209191e-155,
+      "bleu3": 2.599489350429205e-204,
+      "bleu4": 7.074153593219078e-232
+    },
+    {
+      "joke_id": "joke031",
+      "humor_technique": "递增年龄",
+      "bleu1": 0.057651267643242084,
+      "bleu2": 3.217696622167238e-155,
+      "bleu3": 3.0058130780068554e-204,
+      "bleu4": 7.601743498890168e-232
+    },
+    {
+      "joke_id": "joke031",
+      "humor_technique": "防御性反问",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke031",
+      "humor_technique": "类比对比",
+      "bleu1": 0.02573782302129754,
+      "bleu2": 2.137592282699487e-155,
+      "bleu3": 2.2857644284666895e-204,
+      "bleu4": 6.160293501060206e-232
+    },
+    {
+      "joke_id": "joke032",
+      "humor_technique": "对比反差",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke032",
+      "humor_technique": "人格化自我批评",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke032",
+      "humor_technique": "模拟对话",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke032",
+      "humor_technique": "形容词堆叠",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke032",
+      "humor_technique": "平淡收尾",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke033",
+      "humor_technique": "循环荒谬",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke033",
+      "humor_technique": "角色反转",
+      "bleu1": 0.03170764748335713,
+      "bleu2": 2.5905791405725804e-155,
+      "bleu3": 2.7547525045006357e-204,
+      "bleu4": 7.404799196045004e-232
+    },
+    {
+      "joke_id": "joke033",
+      "humor_technique": "时代对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke033",
+      "humor_technique": "术语解构",
+      "bleu1": 0.10909090909090911,
+      "bleu2": 4.926817735810521e-155,
+      "bleu3": 4.282698978109271e-204,
+      "bleu4": 1.0470211721632915e-231
+    },
+    {
+      "joke_id": "joke034",
+      "humor_technique": "清单式叙述",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke034",
+      "humor_technique": "期望反转",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke034",
+      "humor_technique": "夸张对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke034",
+      "humor_technique": "性双关语",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke035",
+      "humor_technique": "父亲超反应",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke035",
+      "humor_technique": "双重角色",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke035",
+      "humor_technique": "过度竞争",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke035",
+      "humor_technique": "角色反转",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke035",
+      "humor_technique": "内外反差",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke036",
+      "humor_technique": "游戏类比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke036",
+      "humor_technique": "迷宫比喻",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke036",
+      "humor_technique": "哈利波特参考",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke036",
+      "humor_technique": "反讽暗示",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke036",
+      "humor_technique": "假设性高潮",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke037",
+      "humor_technique": "自我形象对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke037",
+      "humor_technique": "过度解读",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke037",
+      "humor_technique": "性别刻板夸张",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke037",
+      "humor_technique": "自我贬低幽默",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke037",
+      "humor_technique": "自我质疑结尾",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke038",
+      "humor_technique": "共同经历",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke038",
+      "humor_technique": "宗教混合",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke038",
+      "humor_technique": "荒谬承诺",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke038",
+      "humor_technique": "简洁总结",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke039",
+      "humor_technique": "现代行为批判",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke039",
+      "humor_technique": "价值观矛盾讽刺",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke039",
+      "humor_technique": "期望与现实反差",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke039",
+      "humor_technique": "反讽结论",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke039",
+      "humor_technique": "荒谬想象",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke040",
+      "humor_technique": "夸张比较",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke040",
+      "humor_technique": "世代误解",
+      "bleu1": 0.034085751558648465,
+      "bleu2": 2.5422314920344515e-155,
+      "bleu3": 2.6208369603753454e-204,
+      "bleu4": 6.942824770835947e-232
+    },
+    {
+      "joke_id": "joke040",
+      "humor_technique": "过度应用",
+      "bleu1": 0.03621379408606644,
+      "bleu2": 2.5337139581923283e-155,
+      "bleu3": 2.5559040651386157e-204,
+      "bleu4": 6.701921891949969e-232
+    },
+    {
+      "joke_id": "joke040",
+      "humor_technique": "自嘲结尾",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke041",
+      "humor_technique": "反差对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke041",
+      "humor_technique": "矛盾指出",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke041",
+      "humor_technique": "荒谬比喻",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke042",
+      "humor_technique": "直接挑战",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke043",
+      "humor_technique": "技能迁移",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke043",
+      "humor_technique": "反转期望",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke044",
+      "humor_technique": "价值对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke044",
+      "humor_technique": "身份反差",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke045",
+      "humor_technique": "升级断言",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke045",
+      "humor_technique": "荒谬升级",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke045",
+      "humor_technique": "讽刺结语",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke046",
+      "humor_technique": "伪统计分析",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke046",
+      "humor_technique": "自我揭示",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke047",
+      "humor_technique": "荒谬比喻",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke047",
+      "humor_technique": "直接坦白",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke047",
+      "humor_technique": "生动描述",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke048",
+      "humor_technique": "意外回答",
+      "bleu1": 0.050530479883344276,
+      "bleu2": 3.0617350824382266e-155,
+      "bleu3": 2.941135207941662e-204,
+      "bleu4": 7.536586784105728e-232
+    },
+    {
+      "joke_id": "joke048",
+      "humor_technique": "身体后果",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke049",
+      "humor_technique": "表演揭露",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke049",
+      "humor_technique": "具体例证",
+      "bleu1": 0.12834247447829586,
+      "bleu2": 5.065142219973414e-155,
+      "bleu3": 4.2056528337572505e-204,
+      "bleu4": 1.0062415860435086e-231
+    },
+    {
+      "joke_id": "joke049",
+      "humor_technique": "讽刺反转",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke050",
+      "humor_technique": "任务对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke050",
+      "humor_technique": "视角反转",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke051",
+      "humor_technique": "幼稚对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke051",
+      "humor_technique": "直接揭露",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke051",
+      "humor_technique": "特征批评",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke052",
+      "humor_technique": "人物模仿",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke052",
+      "humor_technique": "荒谬升级",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke053",
+      "humor_technique": "对比反驳",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke053",
+      "humor_technique": "抱怨模仿",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke054",
+      "humor_technique": "不可避免的现实",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke054",
+      "humor_technique": "揭示真相",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke055",
+      "humor_technique": "角色定位",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke055",
+      "humor_technique": "策略揭示",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke056",
+      "humor_technique": "进化解释",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke056",
+      "humor_technique": "实用建议",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke057",
+      "humor_technique": "直接归因",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke057",
+      "humor_technique": "奖励系统",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke057",
+      "humor_technique": "自嘲反转",
+      "bleu1": 0.047619047619047616,
+      "bleu2": 3.2550867580473435e-155,
+      "bleu3": 3.257729026670978e-204,
+      "bleu4": 8.510469113101058e-232
+    },
+    {
+      "joke_id": "joke058",
+      "humor_technique": "荒谬幻想",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke058",
+      "humor_technique": "意外对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke058",
+      "humor_technique": "幼稚愿望",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke059",
+      "humor_technique": "电影参考",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke059",
+      "humor_technique": "荒谬升级",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke059",
+      "humor_technique": "假装困扰",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke060",
+      "humor_technique": "直白坦承",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke060",
+      "humor_technique": "道德反转",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke061",
+      "humor_technique": "代际对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke061",
+      "humor_technique": "夸张限制",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke062",
+      "humor_technique": "意外转折",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke063",
+      "humor_technique": "性别角色反转",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke063",
+      "humor_technique": "年龄错位",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke064",
+      "humor_technique": "身体夸张",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke064",
+      "humor_technique": "医学双关",
+      "bleu1": 0.04444444444444445,
+      "bleu2": 3.144712570159846e-155,
+      "bleu3": 3.1843961762361838e-204,
+      "bleu4": 8.364937377160846e-232
+    },
+    {
+      "joke_id": "joke065",
+      "humor_technique": "语义误解",
+      "bleu1": 0.05128205128205127,
+      "bleu2": 3.3779631691053966e-155,
+      "bleu3": 3.3383810231120374e-204,
+      "bleu4": 8.669612184277444e-232
+    },
+    {
+      "joke_id": "joke065",
+      "humor_technique": "文化身份夸张",
+      "bleu1": 0.042553191489361694,
+      "bleu2": 3.0770764367989773e-155,
+      "bleu3": 3.1390261249122164e-204,
+      "bleu4": 8.27449233497142e-232
+    },
+    {
+      "joke_id": "joke066",
+      "humor_technique": "医生内心独白",
+      "bleu1": 0.034085751558648465,
+      "bleu2": 2.5422314920344515e-155,
+      "bleu3": 2.6208369603753454e-204,
+      "bleu4": 6.942824770835947e-232
+    },
+    {
+      "joke_id": "joke067",
+      "humor_technique": "专业失控",
+      "bleu1": 0.017517767942717876,
+      "bleu2": 1.920206186560184e-155,
+      "bleu3": 2.256471812619588e-204,
+      "bleu4": 6.357442082865416e-232
+    },
+    {
+      "joke_id": "joke067",
+      "humor_technique": "名人效应",
+      "bleu1": 0.08685228006955023,
+      "bleu2": 3.721177738084857e-155,
+      "bleu3": 3.1772595548415813e-204,
+      "bleu4": 7.702469887226969e-232
+    },
+    {
+      "joke_id": "joke067",
+      "humor_technique": "医学严肃转折",
+      "bleu1": 0.02702702702702703,
+      "bleu2": 2.452287326375221e-155,
+      "bleu3": 2.7023447668783616e-204,
+      "bleu4": 7.386826398032373e-232
+    },
+    {
+      "joke_id": "joke068",
+      "humor_technique": "文化比喻",
+      "bleu1": 0.017467774290854395,
+      "bleu2": 1.8789337139371942e-155,
+      "bleu3": 2.1938510420056572e-204,
+      "bleu4": 6.16237897124457e-232
+    },
+    {
+      "joke_id": "joke068",
+      "humor_technique": "设备拟人化",
+      "bleu1": 0.05871331642584224,
+      "bleu2": 3.5032313549016776e-155,
+      "bleu3": 3.347682987949973e-204,
+      "bleu4": 8.557263845682554e-232
+    },
+    {
+      "joke_id": "joke068",
+      "humor_technique": "情绪转折",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke069",
+      "humor_technique": "价值反转",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke070",
+      "humor_technique": "夸张依赖",
+      "bleu1": 0.10458938416503243,
+      "bleu2": 4.54851136714052e-155,
+      "bleu3": 3.903422946199498e-204,
+      "bleu4": 9.485497713164327e-232
+    },
+    {
+      "joke_id": "joke070",
+      "humor_technique": "电影宣传",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke070",
+      "humor_technique": "荒谬极端",
+      "bleu1": 0.05856522330799247,
+      "bleu2": 3.4393618396081088e-155,
+      "bleu3": 3.268958190755201e-204,
+      "bleu4": 8.334832965673719e-232
+    },
+    {
+      "joke_id": "joke071",
+      "humor_technique": "仪式化描述",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke071",
+      "humor_technique": "科学误解",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke071",
+      "humor_technique": "责任逃避",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke071",
+      "humor_technique": "被动攻击",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke072",
+      "humor_technique": "反向主动性",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke072",
+      "humor_technique": "自我引用",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke072",
+      "humor_technique": "形象比喻",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke072",
+      "humor_technique": "末日景象",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke073",
+      "humor_technique": "直接坦白",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke073",
+      "humor_technique": "操纵承认",
+      "bleu1": 0.041666666666666664,
+      "bleu2": 3.0448548532095193e-155,
+      "bleu3": 3.117292932875787e-204,
+      "bleu4": 8.231055179516831e-232
+    },
+    {
+      "joke_id": "joke073",
+      "humor_technique": "结果简述",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke074",
+      "humor_technique": "时间跨度",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke074",
+      "humor_technique": "经济寓言",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke074",
+      "humor_technique": "经济坦白",
+      "bleu1": 0.04177142980217864,
+      "bleu2": 2.7514958521563045e-155,
+      "bleu3": 2.7192544969170713e-204,
+      "bleu4": 7.06177088696933e-232
+    },
+    {
+      "joke_id": "joke075",
+      "humor_technique": "婚姻反转",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke075",
+      "humor_technique": "自由羡慕",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke075",
+      "humor_technique": "休闲对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke076",
+      "humor_technique": "负担对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke076",
+      "humor_technique": "尊严放弃",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke076",
+      "humor_technique": "暗黑自我对话",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke077",
+      "humor_technique": "关系对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke077",
+      "humor_technique": "婚礼礼品",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke078",
+      "humor_technique": "基因责任",
+      "bleu1": 0.047026762493922986,
+      "bleu2": 2.976141319784918e-155,
+      "bleu3": 2.901516097769902e-204,
+      "bleu4": 7.486999146716168e-232
+    },
+    {
+      "joke_id": "joke078",
+      "humor_technique": "社交重定义",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke079",
+      "humor_technique": "利益关系",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke079",
+      "humor_technique": "育儿讽刺",
+      "bleu1": 0.03846153846153846,
+      "bleu2": 2.925401917493371e-155,
+      "bleu3": 3.036030428190797e-204,
+      "bleu4": 8.06798322521923e-232
+    },
+    {
+      "joke_id": "joke079",
+      "humor_technique": "文化引用",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke080",
+      "humor_technique": "婚姻隐喻",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke080",
+      "humor_technique": "困境夸张",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke081",
+      "humor_technique": "历史对比",
+      "bleu1": 0.04944697172207886,
+      "bleu2": 2.919444453381193e-155,
+      "bleu3": 2.7798499105963607e-204,
+      "bleu4": 7.093825077400057e-232
+    },
+    {
+      "joke_id": "joke081",
+      "humor_technique": "种族统计",
+      "bleu1": 0.032184788424542164,
+      "bleu2": 2.585365047807036e-155,
+      "bleu3": 2.733409137239841e-204,
+      "bleu4": 7.327527896429125e-232
+    },
+    {
+      "joke_id": "joke081",
+      "humor_technique": "时间差异",
+      "bleu1": 0.049983841728623184,
+      "bleu2": 3.29244973998881e-155,
+      "bleu3": 3.253869619436889e-204,
+      "bleu4": 8.450140203715607e-232
+    },
+    {
+      "joke_id": "joke081",
+      "humor_technique": "年老刻画",
+      "bleu1": 0.01785714285714285,
+      "bleu2": 1.993325406426571e-155,
+      "bleu3": 2.3569223560288725e-204,
+      "bleu4": 6.659801989051833e-232
+    },
+    {
+      "joke_id": "joke082",
+      "humor_technique": "老化形象",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke082",
+      "humor_technique": "预约偷情",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke082",
+      "humor_technique": "文化参考",
+      "bleu1": 0.027578028205768608,
+      "bleu2": 2.3270751917624855e-155,
+      "bleu3": 2.5018485823470094e-204,
+      "bleu4": 6.759802676220055e-232
+    },
+    {
+      "joke_id": "joke082",
+      "humor_technique": "视觉隐喻",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke083",
+      "humor_technique": "品牌特价",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke084",
+      "humor_technique": "语言缺失",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke084",
+      "humor_technique": "文化对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke085",
+      "humor_technique": "文化羡慕",
+      "bleu1": 0.02272727272727273,
+      "bleu2": 2.2487743421833397e-155,
+      "bleu3": 2.5521602574006475e-204,
+      "bleu4": 7.073675849566084e-232
+    },
+    {
+      "joke_id": "joke085",
+      "humor_technique": "语言混合",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke086",
+      "humor_technique": "文化习俗列举",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke086",
+      "humor_technique": "突然转向",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke087",
+      "humor_technique": "直接批评",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke087",
+      "humor_technique": "反讽模仿",
+      "bleu1": 0.03773584905660377,
+      "bleu2": 2.8976723635433103e-155,
+      "bleu3": 3.0170060865824012e-204,
+      "bleu4": 8.029654430073048e-232
+    },
+    {
+      "joke_id": "joke088",
+      "humor_technique": "不公平对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke088",
+      "humor_technique": "愿望升级",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke089",
+      "humor_technique": "自我欺骗",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke089",
+      "humor_technique": "突然扩展",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke090",
+      "humor_technique": "威胁揭示",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke090",
+      "humor_technique": "角色反转",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke091",
+      "humor_technique": "性别期望批评",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke091",
+      "humor_technique": "形象降级",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke091",
+      "humor_technique": "名人性幻想",
+      "bleu1": 0.028571428571428577,
+      "bleu2": 2.521379360875542e-155,
+      "bleu3": 2.752357670762123e-204,
+      "bleu4": 7.490163752058132e-232
+    },
+    {
+      "joke_id": "joke092",
+      "humor_technique": "风险收益分析",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke092",
+      "humor_technique": "女性生理复杂性",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke092",
+      "humor_technique": "外部焦虑",
+      "bleu1": 0.018867924528301883,
+      "bleu2": 2.0489637779182655e-155,
+      "bleu3": 2.400138413586962e-204,
+      "bleu4": 6.752107625974243e-232
+    },
+    {
+      "joke_id": "joke093",
+      "humor_technique": "复杂要求",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke093",
+      "humor_technique": "节奏对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke093",
+      "humor_technique": "电影比喻",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke093",
+      "humor_technique": "身体伤害",
+      "bleu1": 0.030242612672057002,
+      "bleu2": 2.5117266290534817e-155,
+      "bleu3": 2.6858327610879214e-204,
+      "bleu4": 7.238505375710737e-232
+    },
+    {
+      "joke_id": "joke094",
+      "humor_technique": "浪漫过度",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke094",
+      "humor_technique": "极端反差",
+      "bleu1": 0.018462326927732715,
+      "bleu2": 1.9473483861487027e-155,
+      "bleu3": 2.2586225757058322e-204,
+      "bleu4": 6.3244427253222915e-232
+    },
+    {
+      "joke_id": "joke094",
+      "humor_technique": "变形要求",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke095",
+      "humor_technique": "诚实倡议",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke095",
+      "humor_technique": "技能分析",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke095",
+      "humor_technique": "沟通分析",
+      "bleu1": 0.024998013937862006,
+      "bleu2": 2.3435610390400273e-155,
+      "bleu3": 2.6113969026771684e-204,
+      "bleu4": 7.175656671338964e-232
+    },
+    {
+      "joke_id": "joke095",
+      "humor_technique": "家务逃避",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke096",
+      "humor_technique": "男女对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke096",
+      "humor_technique": "行为曝光",
+      "bleu1": 0.021904044503658186,
+      "bleu2": 1.8191871337440485e-155,
+      "bleu3": 1.9452882912662554e-204,
+      "bleu4": 5.24268672183979e-232
+    },
+    {
+      "joke_id": "joke097",
+      "humor_technique": "反向场景",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke097",
+      "humor_technique": "夸张场景",
+      "bleu1": 0.07317073170731705,
+      "bleu2": 4.034975617395918e-155,
+      "bleu3": 3.753865138375975e-204,
+      "bleu4": 9.475293539507031e-232
+    },
+    {
+      "joke_id": "joke097",
+      "humor_technique": "权力转换",
+      "bleu1": 0.03225806451612903,
+      "bleu2": 2.679115079291711e-155,
+      "bleu3": 2.8648241283319714e-204,
+      "bleu4": 7.720899511627474e-232
+    },
+    {
+      "joke_id": "joke098",
+      "humor_technique": "电影简介",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke098",
+      "humor_technique": "自我讽刺",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke099",
+      "humor_technique": "朋友八卦",
+      "bleu1": 0.02941176470588235,
+      "bleu2": 2.5581897658231897e-155,
+      "bleu3": 2.7788127450817144e-204,
+      "bleu4": 7.544641259221007e-232
+    },
+    {
+      "joke_id": "joke099",
+      "humor_technique": "视觉描述",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke099",
+      "humor_technique": "身体比喻",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke100",
+      "humor_technique": "电影对比",
+      "bleu1": 0.030303030303030304,
+      "bleu2": 2.5966609436124834e-155,
+      "bleu3": 2.806323445290456e-204,
+      "bleu4": 7.601159375410181e-232
+    },
+    {
+      "joke_id": "joke100",
+      "humor_technique": "身体反应",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke100",
+      "humor_technique": "真实对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke100",
+      "humor_technique": "年龄自信",
+      "bleu1": 0.01785714285714285,
+      "bleu2": 1.993325406426571e-155,
+      "bleu3": 2.3569223560288725e-204,
+      "bleu4": 6.659801989051833e-232
+    },
+    {
+      "joke_id": "joke100",
+      "humor_technique": "动画引用",
+      "bleu1": 0.04930726073076469,
+      "bleu2": 3.032547082492274e-155,
+      "bleu3": 2.9279184610732115e-204,
+      "bleu4": 7.52065888019821e-232
+    },
+    {
+      "joke_id": "joke101",
+      "humor_technique": "视觉比喻",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke101",
+      "humor_technique": "品牌引用",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke101",
+      "humor_technique": "经济隐喻",
+      "bleu1": 0.022862988404582556,
+      "bleu2": 1.929213094166339e-155,
+      "bleu3": 2.074105324044026e-204,
+      "bleu4": 5.604073251740222e-232
+    },
+    {
+      "joke_id": "joke101",
+      "humor_technique": "直白翻译",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke101",
+      "humor_technique": "品质描述",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke101",
+      "humor_technique": "品牌对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke102",
+      "humor_technique": "诚实反转",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke102",
+      "humor_technique": "婚姻不平等",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke102",
+      "humor_technique": "抱怨模仿",
+      "bleu1": 0.042706219365756574,
+      "bleu2": 2.600684785961114e-155,
+      "bleu3": 2.5025174443700265e-204,
+      "bleu4": 6.417797538031635e-232
+    },
+    {
+      "joke_id": "joke102",
+      "humor_technique": "育儿恐惧",
+      "bleu1": 0.027766653572370896,
+      "bleu2": 2.4503593533284985e-155,
+      "bleu3": 2.6748316682958337e-204,
+      "bleu4": 7.279187373630476e-232
+    },
+    {
+      "joke_id": "joke102",
+      "humor_technique": "名人比较",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke102",
+      "humor_technique": "角色转变",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke103",
+      "humor_technique": "精英学历",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke103",
+      "humor_technique": "市场隐喻",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke103",
+      "humor_technique": "经济结局",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke104",
+      "humor_technique": "自我描述",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke104",
+      "humor_technique": "观众担忧",
+      "bleu1": 0.014425481701593714,
+      "bleu2": 1.5062622083905658e-155,
+      "bleu3": 1.7410410964735774e-204,
+      "bleu4": 4.867273019741571e-232
+    },
+    {
+      "joke_id": "joke104",
+      "humor_technique": "经济对比",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke105",
+      "humor_technique": "角色反转",
+      "bleu1": 0.021276595744680854,
+      "bleu2": 2.175821614689832e-155,
+      "bleu3": 2.4972098058275037e-204,
+      "bleu4": 6.957990942521506e-232
+    },
+    {
+      "joke_id": "joke105",
+      "humor_technique": "职业风险",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke105",
+      "humor_technique": "物质动机",
+      "bleu1": 0.06810692534524831,
+      "bleu2": 3.801259410039882e-155,
+      "bleu3": 3.550948578831136e-204,
+      "bleu4": 8.980398838347627e-232
+    },
+    {
+      "joke_id": "joke105",
+      "humor_technique": "刻板印象",
+      "bleu1": 0,
+      "bleu2": 0,
+      "bleu3": 0,
+      "bleu4": 0
+    },
+    {
+      "joke_id": "joke106",
+      "humor_technique": "权威声明",
+      "bleu1": 0.024988304906254654,
+      "bleu2": 1.972368363641661e-155,
+      "bleu3": 2.0729078790394167e-204,
+      "bleu4": 5.541325270949243e-232
+    },
+    {
+      "joke_id": "joke106",
+      "humor_technique": "性对策",
+      "bleu1": 0.042553191489361694,
+      "bleu2": 3.0770764367989773e-155,
+      "bleu3": 3.1390261249122164e-204,
+      "bleu4": 8.27449233497142e-232
+    },
+    {
+      "joke_id": "joke106",
+      "humor_technique": "讽刺结尾",
+      "bleu1": 0.030231349658229024,
+      "bleu2": 2.254757065151306e-155,
+      "bleu3": 2.3244738614605686e-204,
+      "bleu4": 6.1577331778005165e-232
+    }
+  ],
+  "correlations": {
+    "bleu4_vs_overall": 0.22188028338955057,
+    "bleu4_vs_punchline_preservation": 0.242259847526866,
+    "bleu4_vs_cultural_adaptation": 0.21210970354991207,
+    "bleu4_vs_comedian_style_preservation": 0.11963849633961122,
+    "bleu4_vs_structural_integrity": 0.22036529948130087,
+    "bleu4_vs_fluency": 0.1933097127735064
+  }
+}
