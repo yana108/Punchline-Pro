@@ -1,0 +1,1867 @@
+{
+  "events": [
+    {
+      "tStartMs": 160,
+      "dDurationMs": 3759,
+      "segs": [
+        {
+          "utf8": "今天我要教你们 一些 C 语言中的方法，在"
+        }
+      ]
+    },
+    {
+      "tStartMs": 3919,
+      "dDurationMs": 3681,
+      "segs": [
+        {
+          "utf8": "开始之前，我想快速地 介绍一下屏幕上的内容，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 7600,
+      "dDurationMs": 4880,
+      "segs": [
+        {
+          "utf8": "因为我们将用这个来举 个简短的例子，嗯，我所做的就是，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 12480,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "我保留了上一集的一个字段， 也就是"
+        }
+      ]
+    },
+    {
+      "tStartMs": 16480,
+      "dDurationMs": 5200,
+      "segs": [
+        {
+          "utf8": "玩家健康值，我还 保留了我们创建的属性，它"
+        }
+      ]
+    },
+    {
+      "tStartMs": 21680,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "基本上可以抓取或 更改玩家的健康值，所以"
+        }
+      ]
+    },
+    {
+      "tStartMs": 25680,
+      "dDurationMs": 3040,
+      "segs": [
+        {
+          "utf8": "我可以进入 下面的开始方法，我可以"
+        }
+      ]
+    },
+    {
+      "tStartMs": 30950,
+      "dDurationMs": 1449,
+      "segs": [
+        {
+          "utf8": " 像这样引用玩家健康值，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 32399,
+      "dDurationMs": 4721,
+      "segs": [
+        {
+          "utf8": "然后用它做一些事情，现在在 我们开始讨论方法之前，我需要向你们展示的一件事"
+        }
+      ]
+    },
+    {
+      "tStartMs": 37120,
+      "dDurationMs": 5599,
+      "segs": [
+        {
+          "utf8": "是， 我们有一种叫做调试的东西，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 42719,
+      "dDurationMs": 3281,
+      "segs": [
+        {
+          "utf8": "调试是你"
+        }
+      ]
+    },
+    {
+      "tStartMs": 46000,
+      "dDurationMs": 3760,
+      "segs": [
+        {
+          "utf8": " 在视频游戏中编写代码时会不断做的事情，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 49760,
+      "dDurationMs": 4080,
+      "segs": [
+        {
+          "utf8": "所以每当出现问题时， 它都会在编辑器的控制台中给你错误消息，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 56310,
+      "dDurationMs": 1290,
+      "segs": [
+        {
+          "utf8": ""
+        }
+      ]
+    },
+    {
+      "tStartMs": 57600,
+      "dDurationMs": 3920,
+      "segs": [
+        {
+          "utf8": "如果谷歌没有给 你答案，你就得花时间去调试，所以如果你不能用谷歌"
+        }
+      ]
+    },
+    {
+      "tStartMs": 61520,
+      "dDurationMs": 3919,
+      "segs": [
+        {
+          "utf8": "搜索某个东西，你就找不到 答案，调试就是你需要"
+        }
+      ]
+    },
+    {
+      "tStartMs": 65439,
+      "dDurationMs": 4961,
+      "segs": [
+        {
+          "utf8": "做的，你需要知道的一个快速命令 是所谓的调试"
+        }
+      ]
+    },
+    {
+      "tStartMs": 70400,
+      "dDurationMs": 3840,
+      "segs": [
+        {
+          "utf8": "点 日志，debug.log"
+        }
+      ]
+    },
+    {
+      "tStartMs": 74240,
+      "dDurationMs": 5280,
+      "segs": [
+        {
+          "utf8": "是一种将内容输出到 Unity 控制台的方法，所以我们在"
+        }
+      ]
+    },
+    {
+      "tStartMs": 79520,
+      "dDurationMs": 3919,
+      "segs": [
+        {
+          "utf8": "这里创建一个字符串，然后写入 daniel，然后"
+        }
+      ]
+    },
+    {
+      "tStartMs": 83439,
+      "dDurationMs": 5040,
+      "segs": [
+        {
+          "utf8": "返回 Unity，如果我 单击“播放”，您会看到它现在在 Unity"
+        }
+      ]
+    },
+    {
+      "tStartMs": 88479,
+      "dDurationMs": 3761,
+      "segs": [
+        {
+          "utf8": "控制台中显示 daniel， 因此"
+        }
+      ]
+    },
+    {
+      "tStartMs": 92240,
+      "dDurationMs": 4320,
+      "segs": [
+        {
+          "utf8": "调试或使用此处的特定命令 是您在编写代码时会不断使用的东西，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 96560,
+      "dDurationMs": 4559,
+      "segs": [
+        {
+          "utf8": "因此考虑到这一点， 我将教您"
+        }
+      ]
+    },
+    {
+      "tStartMs": 101119,
+      "dDurationMs": 4320,
+      "segs": [
+        {
+          "utf8": "一种称为方法的东西， 本质上，当谈到像"
+        }
+      ]
+    },
+    {
+      "tStartMs": 105439,
+      "dDurationMs": 4960,
+      "segs": [
+        {
+          "utf8": "我们面前这样的类时， 我们有三个东西，我们有我们"
+        }
+      ]
+    },
+    {
+      "tStartMs": 110399,
+      "dDurationMs": 4161,
+      "segs": [
+        {
+          "utf8": "已经讨论过的字段，我们有我们已经 讨论过的属性，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 114560,
+      "dDurationMs": 4800,
+      "segs": [
+        {
+          "utf8": "然后我们有方法，方法 本质上是我们"
+        }
+      ]
+    },
+    {
+      "tStartMs": 119360,
+      "dDurationMs": 5439,
+      "segs": [
+        {
+          "utf8": "使用代码实际执行操作的一种方式，因为到目前为止， 属性和字段只是"
+        }
+      ]
+    },
+    {
+      "tStartMs": 124799,
+      "dDurationMs": 4800,
+      "segs": [
+        {
+          "utf8": "用于创建数据， 例如玩家健康状况，但"
+        }
+      ]
+    },
+    {
+      "tStartMs": 129599,
+      "dDurationMs": 3921,
+      "segs": [
+        {
+          "utf8": "它实际上与 我们游戏中的玩家健康状况没有任何关系，这"
+        }
+      ]
+    },
+    {
+      "tStartMs": 133520,
+      "dDurationMs": 4719,
+      "segs": [
+        {
+          "utf8": "就是方法的作用，方法实际上 做的事情有点像如果你拿一个"
+        }
+      ]
+    },
+    {
+      "tStartMs": 138239,
+      "dDurationMs": 5921,
+      "segs": [
+        {
+          "utf8": "人，因为一个人可以有年龄，身高， 眼睛颜色，头发颜色，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 144160,
+      "dDurationMs": 3840,
+      "segs": [
+        {
+          "utf8": "所有这些东西 只是 关于玩家的信息，即"
+        }
+      ]
+    },
+    {
+      "tStartMs": 148000,
+      "dDurationMs": 3680,
+      "segs": [
+        {
+          "utf8": " 玩家的感觉或属性，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 151680,
+      "dDurationMs": 5360,
+      "segs": [
+        {
+          "utf8": "而如果我真的需要做 某件事，比如如果玩家必须奔跑、"
+        }
+      ]
+    },
+    {
+      "tStartMs": 157040,
+      "dDurationMs": 5680,
+      "segs": [
+        {
+          "utf8": "跳跃、受到伤害、 攻击之类的，我们就必须使用"
+        }
+      ]
+    },
+    {
+      "tStartMs": 162720,
+      "dDurationMs": 4640,
+      "segs": [
+        {
+          "utf8": "方法来实现，因为我们 实际上在游戏中做了一些事情，所以"
+        }
+      ]
+    },
+    {
+      "tStartMs": 167360,
+      "dDurationMs": 4080,
+      "segs": [
+        {
+          "utf8": "说到这里，让我们来谈谈如何 创建方法，如果我继续往下看，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 171440,
+      "dDurationMs": 4879,
+      "segs": [
+        {
+          "utf8": "你会看到我们有一个 名为start的私有方法，它实际上是"
+        }
+      ]
+    },
+    {
+      "tStartMs": 176319,
+      "dDurationMs": 4721,
+      "segs": [
+        {
+          "utf8": "monobehavior中的一个内置方法， 到目前为止，在这些课程中我已经说过很多次了，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 181040,
+      "dDurationMs": 3600,
+      "segs": [
+        {
+          "utf8": "但 重要的是要"
+        }
+      ]
+    },
+    {
+      "tStartMs": 184640,
+      "dDurationMs": 4239,
+      "segs": [
+        {
+          "utf8": "注意 内置方法之间存在差异，内置方法"
+        }
+      ]
+    },
+    {
+      "tStartMs": 188879,
+      "dDurationMs": 4881,
+      "segs": [
+        {
+          "utf8": "是 所有编程语言中都存在的方法，我们可以"
+        }
+      ]
+    },
+    {
+      "tStartMs": 193760,
+      "dDurationMs": 3759,
+      "segs": [
+        {
+          "utf8": "抓住并用于某些事情， 例如start，如果你使用那个方法，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 197519,
+      "dDurationMs": 2401,
+      "segs": [
+        {
+          "utf8": "当我开始游戏时，它将运行此代码，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 199920,
+      "dDurationMs": 3440,
+      "segs": [
+        {
+          "utf8": "但我们也可以构建自己的方法， 这就是我想谈论的，所以"
+        }
+      ]
+    },
+    {
+      "tStartMs": 203360,
+      "dDurationMs": 2560,
+      "segs": [
+        {
+          "utf8": "当谈到方法时，我们有两种 不同的类型，你需要知道"
+        }
+      ]
+    },
+    {
+      "tStartMs": 205920,
+      "dDurationMs": 3360,
+      "segs": [
+        {
+          "utf8": "我们有两种方法，一种是实际 返回值的方法，另一种是"
+        }
+      ]
+    },
+    {
+      "tStartMs": 209280,
+      "dDurationMs": 3840,
+      "segs": [
+        {
+          "utf8": "不返回任何东西的方法，我会展示 你们两个都举了例子，所以你们知道"
+        }
+      ]
+    },
+    {
+      "tStartMs": 213120,
+      "dDurationMs": 4720,
+      "segs": [
+        {
+          "utf8": "它们到底是做什么的，第一个我 要说的是，我们有一个方法，它是一种"
+        }
+      ]
+    },
+    {
+      "tStartMs": 217840,
+      "dDurationMs": 3920,
+      "segs": [
+        {
+          "utf8": "void 类型的方法， 我稍后会解释它，它"
+        }
+      ]
+    },
+    {
+      "tStartMs": 221760,
+      "dDurationMs": 2880,
+      "segs": [
+        {
+          "utf8": "叫做 take damage，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 224640,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "然后我会加上一些括号，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 228640,
+      "dDurationMs": 3599,
+      "segs": [
+        {
+          "utf8": "现在我们在这里使用 pascal 大小写来 命名，就像"
+        }
+      ]
+    },
+    {
+      "tStartMs": 232239,
+      "dDurationMs": 3200,
+      "segs": [
+        {
+          "utf8": "上面的属性一样，这意味着你 以大写字母开头，然后"
+        }
+      ]
+    },
+    {
+      "tStartMs": 235439,
+      "dDurationMs": 2800,
+      "segs": [
+        {
+          "utf8": "后面的任何其他单词都做同样的 事情，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 238239,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "括号在这里是为了 首先向我们表明这是一个"
+        }
+      ]
+    },
+    {
+      "tStartMs": 242799,
+      "dDurationMs": 4720,
+      "segs": [
+        {
+          "utf8": "方法而不是一个属性，因为如果我们 不包含括号，它就会"
+        }
+      ]
+    },
+    {
+      "tStartMs": 247519,
+      "dDurationMs": 3521,
+      "segs": [
+        {
+          "utf8": "是一个属性， 第二件事是，我们还用它来"
+        }
+      ]
+    },
+    {
+      "tStartMs": 251040,
+      "dDurationMs": 4800,
+      "segs": [
+        {
+          "utf8": "传递数据，所以如果我想让 方法内部的某些东西根据"
+        }
+      ]
+    },
+    {
+      "tStartMs": 255840,
+      "dDurationMs": 4239,
+      "segs": [
+        {
+          "utf8": "一些外部数据 而改变，那么我们继续将它传递到"
+        }
+      ]
+    },
+    {
+      "tStartMs": 260079,
+      "dDurationMs": 3601,
+      "segs": [
+        {
+          "utf8": "括号内，顺便说一下，这也是一个 私有"
+        }
+      ]
+    },
+    {
+      "tStartMs": 263680,
+      "dDurationMs": 4320,
+      "segs": [
+        {
+          "utf8": "方法， 就像我说的，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 268000,
+      "dDurationMs": 4960,
+      "segs": [
+        {
+          "utf8": "如果不包含任何东西，默认状态就是私有的，所以 这和这样做"
+        }
+      ]
+    },
+    {
+      "tStartMs": 272960,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "基本上是一样的，这意味着我们不能 从其他脚本访问这个方法，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 277520,
+      "dDurationMs": 5360,
+      "segs": [
+        {
+          "utf8": "如果我想让它公开， 我也可以这样做，所以现在 这是一个公共"
+        }
+      ]
+    },
+    {
+      "tStartMs": 282880,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "方法，所以我现在实际上可以 从另一个脚本访问它，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 286880,
+      "dDurationMs": 3920,
+      "segs": [
+        {
+          "utf8": "所以我现在要做的是将它保持私有， 而"
+        }
+      ]
+    },
+    {
+      "tStartMs": 290800,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "这里的 void 关键字基本上 意味着我们不打算"
+        }
+      ]
+    },
+    {
+      "tStartMs": 296390,
+      "dDurationMs": 2249,
+      "segs": [
+        {
+          "utf8": " 在该方法中返回任何类型的数据，这意味着该"
+        }
+      ]
+    },
+    {
+      "tStartMs": 298639,
+      "dDurationMs": 4400,
+      "segs": [
+        {
+          "utf8": "方法将执行某些操作， 但我们不打算从中返回"
+        }
+      ]
+    },
+    {
+      "tStartMs": 303039,
+      "dDurationMs": 4401,
+      "segs": [
+        {
+          "utf8": "任何内容，这在一秒钟内就会有意义， 所以让我去创建另一个"
+        }
+      ]
+    },
+    {
+      "tStartMs": 307440,
+      "dDurationMs": 3840,
+      "segs": [
+        {
+          "utf8": "方法，我将创建一个 整数"
+        }
+      ]
+    },
+    {
+      "tStartMs": 311280,
+      "dDurationMs": 3280,
+      "segs": [
+        {
+          "utf8": "类型的方法， 我将随机调用这个方法，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 314560,
+      "dDurationMs": 4160,
+      "segs": [
+        {
+          "utf8": "例如显示 损坏，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 318720,
+      "dDurationMs": 3520,
+      "segs": [
+        {
+          "utf8": "只是为了给它一些东西，正如 你所看到的，它是以"
+        }
+      ]
+    },
+    {
+      "tStartMs": 322240,
+      "dDurationMs": 3920,
+      "segs": [
+        {
+          "utf8": "同样的方式创建的，首先，我们继续告诉它 我们想要返回什么样的数据，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 326160,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "在这种情况下，不会是 void，而是 数据类型，当然，我们"
+        }
+      ]
+    },
+    {
+      "tStartMs": 330720,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "也可以将其设为私有或公共， 就像另一个一样，我们也在"
+        }
+      ]
+    },
+    {
+      "tStartMs": 335280,
+      "dDurationMs": 3520,
+      "segs": [
+        {
+          "utf8": "末尾添加了括号， 以便我们传递数据，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 338800,
+      "dDurationMs": 2880,
+      "segs": [
+        {
+          "utf8": "你会注意到我在 这里收到一条错误消息，那是因为"
+        }
+      ]
+    },
+    {
+      "tStartMs": 341680,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "现在我实际上并没有在 实际中返回任何东西 方法，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 346240,
+      "dDurationMs": 5440,
+      "segs": [
+        {
+          "utf8": "每当你执行任何类似的方法时， 你都必须从"
+        }
+      ]
+    },
+    {
+      "tStartMs": 351680,
+      "dDurationMs": 4239,
+      "segs": [
+        {
+          "utf8": "方法内部返回值，所以如果我进入 它，我可以说只返回"
+        }
+      ]
+    },
+    {
+      "tStartMs": 355919,
+      "dDurationMs": 3521,
+      "segs": [
+        {
+          "utf8": " 10，因为我需要返回一个整数，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 359440,
+      "dDurationMs": 2879,
+      "segs": [
+        {
+          "utf8": "如果它说的是 true，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 362319,
+      "dDurationMs": 3281,
+      "segs": [
+        {
+          "utf8": "你实际上会注意到它 会抛出一个错误消息，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 365600,
+      "dDurationMs": 4960,
+      "segs": [
+        {
+          "utf8": "因为这是一个布尔数据类型， 我实际上要求返回一个整数"
+        }
+      ]
+    },
+    {
+      "tStartMs": 370560,
+      "dDurationMs": 4800,
+      "segs": [
+        {
+          "utf8": "数据类型，所以我也可以说我想 返回一个布尔值，这样就"
+        }
+      ]
+    },
+    {
+      "tStartMs": 375360,
+      "dDurationMs": 3440,
+      "segs": [
+        {
+          "utf8": "可以解决这个问题，现在我要把它 放在这里，因为我确实"
+        }
+      ]
+    },
+    {
+      "tStartMs": 378800,
+      "dDurationMs": 4239,
+      "segs": [
+        {
+          "utf8": "想演示一下这个 输出到控制台的具体内容，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 383039,
+      "dDurationMs": 4481,
+      "segs": [
+        {
+          "utf8": "所以让我先来谈谈 前面的方法，现在 void"
+        }
+      ]
+    },
+    {
+      "tStartMs": 387520,
+      "dDurationMs": 3760,
+      "segs": [
+        {
+          "utf8": "就像我说的，意味着我们不打算 返回任何东西，所以如果它要"
+        }
+      ]
+    },
+    {
+      "tStartMs": 391280,
+      "dDurationMs": 3840,
+      "segs": [
+        {
+          "utf8": "进入这里，我想做的第一件事就是 计算我"
+        }
+      ]
+    },
+    {
+      "tStartMs": 395120,
+      "dDurationMs": 4480,
+      "segs": [
+        {
+          "utf8": "实际上受到了多少伤害，因为这是一个受到 伤害的方法，所以我应该受到"
+        }
+      ]
+    },
+    {
+      "tStartMs": 399600,
+      "dDurationMs": 3520,
+      "segs": [
+        {
+          "utf8": "一些伤害， 所以我到这里抓住我的属性，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 403120,
+      "dDurationMs": 3280,
+      "segs": [
+        {
+          "utf8": "叫做 playerhealth，因为记住我们 不想直接抓住字段并"
+        }
+      ]
+    },
+    {
+      "tStartMs": 406400,
+      "dDurationMs": 5199,
+      "segs": [
+        {
+          "utf8": "直接更改它，即使我们可以 这样做，但这不是最好的方法"
+        }
+      ]
+    },
+    {
+      "tStartMs": 411599,
+      "dDurationMs": 3841,
+      "segs": [
+        {
+          "utf8": "这样做，所以我要说玩家健康 进入受到伤害，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 415440,
+      "dDurationMs": 5680,
+      "segs": [
+        {
+          "utf8": "我将把这个设置为等于 玩家健康减 10。所以我们"
+        }
+      ]
+    },
+    {
+      "tStartMs": 421120,
+      "dDurationMs": 3840,
+      "segs": [
+        {
+          "utf8": "实际上在这里做的是，我们说 玩家健康现在是 100，当"
+        }
+      ]
+    },
+    {
+      "tStartMs": 424960,
+      "dDurationMs": 4880,
+      "segs": [
+        {
+          "utf8": "我受到 10 点伤害时，这将是 90。但实际上有一个简写来"
+        }
+      ]
+    },
+    {
+      "tStartMs": 429840,
+      "dDurationMs": 3600,
+      "segs": [
+        {
+          "utf8": "做到这一点，而不是让玩家健康 等于玩家健康，我们实际上可以"
+        }
+      ]
+    },
+    {
+      "tStartMs": 433440,
+      "dDurationMs": 5120,
+      "segs": [
+        {
+          "utf8": "继续说我们只想 说玩家健康减去等于 10，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 438560,
+      "dDurationMs": 3759,
+      "segs": [
+        {
+          "utf8": "这意味着与 我刚才做的完全相同，我们说玩家"
+        }
+      ]
+    },
+    {
+      "tStartMs": 442319,
+      "dDurationMs": 4320,
+      "segs": [
+        {
+          "utf8": "健康需要等于它自己减去"
+        }
+      ]
+    },
+    {
+      "tStartMs": 446639,
+      "dDurationMs": 4881,
+      "segs": [
+        {
+          "utf8": "等号后面的任何内容，所以现在这与 这样做完全相同，只是为了让"
+        }
+      ]
+    },
+    {
+      "tStartMs": 451520,
+      "dDurationMs": 3119,
+      "segs": [
+        {
+          "utf8": "你知道，所以现在我们有了这个，我 实际上可以向你展示"
+        }
+      ]
+    },
+    {
+      "tStartMs": 454639,
+      "dDurationMs": 5601,
+      "segs": [
+        {
+          "utf8": "使用 void 类型方法和 实际上需要返回某些内容的数据类型方法之间的区别，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 461830,
+      "dDurationMs": 1530,
+      "segs": [
+        {
+          "utf8": " 但在我们这样做之前，让我们实际"
+        }
+      ]
+    },
+    {
+      "tStartMs": 463360,
+      "dDurationMs": 4080,
+      "segs": [
+        {
+          "utf8": "更改这个底部的方法，使其与 这个方法的具体功能相匹配，所以不要"
+        }
+      ]
+    },
+    {
+      "tStartMs": 467440,
+      "dDurationMs": 3920,
+      "segs": [
+        {
+          "utf8": "担心名称，嗯， 它只是给它一个名字，因为我们"
+        }
+      ]
+    },
+    {
+      "tStartMs": 471360,
+      "dDurationMs": 3360,
+      "segs": [
+        {
+          "utf8": "不能取与 这个 会抛出一个错误信息，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 474720,
+      "dDurationMs": 2879,
+      "segs": [
+        {
+          "utf8": "所以我就给它起了个别的名字，所以 我们不要太担心"
+        }
+      ]
+    },
+    {
+      "tStartMs": 477599,
+      "dDurationMs": 3921,
+      "segs": [
+        {
+          "utf8": "命名和它们的含义， 我们直接把这里的内容"
+        }
+      ]
+    },
+    {
+      "tStartMs": 483350,
+      "dDurationMs": 2969,
+      "segs": [
+        {
+          "utf8": " 传入底部方法中，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 486319,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "然后我要把它改成一个 整数类型的方法，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 490319,
+      "dDurationMs": 5121,
+      "segs": [
+        {
+          "utf8": "并返回 玩家健康值，因为这是一个整数类型的"
+        }
+      ]
+    },
+    {
+      "tStartMs": 495440,
+      "dDurationMs": 3280,
+      "segs": [
+        {
+          "utf8": "属性， 对吧，因为这就是我们在"
+        }
+      ]
+    },
+    {
+      "tStartMs": 498720,
+      "dDurationMs": 4240,
+      "segs": [
+        {
+          "utf8": "这里设置的，所以如果它要 进入我的启动方法，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 502960,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "记住，每次你 启动游戏时都会被调用，我实际上可以继续"
+        }
+      ]
+    },
+    {
+      "tStartMs": 506960,
+      "dDurationMs": 6639,
+      "segs": [
+        {
+          "utf8": "做一些叫做调试 点日志的事情，所以我要做的是，我将采取我的"
+        }
+      ]
+    },
+    {
+      "tStartMs": 513599,
+      "dDurationMs": 3841,
+      "segs": [
+        {
+          "utf8": "第一个叫做承受伤害的方法， 我将把它输出到我的"
+        }
+      ]
+    },
+    {
+      "tStartMs": 517440,
+      "dDurationMs": 3839,
+      "segs": [
+        {
+          "utf8": "控制台中，你会注意到它实际上并没有 返回"
+        }
+      ]
+    },
+    {
+      "tStartMs": 521279,
+      "dDurationMs": 5120,
+      "segs": [
+        {
+          "utf8": "任何数据，正如你在这里看到的，你不能将 void 转换为对象，因为它"
+        }
+      ]
+    },
+    {
+      "tStartMs": 526399,
+      "dDurationMs": 4721,
+      "segs": [
+        {
+          "utf8": "没有返回任何东西，但是如果它 要显示伤害"
+        }
+      ]
+    },
+    {
+      "tStartMs": 531120,
+      "dDurationMs": 3440,
+      "segs": [
+        {
+          "utf8": "并将其传递到那里， 你会注意到，如果我回到我的"
+        }
+      ]
+    },
+    {
+      "tStartMs": 534560,
+      "dDurationMs": 2560,
+      "segs": [
+        {
+          "utf8": "unity 播放它，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 537120,
+      "dDurationMs": 4880,
+      "segs": [
+        {
+          "utf8": "它确实会将一些东西返回 到控制台，它在那里显示 90，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 542000,
+      "dDurationMs": 5120,
+      "segs": [
+        {
+          "utf8": "所以这个返回数据， 这个不返回数据，它"
+        }
+      ]
+    },
+    {
+      "tStartMs": 547120,
+      "dDurationMs": 3279,
+      "segs": [
+        {
+          "utf8": "只是 一些东西，所以现在我们更新了 玩家健康，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 550399,
+      "dDurationMs": 2721,
+      "segs": [
+        {
+          "utf8": "但 实际上我们并没有返回玩家健康，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 553120,
+      "dDurationMs": 3920,
+      "segs": [
+        {
+          "utf8": "之后我们只是更新了玩家健康， 就是这样，为了展示这一点，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 557040,
+      "dDurationMs": 3680,
+      "segs": [
+        {
+          "utf8": "让我继续，将我的受到的 伤害"
+        }
+      ]
+    },
+    {
+      "tStartMs": 560720,
+      "dDurationMs": 6239,
+      "segs": [
+        {
+          "utf8": "放在 debug.log 上方， 然后在 mydebug.log 中，我"
+        }
+      ]
+    },
+    {
+      "tStartMs": 566959,
+      "dDurationMs": 3921,
+      "segs": [
+        {
+          "utf8": "将继续吐出我的 健康状况，所以我们会说"
+        }
+      ]
+    },
+    {
+      "tStartMs": 570880,
+      "dDurationMs": 5680,
+      "segs": [
+        {
+          "utf8": "playerhealth 它会被吐出 来，所以现在当我开始我的游戏时，它"
+        }
+      ]
+    },
+    {
+      "tStartMs": 576560,
+      "dDurationMs": 3920,
+      "segs": [
+        {
+          "utf8": "首先会运行我的受到 伤害方法，然后进入并"
+        }
+      ]
+    },
+    {
+      "tStartMs": 580480,
+      "dDurationMs": 4960,
+      "segs": [
+        {
+          "utf8": "从我的玩家健康状况中减去 10， 然后我将在"
+        }
+      ]
+    },
+    {
+      "tStartMs": 585440,
+      "dDurationMs": 4959,
+      "segs": [
+        {
+          "utf8": "更新后将此属性输出到这里，所以 如果我现在进入我的控制台"
+        }
+      ]
+    },
+    {
+      "tStartMs": 590399,
+      "dDurationMs": 5521,
+      "segs": [
+        {
+          "utf8": "刷新它，让我们清除它，这样我们就可以看到 你会注意到它"
+        }
+      ]
+    },
+    {
+      "tStartMs": 595920,
+      "dDurationMs": 6800,
+      "segs": [
+        {
+          "utf8": "像以前一样显示 90，所以我们不能使用避免方法直接 返回任何类型的值，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 602720,
+      "dDurationMs": 4160,
+      "segs": [
+        {
+          "utf8": "但我们仍然不能使用它来做 一些我们只是不从中"
+        }
+      ]
+    },
+    {
+      "tStartMs": 606880,
+      "dDurationMs": 4160,
+      "segs": [
+        {
+          "utf8": "返回任何东西现在有了这个， 让我继续删除"
+        }
+      ]
+    },
+    {
+      "tStartMs": 611040,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "我们这里的最后一个方法，所以我们 只剩下 void 一个，让我去"
+        }
+      ]
+    },
+    {
+      "tStartMs": 615040,
+      "dDurationMs": 5440,
+      "segs": [
+        {
+          "utf8": "继续并将一些内容传递到我的方法中， 因为如果我想"
+        }
+      ]
+    },
+    {
+      "tStartMs": 620480,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "根据受到的伤害类型更改玩家的生命值， 那么"
+        }
+      ]
+    },
+    {
+      "tStartMs": 625040,
+      "dDurationMs": 3039,
+      "segs": [
+        {
+          "utf8": "每次都不会是 10， 因为如果我受到"
+        }
+      ]
+    },
+    {
+      "tStartMs": 628079,
+      "dDurationMs": 2961,
+      "segs": [
+        {
+          "utf8": "更强烈的攻击，那么它可能是 30 或 类似的东西，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 631040,
+      "dDurationMs": 2960,
+      "segs": [
+        {
+          "utf8": "所以我能做的 是，我想"
+        }
+      ]
+    },
+    {
+      "tStartMs": 634000,
+      "dDurationMs": 5200,
+      "segs": [
+        {
+          "utf8": "在括号中添加一个参数， 顺便说一下，这是一个占位符，它将"
+        }
+      ]
+    },
+    {
+      "tStartMs": 639200,
+      "dDurationMs": 4480,
+      "segs": [
+        {
+          "utf8": "是一个整数数据类型，我 将把这个参数称为 damage，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 643680,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "你可以随意命名它，它 不会改变任何东西，它基本上只是"
+        }
+      ]
+    },
+    {
+      "tStartMs": 647680,
+      "dDurationMs": 2880,
+      "segs": [
+        {
+          "utf8": " 我们将在方法内部使用的单词，用于"
+        }
+      ]
+    },
+    {
+      "tStartMs": 650560,
+      "dDurationMs": 4880,
+      "segs": [
+        {
+          "utf8": "引用我们 从外部传入的数据，所以我将"
+        }
+      ]
+    },
+    {
+      "tStartMs": 655440,
+      "dDurationMs": 5360,
+      "segs": [
+        {
+          "utf8": "采用这个，而不是 10， 我将引用 damage，所以当"
+        }
+      ]
+    },
+    {
+      "tStartMs": 660800,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "我回到我的方法中时，在 我的启动方法中，我实际上可以"
+        }
+      ]
+    },
+    {
+      "tStartMs": 664800,
+      "dDurationMs": 4320,
+      "segs": [
+        {
+          "utf8": "传递一段数据，实际上它 告诉我我必须传递一段"
+        }
+      ]
+    },
+    {
+      "tStartMs": 669120,
+      "dDurationMs": 3839,
+      "segs": [
+        {
+          "utf8": "数据，因为我告诉它我将在 这里这样做，所以我进入"
+        }
+      ]
+    },
+    {
+      "tStartMs": 672959,
+      "dDurationMs": 2320,
+      "segs": [
+        {
+          "utf8": "括号，我只需传入"
+        }
+      ]
+    },
+    {
+      "tStartMs": 675279,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "50。 现在，如果我回到控制台，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 679839,
+      "dDurationMs": 3761,
+      "segs": [
+        {
+          "utf8": "运行游戏，然后在 这里停止，刷新并运行，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 683600,
+      "dDurationMs": 6239,
+      "segs": [
+        {
+          "utf8": "你会看到控制台中显示 50， 因为它正在获取"
+        }
+      ]
+    },
+    {
+      "tStartMs": 689839,
+      "dDurationMs": 5361,
+      "segs": [
+        {
+          "utf8": "我决定使用 方法时的数据，以便用"
+        }
+      ]
+    },
+    {
+      "tStartMs": 695200,
+      "dDurationMs": 4639,
+      "segs": [
+        {
+          "utf8": "玩家健康值减去，当然，如果你正在 制作视频游戏，你"
+        }
+      ]
+    },
+    {
+      "tStartMs": 699839,
+      "dDurationMs": 4321,
+      "segs": [
+        {
+          "utf8": "不会像 我在这里说的那样传递一个数字，比如 50 或"
+        }
+      ]
+    },
+    {
+      "tStartMs": 704160,
+      "dDurationMs": 3679,
+      "segs": [
+        {
+          "utf8": "20 之类的，而是 这个数字"
+        }
+      ]
+    },
+    {
+      "tStartMs": 707839,
+      "dDurationMs": 4641,
+      "segs": [
+        {
+          "utf8": "来自另一个脚本，你可能有 一个敌人，该脚本附加在它上面，它"
+        }
+      ]
+    },
+    {
+      "tStartMs": 712480,
+      "dDurationMs": 3840,
+      "segs": [
+        {
+          "utf8": "具有某种攻击，会造成 一定程度的伤害，然后你"
+        }
+      ]
+    },
+    {
+      "tStartMs": 716320,
+      "dDurationMs": 4160,
+      "segs": [
+        {
+          "utf8": "会接受该敌人的伤害并传递，而不是"
+        }
+      ]
+    },
+    {
+      "tStartMs": 720480,
+      "dDurationMs": 5599,
+      "segs": [
+        {
+          "utf8": "硬写 20 或 50， 如果这样有意义的话，但这"
+        }
+      ]
+    },
+    {
+      "tStartMs": 726079,
+      "dDurationMs": 3440,
+      "segs": [
+        {
+          "utf8": "只是为了表明我们可以使用 方法和创建方法，顺便说"
+        }
+      ]
+    },
+    {
+      "tStartMs": 729519,
+      "dDurationMs": 6401,
+      "segs": [
+        {
+          "utf8": "一下，这是一个非常小的方法，这些 方法可能会变得非常长，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 735920,
+      "dDurationMs": 2640,
+      "segs": [
+        {
+          "utf8": "具体取决于你要做什么， 但这只是为了向你展示一个"
+        }
+      ]
+    },
+    {
+      "tStartMs": 738560,
+      "dDurationMs": 3360,
+      "segs": [
+        {
+          "utf8": "如何使用方法的简单示例 以及如何在代码中实际执行"
+        }
+      ]
+    },
+    {
+      "tStartMs": 741920,
+      "dDurationMs": 2880,
+      "segs": [
+        {
+          "utf8": "某些操作，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 744800,
+      "dDurationMs": 3200,
+      "segs": [
+        {
+          "utf8": "最后我想向 您展示的是，如果您开始"
+        }
+      ]
+    },
+    {
+      "tStartMs": 748000,
+      "dDurationMs": 4399,
+      "segs": [
+        {
+          "utf8": "对所有这些 代码片段感到不知所措，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 752399,
+      "dDurationMs": 3921,
+      "segs": [
+        {
+          "utf8": "您可以在这里将它们折叠起来， 所以如果我想让我的属性（即我的"
+        }
+      ]
+    },
+    {
+      "tStartMs": 756320,
+      "dDurationMs": 3040,
+      "segs": [
+        {
+          "utf8": "玩家健康）折叠起来，这样"
+        }
+      ]
+    },
+    {
+      "tStartMs": 759360,
+      "dDurationMs": 4719,
+      "segs": [
+        {
+          "utf8": "看起来更有条理，我总是可以在 这里折叠它，我可以"
+        }
+      ]
+    },
+    {
+      "tStartMs": 764079,
+      "dDurationMs": 4481,
+      "segs": [
+        {
+          "utf8": "用我的启动方法做同样的事情，如果我 想用承受伤害"
+        }
+      ]
+    },
+    {
+      "tStartMs": 768560,
+      "dDurationMs": 3680,
+      "segs": [
+        {
+          "utf8": "方法做同样的事情，如果我想这样做，那么只是为了 缩短所有内容，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 772240,
+      "dDurationMs": 3279,
+      "segs": [
+        {
+          "utf8": "如果您认为它开始看起来很乱，那么 只是为了向"
+        }
+      ]
+    },
+    {
+      "tStartMs": 775519,
+      "dDurationMs": 3201,
+      "segs": [
+        {
+          "utf8": "您展示 我们可以折叠东西，所以这基本上就是在"
+        }
+      ]
+    },
+    {
+      "tStartMs": 781750,
+      "dDurationMs": 2649,
+      "segs": [
+        {
+          "utf8": " Unity 内部编程时的方法，方法是"
+        }
+      ]
+    },
+    {
+      "tStartMs": 784399,
+      "dDurationMs": 5201,
+      "segs": [
+        {
+          "utf8": "不断使用的， 字段和属性也是如此，顺便说一下，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 789600,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "您在这里看到的所有这些内容都是 不断使用的，如果您"
+        }
+      ]
+    },
+    {
+      "tStartMs": 794160,
+      "dDurationMs": 5200,
+      "segs": [
+        {
+          "utf8": "现在坐在那里想，这 在三四节课中有很多信息，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 799360,
+      "dDurationMs": 4640,
+      "segs": [
+        {
+          "utf8": "我 明白这有很多信息，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 804000,
+      "dDurationMs": 3360,
+      "segs": [
+        {
+          "utf8": "但要知道， 每个开始制作"
+        }
+      ]
+    },
+    {
+      "tStartMs": 807360,
+      "dDurationMs": 3760,
+      "segs": [
+        {
+          "utf8": "视频游戏的人都和你一样， 他们被所有这些信息压得喘不过气来"
+        }
+      ]
+    },
+    {
+      "tStartMs": 811120,
+      "dDurationMs": 3360,
+      "segs": [
+        {
+          "utf8": "我会通过 这些视频向你提供信息，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 814480,
+      "dDurationMs": 3680,
+      "segs": [
+        {
+          "utf8": "你使用这些方法 和属性的次数越多，你学到的所有这些信息就越容易记住，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 819670,
+      "dDurationMs": 2010,
+      "segs": [
+        {
+          "utf8": " 没有人会在"
+        }
+      ]
+    },
+    {
+      "tStartMs": 821680,
+      "dDurationMs": 4640,
+      "segs": [
+        {
+          "utf8": "第一次尝试时就记住这些，除非他们有像 照相式记忆之类的东西，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 826320,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "所以只要坚持下去，我们很快就会做 一些例子，我们"
+        }
+      ]
+    },
+    {
+      "tStartMs": 830880,
+      "dDurationMs": 3920,
+      "segs": [
+        {
+          "utf8": "实际上开始在实际的 Unity 引擎中做一些事情， 这样我们就可以"
+        }
+      ]
+    },
+    {
+      "tStartMs": 834800,
+      "dDurationMs": 4320,
+      "segs": [
+        {
+          "utf8": "开始 使用方法、字段和"
+        }
+      ]
+    },
+    {
+      "tStartMs": 839120,
+      "dDurationMs": 6159,
+      "segs": [
+        {
+          "utf8": "属性来移动东西，所以继续看 视频，休息一下，你会"
+        }
+      ]
+    },
+    {
+      "tStartMs": 845279,
+      "dDurationMs": 2800,
+      "segs": [
+        {
+          "utf8": "没事的， 一切都会好起来的，所以"
+        }
+      ]
+    },
+    {
+      "tStartMs": 848079,
+      "dDurationMs": 5961,
+      "segs": [
+        {
+          "utf8": "说了这么多，我希望你喜欢， 下次见"
+        }
+      ]
+    },
+    {
+      "tStartMs": 857270,
+      "dDurationMs": 16569,
+      "segs": [
+        {
+          "utf8": "[音乐] 你"
+        }
+      ]
+    }
+  ],
+  "pens": [
+    {}
+  ],
+  "wireMagic": "pb3",
+  "wpWinPositions": [
+    {},
+    {
+      "apPoint": 6,
+      "ahHorPos": 20,
+      "avVerPos": 100,
+      "rcRows": 2,
+      "ccCols": 40
+    }
+  ],
+  "wsWinStyles": [
+    {},
+    {
+      "mhModeHint": 2,
+      "juJustifCode": 0,
+      "sdScrollDir": 3
+    },
+    {
+      "mhModeHint": 2,
+      "juJustifCode": 1,
+      "sdScrollDir": 3
+    }
+  ]
+}

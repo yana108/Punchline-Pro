@@ -1,0 +1,2479 @@
+{
+  "events": [
+    {
+      "tStartMs": 160,
+      "dDurationMs": 3759,
+      "segs": [
+        {
+          "utf8": "today i'm going to teach you about something called methods inside c sharp"
+        },
+        {
+          "utf8": "\n今天我要教你们 一些 C 语言中的方法，在"
+        }
+      ]
+    },
+    {
+      "tStartMs": 3919,
+      "dDurationMs": 3681,
+      "segs": [
+        {
+          "utf8": "and before we do that i really quickly want to go over what exactly have on the"
+        },
+        {
+          "utf8": "\n开始之前，我想快速地 介绍一下屏幕上的内容，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 7600,
+      "dDurationMs": 4880,
+      "segs": [
+        {
+          "utf8": "screen here since we'll be using this for a short example um so what i did was"
+        },
+        {
+          "utf8": "\n因为我们将用这个来举 个简短的例子，嗯，我所做的就是，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 12480,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "i went ahead and kept one of the fields from the previous episode which is the"
+        },
+        {
+          "utf8": "\n我保留了上一集的一个字段， 也就是"
+        }
+      ]
+    },
+    {
+      "tStartMs": 16480,
+      "dDurationMs": 5200,
+      "segs": [
+        {
+          "utf8": "player health one i also went ahead and kept the property that we created which"
+        },
+        {
+          "utf8": "\n玩家健康值，我还 保留了我们创建的属性，它"
+        }
+      ]
+    },
+    {
+      "tStartMs": 21680,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "essentially goes in and either grabs or changes the health of the player so what"
+        },
+        {
+          "utf8": "\n基本上可以抓取或 更改玩家的健康值，所以"
+        }
+      ]
+    },
+    {
+      "tStartMs": 25680,
+      "dDurationMs": 3040,
+      "segs": [
+        {
+          "utf8": "i can do is i can go inside my start method down here at the bottom and i can"
+        },
+        {
+          "utf8": "\n我可以进入 下面的开始方法，我可以"
+        }
+      ]
+    },
+    {
+      "tStartMs": 28720,
+      "dDurationMs": 3679,
+      "segs": [
+        {
+          "utf8": "actually reference the player health like so"
+        },
+        {
+          "utf8": "\n 像这样引用玩家健康值，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 32399,
+      "dDurationMs": 4721,
+      "segs": [
+        {
+          "utf8": "and actually do something with it now one thing i need to show you before we"
+        },
+        {
+          "utf8": "\n然后用它做一些事情，现在在 我们开始讨论方法之前，我需要向你们展示的一件事"
+        }
+      ]
+    },
+    {
+      "tStartMs": 37120,
+      "dDurationMs": 5599,
+      "segs": [
+        {
+          "utf8": "start actually talking about methods is that we have something called debugging"
+        },
+        {
+          "utf8": "\n是， 我们有一种叫做调试的东西，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 42719,
+      "dDurationMs": 3281,
+      "segs": [
+        {
+          "utf8": "and debugging is something that you will be doing"
+        },
+        {
+          "utf8": "\n调试是你"
+        }
+      ]
+    },
+    {
+      "tStartMs": 46000,
+      "dDurationMs": 3760,
+      "segs": [
+        {
+          "utf8": "constantly as you write code inside your video game"
+        },
+        {
+          "utf8": "\n 在视频游戏中编写代码时会不断做的事情，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 49760,
+      "dDurationMs": 4080,
+      "segs": [
+        {
+          "utf8": "so whenever something goes wrong and it gives you error messages inside"
+        },
+        {
+          "utf8": "\n所以每当出现问题时， 它都会在编辑器的控制台中给你错误消息，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 53840,
+      "dDurationMs": 3760,
+      "segs": [
+        {
+          "utf8": "the console inside your editor debugging is what you're going to be spending your"
+        },
+        {
+          "utf8": "\n"
+        }
+      ]
+    },
+    {
+      "tStartMs": 57600,
+      "dDurationMs": 3920,
+      "segs": [
+        {
+          "utf8": "time on doing if google doesn't provide you with an answer so if you can't"
+        },
+        {
+          "utf8": "\n如果谷歌没有给 你答案，你就得花时间去调试，所以如果你不能用谷歌"
+        }
+      ]
+    },
+    {
+      "tStartMs": 61520,
+      "dDurationMs": 3919,
+      "segs": [
+        {
+          "utf8": "google something and you just can't find an answer debugging is what you need to"
+        },
+        {
+          "utf8": "\n搜索某个东西，你就找不到 答案，调试就是你需要"
+        }
+      ]
+    },
+    {
+      "tStartMs": 65439,
+      "dDurationMs": 4961,
+      "segs": [
+        {
+          "utf8": "do one quick command that you need to know is something called debug"
+        },
+        {
+          "utf8": "\n做的，你需要知道的一个快速命令 是所谓的调试"
+        }
+      ]
+    },
+    {
+      "tStartMs": 70400,
+      "dDurationMs": 3840,
+      "segs": [
+        {
+          "utf8": "dot log and debug.log"
+        },
+        {
+          "utf8": "\n点 日志，debug.log"
+        }
+      ]
+    },
+    {
+      "tStartMs": 74240,
+      "dDurationMs": 5280,
+      "segs": [
+        {
+          "utf8": "is a way for us to output stuff into the console inside unity so we were to go in"
+        },
+        {
+          "utf8": "\n是一种将内容输出到 Unity 控制台的方法，所以我们在"
+        }
+      ]
+    },
+    {
+      "tStartMs": 79520,
+      "dDurationMs": 3919,
+      "segs": [
+        {
+          "utf8": "here create a string and just write daniel"
+        },
+        {
+          "utf8": "\n这里创建一个字符串，然后写入 daniel，然后"
+        }
+      ]
+    },
+    {
+      "tStartMs": 83439,
+      "dDurationMs": 5040,
+      "segs": [
+        {
+          "utf8": "go back into unity and if i were to click play you can see that it now says"
+        },
+        {
+          "utf8": "\n返回 Unity，如果我 单击“播放”，您会看到它现在在 Unity"
+        }
+      ]
+    },
+    {
+      "tStartMs": 88479,
+      "dDurationMs": 3761,
+      "segs": [
+        {
+          "utf8": "daniel inside the the console inside unity so"
+        },
+        {
+          "utf8": "\n控制台中显示 daniel， 因此"
+        }
+      ]
+    },
+    {
+      "tStartMs": 92240,
+      "dDurationMs": 4320,
+      "segs": [
+        {
+          "utf8": "debugging or using this specific command here is something that you will be using"
+        },
+        {
+          "utf8": "\n调试或使用此处的特定命令 是您在编写代码时会不断使用的东西，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 96560,
+      "dDurationMs": 4559,
+      "segs": [
+        {
+          "utf8": "constantly as you code so with that in mind i'm going to teach you about"
+        },
+        {
+          "utf8": "\n因此考虑到这一点， 我将教您"
+        }
+      ]
+    },
+    {
+      "tStartMs": 101119,
+      "dDurationMs": 4320,
+      "segs": [
+        {
+          "utf8": "something called methods so essentially when it comes to classes"
+        },
+        {
+          "utf8": "\n一种称为方法的东西， 本质上，当谈到像"
+        }
+      ]
+    },
+    {
+      "tStartMs": 105439,
+      "dDurationMs": 4960,
+      "segs": [
+        {
+          "utf8": "like the one that we have in front of us here we have three things we have fields"
+        },
+        {
+          "utf8": "\n我们面前这样的类时， 我们有三个东西，我们有我们"
+        }
+      ]
+    },
+    {
+      "tStartMs": 110399,
+      "dDurationMs": 4161,
+      "segs": [
+        {
+          "utf8": "that we talked about already we have properties which we've also talked about"
+        },
+        {
+          "utf8": "\n已经讨论过的字段，我们有我们已经 讨论过的属性，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 114560,
+      "dDurationMs": 4800,
+      "segs": [
+        {
+          "utf8": "already and then we have methods methods are essentially a way for us to actually"
+        },
+        {
+          "utf8": "\n然后我们有方法，方法 本质上是我们"
+        }
+      ]
+    },
+    {
+      "tStartMs": 119360,
+      "dDurationMs": 5439,
+      "segs": [
+        {
+          "utf8": "do stuff using code because up until now properties and fields have just been"
+        },
+        {
+          "utf8": "\n使用代码实际执行操作的一种方式，因为到目前为止， 属性和字段只是"
+        }
+      ]
+    },
+    {
+      "tStartMs": 124799,
+      "dDurationMs": 4800,
+      "segs": [
+        {
+          "utf8": "used in order to create data essentially like for example the player health but"
+        },
+        {
+          "utf8": "\n用于创建数据， 例如玩家健康状况，但"
+        }
+      ]
+    },
+    {
+      "tStartMs": 129599,
+      "dDurationMs": 3921,
+      "segs": [
+        {
+          "utf8": "it doesn't actually do anything with the player health inside our game and that"
+        },
+        {
+          "utf8": "\n它实际上与 我们游戏中的玩家健康状况没有任何关系，这"
+        }
+      ]
+    },
+    {
+      "tStartMs": 133520,
+      "dDurationMs": 4719,
+      "segs": [
+        {
+          "utf8": "is what the methods do methods actually do stuff it's kind of like if you take a"
+        },
+        {
+          "utf8": "\n就是方法的作用，方法实际上 做的事情有点像如果你拿一个"
+        }
+      ]
+    },
+    {
+      "tStartMs": 138239,
+      "dDurationMs": 5921,
+      "segs": [
+        {
+          "utf8": "person because a person can have an age a height eye color hair color all that"
+        },
+        {
+          "utf8": "\n人，因为一个人可以有年龄，身高， 眼睛颜色，头发颜色，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 144160,
+      "dDurationMs": 3840,
+      "segs": [
+        {
+          "utf8": "type of thing but all that stuff is just information about the player that would"
+        },
+        {
+          "utf8": "\n所有这些东西 只是 关于玩家的信息，即"
+        }
+      ]
+    },
+    {
+      "tStartMs": 148000,
+      "dDurationMs": 3680,
+      "segs": [
+        {
+          "utf8": "be feels or properties about the player"
+        },
+        {
+          "utf8": "\n 玩家的感觉或属性，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 151680,
+      "dDurationMs": 5360,
+      "segs": [
+        {
+          "utf8": "whereas if i actually need to do something like if the person has to run"
+        },
+        {
+          "utf8": "\n而如果我真的需要做 某件事，比如如果玩家必须奔跑、"
+        }
+      ]
+    },
+    {
+      "tStartMs": 157040,
+      "dDurationMs": 5680,
+      "segs": [
+        {
+          "utf8": "has to jump has to take damage has to attack something like that we would have"
+        },
+        {
+          "utf8": "\n跳跃、受到伤害、 攻击之类的，我们就必须使用"
+        }
+      ]
+    },
+    {
+      "tStartMs": 162720,
+      "dDurationMs": 4640,
+      "segs": [
+        {
+          "utf8": "to do that using a method because we actually do something inside the game so"
+        },
+        {
+          "utf8": "\n方法来实现，因为我们 实际上在游戏中做了一些事情，所以"
+        }
+      ]
+    },
+    {
+      "tStartMs": 167360,
+      "dDurationMs": 4080,
+      "segs": [
+        {
+          "utf8": "with that said uh let's talk about how to create a method if i were to go down"
+        },
+        {
+          "utf8": "\n说到这里，让我们来谈谈如何 创建方法，如果我继续往下看，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 171440,
+      "dDurationMs": 4879,
+      "segs": [
+        {
+          "utf8": "here you can see that we have a private method called start and that is actually"
+        },
+        {
+          "utf8": "\n你会看到我们有一个 名为start的私有方法，它实际上是"
+        }
+      ]
+    },
+    {
+      "tStartMs": 176319,
+      "dDurationMs": 4721,
+      "segs": [
+        {
+          "utf8": "a built-in method inside monobehavior i've said that so many times up until"
+        },
+        {
+          "utf8": "\nmonobehavior中的一个内置方法， 到目前为止，在这些课程中我已经说过很多次了，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 181040,
+      "dDurationMs": 3600,
+      "segs": [
+        {
+          "utf8": "now throughout these lessons here but it's very important that you pay"
+        },
+        {
+          "utf8": "\n但 重要的是要"
+        }
+      ]
+    },
+    {
+      "tStartMs": 184640,
+      "dDurationMs": 4239,
+      "segs": [
+        {
+          "utf8": "attention to the fact that there is a difference between built-in methods"
+        },
+        {
+          "utf8": "\n注意 内置方法之间存在差异，内置方法"
+        }
+      ]
+    },
+    {
+      "tStartMs": 188879,
+      "dDurationMs": 4881,
+      "segs": [
+        {
+          "utf8": "which are methods that exist inside all programming language that we can"
+        },
+        {
+          "utf8": "\n是 所有编程语言中都存在的方法，我们可以"
+        }
+      ]
+    },
+    {
+      "tStartMs": 193760,
+      "dDurationMs": 3759,
+      "segs": [
+        {
+          "utf8": "grab onto and use for something for example start if you use that one it's"
+        },
+        {
+          "utf8": "\n抓住并用于某些事情， 例如start，如果你使用那个方法，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 197519,
+      "dDurationMs": 2401,
+      "segs": [
+        {
+          "utf8": "going to run this code when i start the game"
+        },
+        {
+          "utf8": "\n当我开始游戏时，它将运行此代码，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 199920,
+      "dDurationMs": 3440,
+      "segs": [
+        {
+          "utf8": "but we can also build our own methods and that's what i want to talk about so"
+        },
+        {
+          "utf8": "\n但我们也可以构建自己的方法， 这就是我想谈论的，所以"
+        }
+      ]
+    },
+    {
+      "tStartMs": 203360,
+      "dDurationMs": 2560,
+      "segs": [
+        {
+          "utf8": "when it comes to methods we have two different types that you need to know"
+        },
+        {
+          "utf8": "\n当谈到方法时，我们有两种 不同的类型，你需要知道"
+        }
+      ]
+    },
+    {
+      "tStartMs": 205920,
+      "dDurationMs": 3360,
+      "segs": [
+        {
+          "utf8": "about we have methods that actually return a value and then we have methods"
+        },
+        {
+          "utf8": "\n我们有两种方法，一种是实际 返回值的方法，另一种是"
+        }
+      ]
+    },
+    {
+      "tStartMs": 209280,
+      "dDurationMs": 3840,
+      "segs": [
+        {
+          "utf8": "that don't return anything and i'll show you both examples so you know exactly"
+        },
+        {
+          "utf8": "\n不返回任何东西的方法，我会展示 你们两个都举了例子，所以你们知道"
+        }
+      ]
+    },
+    {
+      "tStartMs": 213120,
+      "dDurationMs": 4720,
+      "segs": [
+        {
+          "utf8": "what they do so the first one here i'm going to say we have a method which is a"
+        },
+        {
+          "utf8": "\n它们到底是做什么的，第一个我 要说的是，我们有一个方法，它是一种"
+        }
+      ]
+    },
+    {
+      "tStartMs": 217840,
+      "dDurationMs": 3920,
+      "segs": [
+        {
+          "utf8": "void type method which i'll explain in a second"
+        },
+        {
+          "utf8": "\nvoid 类型的方法， 我稍后会解释它，它"
+        }
+      ]
+    },
+    {
+      "tStartMs": 221760,
+      "dDurationMs": 2880,
+      "segs": [
+        {
+          "utf8": "called take damage"
+        },
+        {
+          "utf8": "\n叫做 take damage，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 224640,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "and then i'll include some parentheses curly brackets"
+        },
+        {
+          "utf8": "\n然后我会加上一些括号，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 228640,
+      "dDurationMs": 3599,
+      "segs": [
+        {
+          "utf8": "now we use pascal case here for the naming convention just like with the"
+        },
+        {
+          "utf8": "\n现在我们在这里使用 pascal 大小写来 命名，就像"
+        }
+      ]
+    },
+    {
+      "tStartMs": 232239,
+      "dDurationMs": 3200,
+      "segs": [
+        {
+          "utf8": "property up here meaning that you start with a capitalized letter and then any"
+        },
+        {
+          "utf8": "\n上面的属性一样，这意味着你 以大写字母开头，然后"
+        }
+      ]
+    },
+    {
+      "tStartMs": 235439,
+      "dDurationMs": 2800,
+      "segs": [
+        {
+          "utf8": "other words coming after do the same thing"
+        },
+        {
+          "utf8": "\n后面的任何其他单词都做同样的 事情，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 238239,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "and the parentheses are here in order to first of all show us that this is a"
+        },
+        {
+          "utf8": "\n括号在这里是为了 首先向我们表明这是一个"
+        }
+      ]
+    },
+    {
+      "tStartMs": 242799,
+      "dDurationMs": 4720,
+      "segs": [
+        {
+          "utf8": "method and not a property because if we didn't include the parentheses it would"
+        },
+        {
+          "utf8": "\n方法而不是一个属性，因为如果我们 不包含括号，它就会"
+        }
+      ]
+    },
+    {
+      "tStartMs": 247519,
+      "dDurationMs": 3521,
+      "segs": [
+        {
+          "utf8": "be a property the second thing is that we also use it"
+        },
+        {
+          "utf8": "\n是一个属性， 第二件事是，我们还用它来"
+        }
+      ]
+    },
+    {
+      "tStartMs": 251040,
+      "dDurationMs": 4800,
+      "segs": [
+        {
+          "utf8": "to pass in data so if i want something inside the method to change depending on"
+        },
+        {
+          "utf8": "\n传递数据，所以如果我想让 方法内部的某些东西根据"
+        }
+      ]
+    },
+    {
+      "tStartMs": 255840,
+      "dDurationMs": 4239,
+      "segs": [
+        {
+          "utf8": "some outside data then we go ahead and pass it inside the"
+        },
+        {
+          "utf8": "\n一些外部数据 而改变，那么我们继续将它传递到"
+        }
+      ]
+    },
+    {
+      "tStartMs": 260079,
+      "dDurationMs": 3601,
+      "segs": [
+        {
+          "utf8": "parentheses this is by the way also a private"
+        },
+        {
+          "utf8": "\n括号内，顺便说一下，这也是一个 私有"
+        }
+      ]
+    },
+    {
+      "tStartMs": 263680,
+      "dDurationMs": 4320,
+      "segs": [
+        {
+          "utf8": "method at the moment again like i said the default state is"
+        },
+        {
+          "utf8": "\n方法， 就像我说的，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 268000,
+      "dDurationMs": 4960,
+      "segs": [
+        {
+          "utf8": "private if you don't include anything so this is the same thing as doing this"
+        },
+        {
+          "utf8": "\n如果不包含任何东西，默认状态就是私有的，所以 这和这样做"
+        }
+      ]
+    },
+    {
+      "tStartMs": 272960,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "basically which means that we can't access this method from other scripts"
+        },
+        {
+          "utf8": "\n基本上是一样的，这意味着我们不能 从其他脚本访问这个方法，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 277520,
+      "dDurationMs": 5360,
+      "segs": [
+        {
+          "utf8": "out there if i want to make this public i can also do that so now it's a public"
+        },
+        {
+          "utf8": "\n如果我想让它公开， 我也可以这样做，所以现在 这是一个公共"
+        }
+      ]
+    },
+    {
+      "tStartMs": 282880,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "method so now i can actually access it from another script"
+        },
+        {
+          "utf8": "\n方法，所以我现在实际上可以 从另一个脚本访问它，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 286880,
+      "dDurationMs": 3920,
+      "segs": [
+        {
+          "utf8": "so what i'll do is i'll keep it private for now and when it comes to the void"
+        },
+        {
+          "utf8": "\n所以我现在要做的是将它保持私有， 而"
+        }
+      ]
+    },
+    {
+      "tStartMs": 290800,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "keyword that we have here just basically means that we don't plan on returning"
+        },
+        {
+          "utf8": "\n这里的 void 关键字基本上 意味着我们不打算"
+        }
+      ]
+    },
+    {
+      "tStartMs": 294800,
+      "dDurationMs": 3839,
+      "segs": [
+        {
+          "utf8": "any type of data inside this method which means that the"
+        },
+        {
+          "utf8": "\n 在该方法中返回任何类型的数据，这意味着该"
+        }
+      ]
+    },
+    {
+      "tStartMs": 298639,
+      "dDurationMs": 4400,
+      "segs": [
+        {
+          "utf8": "method is going to do something but we're not planning on returning"
+        },
+        {
+          "utf8": "\n方法将执行某些操作， 但我们不打算从中返回"
+        }
+      ]
+    },
+    {
+      "tStartMs": 303039,
+      "dDurationMs": 4401,
+      "segs": [
+        {
+          "utf8": "anything from it that'll make sense in a second so let me go and create another"
+        },
+        {
+          "utf8": "\n任何内容，这在一秒钟内就会有意义， 所以让我去创建另一个"
+        }
+      ]
+    },
+    {
+      "tStartMs": 307440,
+      "dDurationMs": 3840,
+      "segs": [
+        {
+          "utf8": "method down here i'm going to create a integer"
+        },
+        {
+          "utf8": "\n方法，我将创建一个 整数"
+        }
+      ]
+    },
+    {
+      "tStartMs": 311280,
+      "dDurationMs": 3280,
+      "segs": [
+        {
+          "utf8": "type method and i'm going to call this one"
+        },
+        {
+          "utf8": "\n类型的方法， 我将随机调用这个方法，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 314560,
+      "dDurationMs": 4160,
+      "segs": [
+        {
+          "utf8": "just something random like show damage"
+        },
+        {
+          "utf8": "\n例如显示 损坏，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 318720,
+      "dDurationMs": 3520,
+      "segs": [
+        {
+          "utf8": "just to give it something and as you'll see it's created in the"
+        },
+        {
+          "utf8": "\n只是为了给它一些东西，正如 你所看到的，它是以"
+        }
+      ]
+    },
+    {
+      "tStartMs": 322240,
+      "dDurationMs": 3920,
+      "segs": [
+        {
+          "utf8": "same way first we go ahead and tell it what kind of data do we want to return"
+        },
+        {
+          "utf8": "\n同样的方式创建的，首先，我们继续告诉它 我们想要返回什么样的数据，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 326160,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "in this case is not going to be void but the data type and of course we could"
+        },
+        {
+          "utf8": "\n在这种情况下，不会是 void，而是 数据类型，当然，我们"
+        }
+      ]
+    },
+    {
+      "tStartMs": 330720,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "also make this a private or public you know just like with the other one and we"
+        },
+        {
+          "utf8": "\n也可以将其设为私有或公共， 就像另一个一样，我们也在"
+        }
+      ]
+    },
+    {
+      "tStartMs": 335280,
+      "dDurationMs": 3520,
+      "segs": [
+        {
+          "utf8": "do also include the parentheses here at the end so we can pass in data and"
+        },
+        {
+          "utf8": "\n末尾添加了括号， 以便我们传递数据，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 338800,
+      "dDurationMs": 2880,
+      "segs": [
+        {
+          "utf8": "you'll actually notice that i'm getting an error message here and that's because"
+        },
+        {
+          "utf8": "\n你会注意到我在 这里收到一条错误消息，那是因为"
+        }
+      ]
+    },
+    {
+      "tStartMs": 341680,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "right now i'm actually not returning anything inside the actual method and"
+        },
+        {
+          "utf8": "\n现在我实际上并没有在 实际中返回任何东西 方法，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 346240,
+      "dDurationMs": 5440,
+      "segs": [
+        {
+          "utf8": "whenever you do any kind of methods like this you have to return values from"
+        },
+        {
+          "utf8": "\n每当你执行任何类似的方法时， 你都必须从"
+        }
+      ]
+    },
+    {
+      "tStartMs": 351680,
+      "dDurationMs": 4239,
+      "segs": [
+        {
+          "utf8": "within the method so if i go inside of it i can say return"
+        },
+        {
+          "utf8": "\n方法内部返回值，所以如果我进入 它，我可以说只返回"
+        }
+      ]
+    },
+    {
+      "tStartMs": 355919,
+      "dDurationMs": 3521,
+      "segs": [
+        {
+          "utf8": "just 10 because i need to return an integer"
+        },
+        {
+          "utf8": "\n 10，因为我需要返回一个整数，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 359440,
+      "dDurationMs": 2879,
+      "segs": [
+        {
+          "utf8": "if it were to say true"
+        },
+        {
+          "utf8": "\n如果它说的是 true，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 362319,
+      "dDurationMs": 3281,
+      "segs": [
+        {
+          "utf8": "instead you'll actually notice that it's going to throw me an error message"
+        },
+        {
+          "utf8": "\n你实际上会注意到它 会抛出一个错误消息，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 365600,
+      "dDurationMs": 4960,
+      "segs": [
+        {
+          "utf8": "because this is a boolean data type and i'm actually asking to return a integer"
+        },
+        {
+          "utf8": "\n因为这是一个布尔数据类型， 我实际上要求返回一个整数"
+        }
+      ]
+    },
+    {
+      "tStartMs": 370560,
+      "dDurationMs": 4800,
+      "segs": [
+        {
+          "utf8": "data type so i could also say i wanted to return a boolean instead and that"
+        },
+        {
+          "utf8": "\n数据类型，所以我也可以说我想 返回一个布尔值，这样就"
+        }
+      ]
+    },
+    {
+      "tStartMs": 375360,
+      "dDurationMs": 3440,
+      "segs": [
+        {
+          "utf8": "would fix it now i'm going to go and keep this down here for now because i do"
+        },
+        {
+          "utf8": "\n可以解决这个问题，现在我要把它 放在这里，因为我确实"
+        }
+      ]
+    },
+    {
+      "tStartMs": 378800,
+      "dDurationMs": 4239,
+      "segs": [
+        {
+          "utf8": "want to demonstrate what exactly this outputs into the console"
+        },
+        {
+          "utf8": "\n想演示一下这个 输出到控制台的具体内容，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 383039,
+      "dDurationMs": 4481,
+      "segs": [
+        {
+          "utf8": "so let me go ahead and talk a bit about the previous method here first now void"
+        },
+        {
+          "utf8": "\n所以让我先来谈谈 前面的方法，现在 void"
+        }
+      ]
+    },
+    {
+      "tStartMs": 387520,
+      "dDurationMs": 3760,
+      "segs": [
+        {
+          "utf8": "like i said means that we don't plan on returning anything so if it were to go"
+        },
+        {
+          "utf8": "\n就像我说的，意味着我们不打算 返回任何东西，所以如果它要"
+        }
+      ]
+    },
+    {
+      "tStartMs": 391280,
+      "dDurationMs": 3840,
+      "segs": [
+        {
+          "utf8": "in here the first thing i want to do is i want to calculate how much damage am i"
+        },
+        {
+          "utf8": "\n进入这里，我想做的第一件事就是 计算我"
+        }
+      ]
+    },
+    {
+      "tStartMs": 395120,
+      "dDurationMs": 4480,
+      "segs": [
+        {
+          "utf8": "actually taking because this is a take damage method so i should probably take"
+        },
+        {
+          "utf8": "\n实际上受到了多少伤害，因为这是一个受到 伤害的方法，所以我应该受到"
+        }
+      ]
+    },
+    {
+      "tStartMs": 399600,
+      "dDurationMs": 3520,
+      "segs": [
+        {
+          "utf8": "some damage so i go up here i grab my property"
+        },
+        {
+          "utf8": "\n一些伤害， 所以我到这里抓住我的属性，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 403120,
+      "dDurationMs": 3280,
+      "segs": [
+        {
+          "utf8": "called playerhealth because remember we don't want to just grab the field and"
+        },
+        {
+          "utf8": "\n叫做 playerhealth，因为记住我们 不想直接抓住字段并"
+        }
+      ]
+    },
+    {
+      "tStartMs": 406400,
+      "dDurationMs": 5199,
+      "segs": [
+        {
+          "utf8": "change it directly even though we could do that it's not the best way to do it"
+        },
+        {
+          "utf8": "\n直接更改它，即使我们可以 这样做，但这不是最好的方法"
+        }
+      ]
+    },
+    {
+      "tStartMs": 411599,
+      "dDurationMs": 3841,
+      "segs": [
+        {
+          "utf8": "so i'm going to say player health go inside take damage"
+        },
+        {
+          "utf8": "\n这样做，所以我要说玩家健康 进入受到伤害，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 415440,
+      "dDurationMs": 5680,
+      "segs": [
+        {
+          "utf8": "and i'm going to set this one equal to player health minus 10. so what we're"
+        },
+        {
+          "utf8": "\n我将把这个设置为等于 玩家健康减 10。所以我们"
+        }
+      ]
+    },
+    {
+      "tStartMs": 421120,
+      "dDurationMs": 3840,
+      "segs": [
+        {
+          "utf8": "actually doing here is we're saying that player health right now is 100 and when"
+        },
+        {
+          "utf8": "\n实际上在这里做的是，我们说 玩家健康现在是 100，当"
+        }
+      ]
+    },
+    {
+      "tStartMs": 424960,
+      "dDurationMs": 4880,
+      "segs": [
+        {
+          "utf8": "i take 10 in damage this is going to be 90. but there's actually a shorthand to"
+        },
+        {
+          "utf8": "\n我受到 10 点伤害时，这将是 90。但实际上有一个简写来"
+        }
+      ]
+    },
+    {
+      "tStartMs": 429840,
+      "dDurationMs": 3600,
+      "segs": [
+        {
+          "utf8": "do this instead of doing player health equal to player health we can actually"
+        },
+        {
+          "utf8": "\n做到这一点，而不是让玩家健康 等于玩家健康，我们实际上可以"
+        }
+      ]
+    },
+    {
+      "tStartMs": 433440,
+      "dDurationMs": 5120,
+      "segs": [
+        {
+          "utf8": "go ahead and say that we just want to say player health minus equal to 10"
+        },
+        {
+          "utf8": "\n继续说我们只想 说玩家健康减去等于 10，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 438560,
+      "dDurationMs": 3759,
+      "segs": [
+        {
+          "utf8": "which means the exact same thing as what i just did we're saying that player"
+        },
+        {
+          "utf8": "\n这意味着与 我刚才做的完全相同，我们说玩家"
+        }
+      ]
+    },
+    {
+      "tStartMs": 442319,
+      "dDurationMs": 4320,
+      "segs": [
+        {
+          "utf8": "health needs to equal itself minus whatever is behind"
+        },
+        {
+          "utf8": "\n健康需要等于它自己减去"
+        }
+      ]
+    },
+    {
+      "tStartMs": 446639,
+      "dDurationMs": 4881,
+      "segs": [
+        {
+          "utf8": "the equal sign so right now this is the exact same thing as doing this just so"
+        },
+        {
+          "utf8": "\n等号后面的任何内容，所以现在这与 这样做完全相同，只是为了让"
+        }
+      ]
+    },
+    {
+      "tStartMs": 451520,
+      "dDurationMs": 3119,
+      "segs": [
+        {
+          "utf8": "you know so now that we have this i can actually go and show you the difference"
+        },
+        {
+          "utf8": "\n你知道，所以现在我们有了这个，我 实际上可以向你展示"
+        }
+      ]
+    },
+    {
+      "tStartMs": 454639,
+      "dDurationMs": 5601,
+      "segs": [
+        {
+          "utf8": "between using a void type method and a data type method that actually needs to"
+        },
+        {
+          "utf8": "\n使用 void 类型方法和 实际上需要返回某些内容的数据类型方法之间的区别，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 460240,
+      "dDurationMs": 3120,
+      "segs": [
+        {
+          "utf8": "return something but before we do that let's actually"
+        },
+        {
+          "utf8": "\n 但在我们这样做之前，让我们实际"
+        }
+      ]
+    },
+    {
+      "tStartMs": 463360,
+      "dDurationMs": 4080,
+      "segs": [
+        {
+          "utf8": "change this bottom one so it matches what exactly this one does so don't"
+        },
+        {
+          "utf8": "\n更改这个底部的方法，使其与 这个方法的具体功能相匹配，所以不要"
+        }
+      ]
+    },
+    {
+      "tStartMs": 467440,
+      "dDurationMs": 3920,
+      "segs": [
+        {
+          "utf8": "worry about the name um it's just to give it a name because we"
+        },
+        {
+          "utf8": "\n担心名称，嗯， 它只是给它一个名字，因为我们"
+        }
+      ]
+    },
+    {
+      "tStartMs": 471360,
+      "dDurationMs": 3360,
+      "segs": [
+        {
+          "utf8": "can't take the same name as this one here it's gonna throw an error message"
+        },
+        {
+          "utf8": "\n不能取与 这个 会抛出一个错误信息，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 474720,
+      "dDurationMs": 2879,
+      "segs": [
+        {
+          "utf8": "so i just called it something else so let's not worry too much about the"
+        },
+        {
+          "utf8": "\n所以我就给它起了个别的名字，所以 我们不要太担心"
+        }
+      ]
+    },
+    {
+      "tStartMs": 477599,
+      "dDurationMs": 3921,
+      "segs": [
+        {
+          "utf8": "naming and what they mean let's just go ahead and take what is"
+        },
+        {
+          "utf8": "\n命名和它们的含义， 我们直接把这里的内容"
+        }
+      ]
+    },
+    {
+      "tStartMs": 481520,
+      "dDurationMs": 4799,
+      "segs": [
+        {
+          "utf8": "inside here and pass it inside the bottom method"
+        },
+        {
+          "utf8": "\n 传入底部方法中，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 486319,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "and then i'm going to change this to a integer type method"
+        },
+        {
+          "utf8": "\n然后我要把它改成一个 整数类型的方法，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 490319,
+      "dDurationMs": 5121,
+      "segs": [
+        {
+          "utf8": "as well as return player health because this is a integer"
+        },
+        {
+          "utf8": "\n并返回 玩家健康值，因为这是一个整数类型的"
+        }
+      ]
+    },
+    {
+      "tStartMs": 495440,
+      "dDurationMs": 3280,
+      "segs": [
+        {
+          "utf8": "type property right because that is what we set up"
+        },
+        {
+          "utf8": "\n属性， 对吧，因为这就是我们在"
+        }
+      ]
+    },
+    {
+      "tStartMs": 498720,
+      "dDurationMs": 4240,
+      "segs": [
+        {
+          "utf8": "here so with this if it were to go inside my start method here which"
+        },
+        {
+          "utf8": "\n这里设置的，所以如果它要 进入我的启动方法，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 502960,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "remember is being called anytime you start the game i can actually go ahead"
+        },
+        {
+          "utf8": "\n记住，每次你 启动游戏时都会被调用，我实际上可以继续"
+        }
+      ]
+    },
+    {
+      "tStartMs": 506960,
+      "dDurationMs": 6639,
+      "segs": [
+        {
+          "utf8": "and do something called debug dot log so what i'll do is i'll take my"
+        },
+        {
+          "utf8": "\n做一些叫做调试 点日志的事情，所以我要做的是，我将采取我的"
+        }
+      ]
+    },
+    {
+      "tStartMs": 513599,
+      "dDurationMs": 3841,
+      "segs": [
+        {
+          "utf8": "first one which is called take damage and i'm going to output it into my"
+        },
+        {
+          "utf8": "\n第一个叫做承受伤害的方法， 我将把它输出到我的"
+        }
+      ]
+    },
+    {
+      "tStartMs": 517440,
+      "dDurationMs": 3839,
+      "segs": [
+        {
+          "utf8": "console which you'll notice doesn't actually return"
+        },
+        {
+          "utf8": "\n控制台中，你会注意到它实际上并没有 返回"
+        }
+      ]
+    },
+    {
+      "tStartMs": 521279,
+      "dDurationMs": 5120,
+      "segs": [
+        {
+          "utf8": "any data as you can see here you cannot convert void to objects because it"
+        },
+        {
+          "utf8": "\n任何数据，正如你在这里看到的，你不能将 void 转换为对象，因为它"
+        }
+      ]
+    },
+    {
+      "tStartMs": 526399,
+      "dDurationMs": 4721,
+      "segs": [
+        {
+          "utf8": "doesn't return anything but if it were to take show damage"
+        },
+        {
+          "utf8": "\n没有返回任何东西，但是如果它 要显示伤害"
+        }
+      ]
+    },
+    {
+      "tStartMs": 531120,
+      "dDurationMs": 3440,
+      "segs": [
+        {
+          "utf8": "and pass that in there you'll notice that if i go back into my"
+        },
+        {
+          "utf8": "\n并将其传递到那里， 你会注意到，如果我回到我的"
+        }
+      ]
+    },
+    {
+      "tStartMs": 534560,
+      "dDurationMs": 2560,
+      "segs": [
+        {
+          "utf8": "unity play it"
+        },
+        {
+          "utf8": "\nunity 播放它，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 537120,
+      "dDurationMs": 4880,
+      "segs": [
+        {
+          "utf8": "that it does actually return something into the console it says 90 right there"
+        },
+        {
+          "utf8": "\n它确实会将一些东西返回 到控制台，它在那里显示 90，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 542000,
+      "dDurationMs": 5120,
+      "segs": [
+        {
+          "utf8": "so this one returns data this one does not return data it just"
+        },
+        {
+          "utf8": "\n所以这个返回数据， 这个不返回数据，它"
+        }
+      ]
+    },
+    {
+      "tStartMs": 547120,
+      "dDurationMs": 3279,
+      "segs": [
+        {
+          "utf8": "does something so right now we updated player health"
+        },
+        {
+          "utf8": "\n只是 一些东西，所以现在我们更新了 玩家健康，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 550399,
+      "dDurationMs": 2721,
+      "segs": [
+        {
+          "utf8": "but we don't actually return player health"
+        },
+        {
+          "utf8": "\n但 实际上我们并没有返回玩家健康，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 553120,
+      "dDurationMs": 3920,
+      "segs": [
+        {
+          "utf8": "afterwards we just update player health and that's it and to just kind of show"
+        },
+        {
+          "utf8": "\n之后我们只是更新了玩家健康， 就是这样，为了展示这一点，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 557040,
+      "dDurationMs": 3680,
+      "segs": [
+        {
+          "utf8": "that let me go ahead and take my take damage"
+        },
+        {
+          "utf8": "\n让我继续，将我的受到的 伤害"
+        }
+      ]
+    },
+    {
+      "tStartMs": 560720,
+      "dDurationMs": 6239,
+      "segs": [
+        {
+          "utf8": "place it above debug.log and then inside mydebug.log i'm just"
+        },
+        {
+          "utf8": "\n放在 debug.log 上方， 然后在 mydebug.log 中，我"
+        }
+      ]
+    },
+    {
+      "tStartMs": 566959,
+      "dDurationMs": 3921,
+      "segs": [
+        {
+          "utf8": "going to go ahead and spit out what my health is so we're going to say"
+        },
+        {
+          "utf8": "\n将继续吐出我的 健康状况，所以我们会说"
+        }
+      ]
+    },
+    {
+      "tStartMs": 570880,
+      "dDurationMs": 5680,
+      "segs": [
+        {
+          "utf8": "playerhealth it's just going to get spit out so right now when i start my game it"
+        },
+        {
+          "utf8": "\nplayerhealth 它会被吐出 来，所以现在当我开始我的游戏时，它"
+        }
+      ]
+    },
+    {
+      "tStartMs": 576560,
+      "dDurationMs": 3920,
+      "segs": [
+        {
+          "utf8": "is going to first of all run my take damage method which then goes in and"
+        },
+        {
+          "utf8": "\n首先会运行我的受到 伤害方法，然后进入并"
+        }
+      ]
+    },
+    {
+      "tStartMs": 580480,
+      "dDurationMs": 4960,
+      "segs": [
+        {
+          "utf8": "subtracts 10 from my player health and then i'm just going to output this"
+        },
+        {
+          "utf8": "\n从我的玩家健康状况中减去 10， 然后我将在"
+        }
+      ]
+    },
+    {
+      "tStartMs": 585440,
+      "dDurationMs": 4959,
+      "segs": [
+        {
+          "utf8": "property up here after it got updated so if i go inside my console now"
+        },
+        {
+          "utf8": "\n更新后将此属性输出到这里，所以 如果我现在进入我的控制台"
+        }
+      ]
+    },
+    {
+      "tStartMs": 590399,
+      "dDurationMs": 5521,
+      "segs": [
+        {
+          "utf8": "refresh it let's clear it so we can see you're going to notice that it says"
+        },
+        {
+          "utf8": "\n刷新它，让我们清除它，这样我们就可以看到 你会注意到它"
+        }
+      ]
+    },
+    {
+      "tStartMs": 595920,
+      "dDurationMs": 6800,
+      "segs": [
+        {
+          "utf8": "90 just like before so we can't directly return any type of value using"
+        },
+        {
+          "utf8": "\n像以前一样显示 90，所以我们不能使用避免方法直接 返回任何类型的值，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 602720,
+      "dDurationMs": 4160,
+      "segs": [
+        {
+          "utf8": "avoid method but we can't still use it in order to do something we just don't"
+        },
+        {
+          "utf8": "\n但我们仍然不能使用它来做 一些我们只是不从中"
+        }
+      ]
+    },
+    {
+      "tStartMs": 606880,
+      "dDurationMs": 4160,
+      "segs": [
+        {
+          "utf8": "return anything from it now with this let me just go ahead and delete"
+        },
+        {
+          "utf8": "\n返回任何东西现在有了这个， 让我继续删除"
+        }
+      ]
+    },
+    {
+      "tStartMs": 611040,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "the last method we have down here so we just have the void one and let me go"
+        },
+        {
+          "utf8": "\n我们这里的最后一个方法，所以我们 只剩下 void 一个，让我去"
+        }
+      ]
+    },
+    {
+      "tStartMs": 615040,
+      "dDurationMs": 5440,
+      "segs": [
+        {
+          "utf8": "ahead and pass something into my method because what if i want to"
+        },
+        {
+          "utf8": "\n继续并将一些内容传递到我的方法中， 因为如果我想"
+        }
+      ]
+    },
+    {
+      "tStartMs": 620480,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "change the player health depending on what type of damage i'm receiving so"
+        },
+        {
+          "utf8": "\n根据受到的伤害类型更改玩家的生命值， 那么"
+        }
+      ]
+    },
+    {
+      "tStartMs": 625040,
+      "dDurationMs": 3039,
+      "segs": [
+        {
+          "utf8": "it's not going to be 10 every single time because what if i get hit by a"
+        },
+        {
+          "utf8": "\n每次都不会是 10， 因为如果我受到"
+        }
+      ]
+    },
+    {
+      "tStartMs": 628079,
+      "dDurationMs": 2961,
+      "segs": [
+        {
+          "utf8": "stronger attack then it might be 30 or something"
+        },
+        {
+          "utf8": "\n更强烈的攻击，那么它可能是 30 或 类似的东西，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 631040,
+      "dDurationMs": 2960,
+      "segs": [
+        {
+          "utf8": "so what i can do is i can say that i want to add in a"
+        },
+        {
+          "utf8": "\n所以我能做的 是，我想"
+        }
+      ]
+    },
+    {
+      "tStartMs": 634000,
+      "dDurationMs": 5200,
+      "segs": [
+        {
+          "utf8": "parameter into my parentheses which is a placeholder by the way and this one is"
+        },
+        {
+          "utf8": "\n在括号中添加一个参数， 顺便说一下，这是一个占位符，它将"
+        }
+      ]
+    },
+    {
+      "tStartMs": 639200,
+      "dDurationMs": 4480,
+      "segs": [
+        {
+          "utf8": "going to be a integer data type and i'm just going to call this one damage"
+        },
+        {
+          "utf8": "\n是一个整数数据类型，我 将把这个参数称为 damage，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 643680,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "you can call this whatever you want it's not going to change anything it's just"
+        },
+        {
+          "utf8": "\n你可以随意命名它，它 不会改变任何东西，它基本上只是"
+        }
+      ]
+    },
+    {
+      "tStartMs": 647680,
+      "dDurationMs": 2880,
+      "segs": [
+        {
+          "utf8": "basically the word that we're going to use inside"
+        },
+        {
+          "utf8": "\n 我们将在方法内部使用的单词，用于"
+        }
+      ]
+    },
+    {
+      "tStartMs": 650560,
+      "dDurationMs": 4880,
+      "segs": [
+        {
+          "utf8": "the method to reference the data that we pass in from the outside so i'm going to"
+        },
+        {
+          "utf8": "\n引用我们 从外部传入的数据，所以我将"
+        }
+      ]
+    },
+    {
+      "tStartMs": 655440,
+      "dDurationMs": 5360,
+      "segs": [
+        {
+          "utf8": "take this and instead of 10 i'm going to reference to damage so when"
+        },
+        {
+          "utf8": "\n采用这个，而不是 10， 我将引用 damage，所以当"
+        }
+      ]
+    },
+    {
+      "tStartMs": 660800,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "i go back inside my method up here inside my start method i can actually"
+        },
+        {
+          "utf8": "\n我回到我的方法中时，在 我的启动方法中，我实际上可以"
+        }
+      ]
+    },
+    {
+      "tStartMs": 664800,
+      "dDurationMs": 4320,
+      "segs": [
+        {
+          "utf8": "pass in a piece of data actually it is telling me i have to pass in a piece of"
+        },
+        {
+          "utf8": "\n传递一段数据，实际上它 告诉我我必须传递一段"
+        }
+      ]
+    },
+    {
+      "tStartMs": 669120,
+      "dDurationMs": 3839,
+      "segs": [
+        {
+          "utf8": "data because i told it i'm going to do that down here so i'm going into the"
+        },
+        {
+          "utf8": "\n数据，因为我告诉它我将在 这里这样做，所以我进入"
+        }
+      ]
+    },
+    {
+      "tStartMs": 672959,
+      "dDurationMs": 2320,
+      "segs": [
+        {
+          "utf8": "parentheses and i'm just going to pass in"
+        },
+        {
+          "utf8": "\n括号，我只需传入"
+        }
+      ]
+    },
+    {
+      "tStartMs": 675279,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "50. so now if i go back inside my console"
+        },
+        {
+          "utf8": "\n50。 现在，如果我回到控制台，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 679839,
+      "dDurationMs": 3761,
+      "segs": [
+        {
+          "utf8": "actually run the game that's actually going to stop it here refresh it and run"
+        },
+        {
+          "utf8": "\n运行游戏，然后在 这里停止，刷新并运行，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 683600,
+      "dDurationMs": 6239,
+      "segs": [
+        {
+          "utf8": "it you'll now see that it says 50 inside my console because it is taking the data"
+        },
+        {
+          "utf8": "\n你会看到控制台中显示 50， 因为它正在获取"
+        }
+      ]
+    },
+    {
+      "tStartMs": 689839,
+      "dDurationMs": 5361,
+      "segs": [
+        {
+          "utf8": "that i have decided when i use the method in order to subtract with the"
+        },
+        {
+          "utf8": "\n我决定使用 方法时的数据，以便用"
+        }
+      ]
+    },
+    {
+      "tStartMs": 695200,
+      "dDurationMs": 4639,
+      "segs": [
+        {
+          "utf8": "player health now of course if you're actually building a video game um you're"
+        },
+        {
+          "utf8": "\n玩家健康值减去，当然，如果你正在 制作视频游戏，你"
+        }
+      ]
+    },
+    {
+      "tStartMs": 699839,
+      "dDurationMs": 4321,
+      "segs": [
+        {
+          "utf8": "not going to be passing in a number like i am right here where i say 50 or you"
+        },
+        {
+          "utf8": "\n不会像 我在这里说的那样传递一个数字，比如 50 或"
+        }
+      ]
+    },
+    {
+      "tStartMs": 704160,
+      "dDurationMs": 3679,
+      "segs": [
+        {
+          "utf8": "know 20 or something like that but instead this number here is going to be"
+        },
+        {
+          "utf8": "\n20 之类的，而是 这个数字"
+        }
+      ]
+    },
+    {
+      "tStartMs": 707839,
+      "dDurationMs": 4641,
+      "segs": [
+        {
+          "utf8": "from another script where you might have a enemy with the script attached to it"
+        },
+        {
+          "utf8": "\n来自另一个脚本，你可能有 一个敌人，该脚本附加在它上面，它"
+        }
+      ]
+    },
+    {
+      "tStartMs": 712480,
+      "dDurationMs": 3840,
+      "segs": [
+        {
+          "utf8": "that has a certain attack that deals a certain amount of damage and then you"
+        },
+        {
+          "utf8": "\n具有某种攻击，会造成 一定程度的伤害，然后你"
+        }
+      ]
+    },
+    {
+      "tStartMs": 716320,
+      "dDurationMs": 4160,
+      "segs": [
+        {
+          "utf8": "would take that enemy's damage and pass in instead"
+        },
+        {
+          "utf8": "\n会接受该敌人的伤害并传递，而不是"
+        }
+      ]
+    },
+    {
+      "tStartMs": 720480,
+      "dDurationMs": 5599,
+      "segs": [
+        {
+          "utf8": "instead of hard writing 20 or 50 into it if that kind of makes sense but it's"
+        },
+        {
+          "utf8": "\n硬写 20 或 50， 如果这样有意义的话，但这"
+        }
+      ]
+    },
+    {
+      "tStartMs": 726079,
+      "dDurationMs": 3440,
+      "segs": [
+        {
+          "utf8": "just to kind of show that we can use methods and create methods and by the"
+        },
+        {
+          "utf8": "\n只是为了表明我们可以使用 方法和创建方法，顺便说"
+        }
+      ]
+    },
+    {
+      "tStartMs": 729519,
+      "dDurationMs": 6401,
+      "segs": [
+        {
+          "utf8": "way this is a very small method these methods here can become extremely long"
+        },
+        {
+          "utf8": "\n一下，这是一个非常小的方法，这些 方法可能会变得非常长，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 735920,
+      "dDurationMs": 2640,
+      "segs": [
+        {
+          "utf8": "depending on what you're trying to do but it's just to kind of show you a"
+        },
+        {
+          "utf8": "\n具体取决于你要做什么， 但这只是为了向你展示一个"
+        }
+      ]
+    },
+    {
+      "tStartMs": 738560,
+      "dDurationMs": 3360,
+      "segs": [
+        {
+          "utf8": "simple example of how to use a method and how to actually do"
+        },
+        {
+          "utf8": "\n如何使用方法的简单示例 以及如何在代码中实际执行"
+        }
+      ]
+    },
+    {
+      "tStartMs": 741920,
+      "dDurationMs": 2880,
+      "segs": [
+        {
+          "utf8": "something inside your code"
+        },
+        {
+          "utf8": "\n某些操作，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 744800,
+      "dDurationMs": 3200,
+      "segs": [
+        {
+          "utf8": "and the last thing i just kind of want to show you here is if you start getting"
+        },
+        {
+          "utf8": "\n最后我想向 您展示的是，如果您开始"
+        }
+      ]
+    },
+    {
+      "tStartMs": 748000,
+      "dDurationMs": 4399,
+      "segs": [
+        {
+          "utf8": "overwhelmed by looking at all these you know pieces of code"
+        },
+        {
+          "utf8": "\n对所有这些 代码片段感到不知所措，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 752399,
+      "dDurationMs": 3921,
+      "segs": [
+        {
+          "utf8": "you can actually collapse them out here so if i want my property which is my"
+        },
+        {
+          "utf8": "\n您可以在这里将它们折叠起来， 所以如果我想让我的属性（即我的"
+        }
+      ]
+    },
+    {
+      "tStartMs": 756320,
+      "dDurationMs": 3040,
+      "segs": [
+        {
+          "utf8": "player health to collapse so it's a little bit more"
+        },
+        {
+          "utf8": "\n玩家健康）折叠起来，这样"
+        }
+      ]
+    },
+    {
+      "tStartMs": 759360,
+      "dDurationMs": 4719,
+      "segs": [
+        {
+          "utf8": "um organized to look at i can always just sort of collapse it here i can do"
+        },
+        {
+          "utf8": "\n看起来更有条理，我总是可以在 这里折叠它，我可以"
+        }
+      ]
+    },
+    {
+      "tStartMs": 764079,
+      "dDurationMs": 4481,
+      "segs": [
+        {
+          "utf8": "the same thing with my start method if i wanted to do that with the take damage"
+        },
+        {
+          "utf8": "\n用我的启动方法做同样的事情，如果我 想用承受伤害"
+        }
+      ]
+    },
+    {
+      "tStartMs": 768560,
+      "dDurationMs": 3680,
+      "segs": [
+        {
+          "utf8": "method if i wanted to do that so just to kind of shorten everything a little bit"
+        },
+        {
+          "utf8": "\n方法做同样的事情，如果我想这样做，那么只是为了 缩短所有内容，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 772240,
+      "dDurationMs": 3279,
+      "segs": [
+        {
+          "utf8": "if you think it starts to look messy so just to"
+        },
+        {
+          "utf8": "\n如果您认为它开始看起来很乱，那么 只是为了向"
+        }
+      ]
+    },
+    {
+      "tStartMs": 775519,
+      "dDurationMs": 3201,
+      "segs": [
+        {
+          "utf8": "show you that we can collapse things so this is"
+        },
+        {
+          "utf8": "\n您展示 我们可以折叠东西，所以这基本上就是在"
+        }
+      ]
+    },
+    {
+      "tStartMs": 778720,
+      "dDurationMs": 5679,
+      "segs": [
+        {
+          "utf8": "basically what methods are when it comes to programming inside unity methods are"
+        },
+        {
+          "utf8": "\n Unity 内部编程时的方法，方法是"
+        }
+      ]
+    },
+    {
+      "tStartMs": 784399,
+      "dDurationMs": 5201,
+      "segs": [
+        {
+          "utf8": "used constantly the same thing goes for fields and properties by the way like"
+        },
+        {
+          "utf8": "\n不断使用的， 字段和属性也是如此，顺便说一下，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 789600,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "all this stuff here that you're seeing is used constantly and if you're sitting"
+        },
+        {
+          "utf8": "\n您在这里看到的所有这些内容都是 不断使用的，如果您"
+        }
+      ]
+    },
+    {
+      "tStartMs": 794160,
+      "dDurationMs": 5200,
+      "segs": [
+        {
+          "utf8": "there right now thinking that's a lot of information in just like"
+        },
+        {
+          "utf8": "\n现在坐在那里想，这 在三四节课中有很多信息，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 799360,
+      "dDurationMs": 4640,
+      "segs": [
+        {
+          "utf8": "three or four lessons like i i understand it is a lot of information"
+        },
+        {
+          "utf8": "\n我 明白这有很多信息，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 804000,
+      "dDurationMs": 3360,
+      "segs": [
+        {
+          "utf8": "but just know that every person who has started making"
+        },
+        {
+          "utf8": "\n但要知道， 每个开始制作"
+        }
+      ]
+    },
+    {
+      "tStartMs": 807360,
+      "dDurationMs": 3760,
+      "segs": [
+        {
+          "utf8": "video games felt the same way as you they felt overwhelmed by all this"
+        },
+        {
+          "utf8": "\n视频游戏的人都和你一样， 他们被所有这些信息压得喘不过气来"
+        }
+      ]
+    },
+    {
+      "tStartMs": 811120,
+      "dDurationMs": 3360,
+      "segs": [
+        {
+          "utf8": "information i'm feeding you throughout these videos here"
+        },
+        {
+          "utf8": "\n我会通过 这些视频向你提供信息，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 814480,
+      "dDurationMs": 3680,
+      "segs": [
+        {
+          "utf8": "the more you get to use these methods and properties and all this information"
+        },
+        {
+          "utf8": "\n你使用这些方法 和属性的次数越多，你学到的所有这些信息就越容易记住，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 818160,
+      "dDurationMs": 3520,
+      "segs": [
+        {
+          "utf8": "you're learning the more it's going to stick to you nobody remembers this on"
+        },
+        {
+          "utf8": "\n 没有人会在"
+        }
+      ]
+    },
+    {
+      "tStartMs": 821680,
+      "dDurationMs": 4640,
+      "segs": [
+        {
+          "utf8": "their first try unless they have like a photographic memory or something"
+        },
+        {
+          "utf8": "\n第一次尝试时就记住这些，除非他们有像 照相式记忆之类的东西，"
+        }
+      ]
+    },
+    {
+      "tStartMs": 826320,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "so just keep at it we will get to do some examples pretty soon where we"
+        },
+        {
+          "utf8": "\n所以只要坚持下去，我们很快就会做 一些例子，我们"
+        }
+      ]
+    },
+    {
+      "tStartMs": 830880,
+      "dDurationMs": 3920,
+      "segs": [
+        {
+          "utf8": "actually start doing something inside the actual unity engine so we can"
+        },
+        {
+          "utf8": "\n实际上开始在实际的 Unity 引擎中做一些事情， 这样我们就可以"
+        }
+      ]
+    },
+    {
+      "tStartMs": 834800,
+      "dDurationMs": 4320,
+      "segs": [
+        {
+          "utf8": "actually start moving things around using methods and using fields and"
+        },
+        {
+          "utf8": "\n开始 使用方法、字段和"
+        }
+      ]
+    },
+    {
+      "tStartMs": 839120,
+      "dDurationMs": 6159,
+      "segs": [
+        {
+          "utf8": "properties so just go ahead and re-watch the video take a breather and you'll be"
+        },
+        {
+          "utf8": "\n属性来移动东西，所以继续看 视频，休息一下，你会"
+        }
+      ]
+    },
+    {
+      "tStartMs": 845279,
+      "dDurationMs": 2800,
+      "segs": [
+        {
+          "utf8": "fine everything is going to be okay so with"
+        },
+        {
+          "utf8": "\n没事的， 一切都会好起来的，所以"
+        }
+      ]
+    },
+    {
+      "tStartMs": 848079,
+      "dDurationMs": 5961,
+      "segs": [
+        {
+          "utf8": "that said i hope you enjoyed and i'll see you next time"
+        },
+        {
+          "utf8": "\n说了这么多，我希望你喜欢， 下次见"
+        }
+      ]
+    },
+    {
+      "tStartMs": 857270,
+      "dDurationMs": 16569,
+      "segs": [
+        {
+          "utf8": "[Music] you"
+        },
+        {
+          "utf8": "\n[音乐] 你"
+        }
+      ]
+    }
+  ],
+  "pens": [
+    {}
+  ],
+  "wireMagic": "pb3",
+  "wpWinPositions": [
+    {},
+    {
+      "apPoint": 6,
+      "ahHorPos": 20,
+      "avVerPos": 100,
+      "rcRows": 2,
+      "ccCols": 40
+    }
+  ],
+  "wsWinStyles": [
+    {},
+    {
+      "mhModeHint": 2,
+      "juJustifCode": 0,
+      "sdScrollDir": 3
+    },
+    {
+      "mhModeHint": 2,
+      "juJustifCode": 1,
+      "sdScrollDir": 3
+    }
+  ]
+}

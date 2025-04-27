@@ -1,0 +1,1867 @@
+{
+  "events": [
+    {
+      "tStartMs": 160,
+      "dDurationMs": 3759,
+      "segs": [
+        {
+          "utf8": "today i'm going to teach you about something called methods inside c sharp"
+        }
+      ]
+    },
+    {
+      "tStartMs": 3919,
+      "dDurationMs": 3681,
+      "segs": [
+        {
+          "utf8": "and before we do that i really quickly want to go over what exactly have on the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 7600,
+      "dDurationMs": 4880,
+      "segs": [
+        {
+          "utf8": "screen here since we'll be using this for a short example um so what i did was"
+        }
+      ]
+    },
+    {
+      "tStartMs": 12480,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "i went ahead and kept one of the fields from the previous episode which is the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 16480,
+      "dDurationMs": 5200,
+      "segs": [
+        {
+          "utf8": "player health one i also went ahead and kept the property that we created which"
+        }
+      ]
+    },
+    {
+      "tStartMs": 21680,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "essentially goes in and either grabs or changes the health of the player so what"
+        }
+      ]
+    },
+    {
+      "tStartMs": 25680,
+      "dDurationMs": 3040,
+      "segs": [
+        {
+          "utf8": "i can do is i can go inside my start method down here at the bottom and i can"
+        }
+      ]
+    },
+    {
+      "tStartMs": 28720,
+      "dDurationMs": 3679,
+      "segs": [
+        {
+          "utf8": "actually reference the player health like so"
+        }
+      ]
+    },
+    {
+      "tStartMs": 32399,
+      "dDurationMs": 4721,
+      "segs": [
+        {
+          "utf8": "and actually do something with it now one thing i need to show you before we"
+        }
+      ]
+    },
+    {
+      "tStartMs": 37120,
+      "dDurationMs": 5599,
+      "segs": [
+        {
+          "utf8": "start actually talking about methods is that we have something called debugging"
+        }
+      ]
+    },
+    {
+      "tStartMs": 42719,
+      "dDurationMs": 3281,
+      "segs": [
+        {
+          "utf8": "and debugging is something that you will be doing"
+        }
+      ]
+    },
+    {
+      "tStartMs": 46000,
+      "dDurationMs": 3760,
+      "segs": [
+        {
+          "utf8": "constantly as you write code inside your video game"
+        }
+      ]
+    },
+    {
+      "tStartMs": 49760,
+      "dDurationMs": 4080,
+      "segs": [
+        {
+          "utf8": "so whenever something goes wrong and it gives you error messages inside"
+        }
+      ]
+    },
+    {
+      "tStartMs": 53840,
+      "dDurationMs": 3760,
+      "segs": [
+        {
+          "utf8": "the console inside your editor debugging is what you're going to be spending your"
+        }
+      ]
+    },
+    {
+      "tStartMs": 57600,
+      "dDurationMs": 3920,
+      "segs": [
+        {
+          "utf8": "time on doing if google doesn't provide you with an answer so if you can't"
+        }
+      ]
+    },
+    {
+      "tStartMs": 61520,
+      "dDurationMs": 3919,
+      "segs": [
+        {
+          "utf8": "google something and you just can't find an answer debugging is what you need to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 65439,
+      "dDurationMs": 4961,
+      "segs": [
+        {
+          "utf8": "do one quick command that you need to know is something called debug"
+        }
+      ]
+    },
+    {
+      "tStartMs": 70400,
+      "dDurationMs": 3840,
+      "segs": [
+        {
+          "utf8": "dot log and debug.log"
+        }
+      ]
+    },
+    {
+      "tStartMs": 74240,
+      "dDurationMs": 5280,
+      "segs": [
+        {
+          "utf8": "is a way for us to output stuff into the console inside unity so we were to go in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 79520,
+      "dDurationMs": 3919,
+      "segs": [
+        {
+          "utf8": "here create a string and just write daniel"
+        }
+      ]
+    },
+    {
+      "tStartMs": 83439,
+      "dDurationMs": 5040,
+      "segs": [
+        {
+          "utf8": "go back into unity and if i were to click play you can see that it now says"
+        }
+      ]
+    },
+    {
+      "tStartMs": 88479,
+      "dDurationMs": 3761,
+      "segs": [
+        {
+          "utf8": "daniel inside the the console inside unity so"
+        }
+      ]
+    },
+    {
+      "tStartMs": 92240,
+      "dDurationMs": 4320,
+      "segs": [
+        {
+          "utf8": "debugging or using this specific command here is something that you will be using"
+        }
+      ]
+    },
+    {
+      "tStartMs": 96560,
+      "dDurationMs": 4559,
+      "segs": [
+        {
+          "utf8": "constantly as you code so with that in mind i'm going to teach you about"
+        }
+      ]
+    },
+    {
+      "tStartMs": 101119,
+      "dDurationMs": 4320,
+      "segs": [
+        {
+          "utf8": "something called methods so essentially when it comes to classes"
+        }
+      ]
+    },
+    {
+      "tStartMs": 105439,
+      "dDurationMs": 4960,
+      "segs": [
+        {
+          "utf8": "like the one that we have in front of us here we have three things we have fields"
+        }
+      ]
+    },
+    {
+      "tStartMs": 110399,
+      "dDurationMs": 4161,
+      "segs": [
+        {
+          "utf8": "that we talked about already we have properties which we've also talked about"
+        }
+      ]
+    },
+    {
+      "tStartMs": 114560,
+      "dDurationMs": 4800,
+      "segs": [
+        {
+          "utf8": "already and then we have methods methods are essentially a way for us to actually"
+        }
+      ]
+    },
+    {
+      "tStartMs": 119360,
+      "dDurationMs": 5439,
+      "segs": [
+        {
+          "utf8": "do stuff using code because up until now properties and fields have just been"
+        }
+      ]
+    },
+    {
+      "tStartMs": 124799,
+      "dDurationMs": 4800,
+      "segs": [
+        {
+          "utf8": "used in order to create data essentially like for example the player health but"
+        }
+      ]
+    },
+    {
+      "tStartMs": 129599,
+      "dDurationMs": 3921,
+      "segs": [
+        {
+          "utf8": "it doesn't actually do anything with the player health inside our game and that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 133520,
+      "dDurationMs": 4719,
+      "segs": [
+        {
+          "utf8": "is what the methods do methods actually do stuff it's kind of like if you take a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 138239,
+      "dDurationMs": 5921,
+      "segs": [
+        {
+          "utf8": "person because a person can have an age a height eye color hair color all that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 144160,
+      "dDurationMs": 3840,
+      "segs": [
+        {
+          "utf8": "type of thing but all that stuff is just information about the player that would"
+        }
+      ]
+    },
+    {
+      "tStartMs": 148000,
+      "dDurationMs": 3680,
+      "segs": [
+        {
+          "utf8": "be feels or properties about the player"
+        }
+      ]
+    },
+    {
+      "tStartMs": 151680,
+      "dDurationMs": 5360,
+      "segs": [
+        {
+          "utf8": "whereas if i actually need to do something like if the person has to run"
+        }
+      ]
+    },
+    {
+      "tStartMs": 157040,
+      "dDurationMs": 5680,
+      "segs": [
+        {
+          "utf8": "has to jump has to take damage has to attack something like that we would have"
+        }
+      ]
+    },
+    {
+      "tStartMs": 162720,
+      "dDurationMs": 4640,
+      "segs": [
+        {
+          "utf8": "to do that using a method because we actually do something inside the game so"
+        }
+      ]
+    },
+    {
+      "tStartMs": 167360,
+      "dDurationMs": 4080,
+      "segs": [
+        {
+          "utf8": "with that said uh let's talk about how to create a method if i were to go down"
+        }
+      ]
+    },
+    {
+      "tStartMs": 171440,
+      "dDurationMs": 4879,
+      "segs": [
+        {
+          "utf8": "here you can see that we have a private method called start and that is actually"
+        }
+      ]
+    },
+    {
+      "tStartMs": 176319,
+      "dDurationMs": 4721,
+      "segs": [
+        {
+          "utf8": "a built-in method inside monobehavior i've said that so many times up until"
+        }
+      ]
+    },
+    {
+      "tStartMs": 181040,
+      "dDurationMs": 3600,
+      "segs": [
+        {
+          "utf8": "now throughout these lessons here but it's very important that you pay"
+        }
+      ]
+    },
+    {
+      "tStartMs": 184640,
+      "dDurationMs": 4239,
+      "segs": [
+        {
+          "utf8": "attention to the fact that there is a difference between built-in methods"
+        }
+      ]
+    },
+    {
+      "tStartMs": 188879,
+      "dDurationMs": 4881,
+      "segs": [
+        {
+          "utf8": "which are methods that exist inside all programming language that we can"
+        }
+      ]
+    },
+    {
+      "tStartMs": 193760,
+      "dDurationMs": 3759,
+      "segs": [
+        {
+          "utf8": "grab onto and use for something for example start if you use that one it's"
+        }
+      ]
+    },
+    {
+      "tStartMs": 197519,
+      "dDurationMs": 2401,
+      "segs": [
+        {
+          "utf8": "going to run this code when i start the game"
+        }
+      ]
+    },
+    {
+      "tStartMs": 199920,
+      "dDurationMs": 3440,
+      "segs": [
+        {
+          "utf8": "but we can also build our own methods and that's what i want to talk about so"
+        }
+      ]
+    },
+    {
+      "tStartMs": 203360,
+      "dDurationMs": 2560,
+      "segs": [
+        {
+          "utf8": "when it comes to methods we have two different types that you need to know"
+        }
+      ]
+    },
+    {
+      "tStartMs": 205920,
+      "dDurationMs": 3360,
+      "segs": [
+        {
+          "utf8": "about we have methods that actually return a value and then we have methods"
+        }
+      ]
+    },
+    {
+      "tStartMs": 209280,
+      "dDurationMs": 3840,
+      "segs": [
+        {
+          "utf8": "that don't return anything and i'll show you both examples so you know exactly"
+        }
+      ]
+    },
+    {
+      "tStartMs": 213120,
+      "dDurationMs": 4720,
+      "segs": [
+        {
+          "utf8": "what they do so the first one here i'm going to say we have a method which is a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 217840,
+      "dDurationMs": 3920,
+      "segs": [
+        {
+          "utf8": "void type method which i'll explain in a second"
+        }
+      ]
+    },
+    {
+      "tStartMs": 221760,
+      "dDurationMs": 2880,
+      "segs": [
+        {
+          "utf8": "called take damage"
+        }
+      ]
+    },
+    {
+      "tStartMs": 224640,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "and then i'll include some parentheses curly brackets"
+        }
+      ]
+    },
+    {
+      "tStartMs": 228640,
+      "dDurationMs": 3599,
+      "segs": [
+        {
+          "utf8": "now we use pascal case here for the naming convention just like with the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 232239,
+      "dDurationMs": 3200,
+      "segs": [
+        {
+          "utf8": "property up here meaning that you start with a capitalized letter and then any"
+        }
+      ]
+    },
+    {
+      "tStartMs": 235439,
+      "dDurationMs": 2800,
+      "segs": [
+        {
+          "utf8": "other words coming after do the same thing"
+        }
+      ]
+    },
+    {
+      "tStartMs": 238239,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "and the parentheses are here in order to first of all show us that this is a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 242799,
+      "dDurationMs": 4720,
+      "segs": [
+        {
+          "utf8": "method and not a property because if we didn't include the parentheses it would"
+        }
+      ]
+    },
+    {
+      "tStartMs": 247519,
+      "dDurationMs": 3521,
+      "segs": [
+        {
+          "utf8": "be a property the second thing is that we also use it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 251040,
+      "dDurationMs": 4800,
+      "segs": [
+        {
+          "utf8": "to pass in data so if i want something inside the method to change depending on"
+        }
+      ]
+    },
+    {
+      "tStartMs": 255840,
+      "dDurationMs": 4239,
+      "segs": [
+        {
+          "utf8": "some outside data then we go ahead and pass it inside the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 260079,
+      "dDurationMs": 3601,
+      "segs": [
+        {
+          "utf8": "parentheses this is by the way also a private"
+        }
+      ]
+    },
+    {
+      "tStartMs": 263680,
+      "dDurationMs": 4320,
+      "segs": [
+        {
+          "utf8": "method at the moment again like i said the default state is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 268000,
+      "dDurationMs": 4960,
+      "segs": [
+        {
+          "utf8": "private if you don't include anything so this is the same thing as doing this"
+        }
+      ]
+    },
+    {
+      "tStartMs": 272960,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "basically which means that we can't access this method from other scripts"
+        }
+      ]
+    },
+    {
+      "tStartMs": 277520,
+      "dDurationMs": 5360,
+      "segs": [
+        {
+          "utf8": "out there if i want to make this public i can also do that so now it's a public"
+        }
+      ]
+    },
+    {
+      "tStartMs": 282880,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "method so now i can actually access it from another script"
+        }
+      ]
+    },
+    {
+      "tStartMs": 286880,
+      "dDurationMs": 3920,
+      "segs": [
+        {
+          "utf8": "so what i'll do is i'll keep it private for now and when it comes to the void"
+        }
+      ]
+    },
+    {
+      "tStartMs": 290800,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "keyword that we have here just basically means that we don't plan on returning"
+        }
+      ]
+    },
+    {
+      "tStartMs": 294800,
+      "dDurationMs": 3839,
+      "segs": [
+        {
+          "utf8": "any type of data inside this method which means that the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 298639,
+      "dDurationMs": 4400,
+      "segs": [
+        {
+          "utf8": "method is going to do something but we're not planning on returning"
+        }
+      ]
+    },
+    {
+      "tStartMs": 303039,
+      "dDurationMs": 4401,
+      "segs": [
+        {
+          "utf8": "anything from it that'll make sense in a second so let me go and create another"
+        }
+      ]
+    },
+    {
+      "tStartMs": 307440,
+      "dDurationMs": 3840,
+      "segs": [
+        {
+          "utf8": "method down here i'm going to create a integer"
+        }
+      ]
+    },
+    {
+      "tStartMs": 311280,
+      "dDurationMs": 3280,
+      "segs": [
+        {
+          "utf8": "type method and i'm going to call this one"
+        }
+      ]
+    },
+    {
+      "tStartMs": 314560,
+      "dDurationMs": 4160,
+      "segs": [
+        {
+          "utf8": "just something random like show damage"
+        }
+      ]
+    },
+    {
+      "tStartMs": 318720,
+      "dDurationMs": 3520,
+      "segs": [
+        {
+          "utf8": "just to give it something and as you'll see it's created in the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 322240,
+      "dDurationMs": 3920,
+      "segs": [
+        {
+          "utf8": "same way first we go ahead and tell it what kind of data do we want to return"
+        }
+      ]
+    },
+    {
+      "tStartMs": 326160,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "in this case is not going to be void but the data type and of course we could"
+        }
+      ]
+    },
+    {
+      "tStartMs": 330720,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "also make this a private or public you know just like with the other one and we"
+        }
+      ]
+    },
+    {
+      "tStartMs": 335280,
+      "dDurationMs": 3520,
+      "segs": [
+        {
+          "utf8": "do also include the parentheses here at the end so we can pass in data and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 338800,
+      "dDurationMs": 2880,
+      "segs": [
+        {
+          "utf8": "you'll actually notice that i'm getting an error message here and that's because"
+        }
+      ]
+    },
+    {
+      "tStartMs": 341680,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "right now i'm actually not returning anything inside the actual method and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 346240,
+      "dDurationMs": 5440,
+      "segs": [
+        {
+          "utf8": "whenever you do any kind of methods like this you have to return values from"
+        }
+      ]
+    },
+    {
+      "tStartMs": 351680,
+      "dDurationMs": 4239,
+      "segs": [
+        {
+          "utf8": "within the method so if i go inside of it i can say return"
+        }
+      ]
+    },
+    {
+      "tStartMs": 355919,
+      "dDurationMs": 3521,
+      "segs": [
+        {
+          "utf8": "just 10 because i need to return an integer"
+        }
+      ]
+    },
+    {
+      "tStartMs": 359440,
+      "dDurationMs": 2879,
+      "segs": [
+        {
+          "utf8": "if it were to say true"
+        }
+      ]
+    },
+    {
+      "tStartMs": 362319,
+      "dDurationMs": 3281,
+      "segs": [
+        {
+          "utf8": "instead you'll actually notice that it's going to throw me an error message"
+        }
+      ]
+    },
+    {
+      "tStartMs": 365600,
+      "dDurationMs": 4960,
+      "segs": [
+        {
+          "utf8": "because this is a boolean data type and i'm actually asking to return a integer"
+        }
+      ]
+    },
+    {
+      "tStartMs": 370560,
+      "dDurationMs": 4800,
+      "segs": [
+        {
+          "utf8": "data type so i could also say i wanted to return a boolean instead and that"
+        }
+      ]
+    },
+    {
+      "tStartMs": 375360,
+      "dDurationMs": 3440,
+      "segs": [
+        {
+          "utf8": "would fix it now i'm going to go and keep this down here for now because i do"
+        }
+      ]
+    },
+    {
+      "tStartMs": 378800,
+      "dDurationMs": 4239,
+      "segs": [
+        {
+          "utf8": "want to demonstrate what exactly this outputs into the console"
+        }
+      ]
+    },
+    {
+      "tStartMs": 383039,
+      "dDurationMs": 4481,
+      "segs": [
+        {
+          "utf8": "so let me go ahead and talk a bit about the previous method here first now void"
+        }
+      ]
+    },
+    {
+      "tStartMs": 387520,
+      "dDurationMs": 3760,
+      "segs": [
+        {
+          "utf8": "like i said means that we don't plan on returning anything so if it were to go"
+        }
+      ]
+    },
+    {
+      "tStartMs": 391280,
+      "dDurationMs": 3840,
+      "segs": [
+        {
+          "utf8": "in here the first thing i want to do is i want to calculate how much damage am i"
+        }
+      ]
+    },
+    {
+      "tStartMs": 395120,
+      "dDurationMs": 4480,
+      "segs": [
+        {
+          "utf8": "actually taking because this is a take damage method so i should probably take"
+        }
+      ]
+    },
+    {
+      "tStartMs": 399600,
+      "dDurationMs": 3520,
+      "segs": [
+        {
+          "utf8": "some damage so i go up here i grab my property"
+        }
+      ]
+    },
+    {
+      "tStartMs": 403120,
+      "dDurationMs": 3280,
+      "segs": [
+        {
+          "utf8": "called playerhealth because remember we don't want to just grab the field and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 406400,
+      "dDurationMs": 5199,
+      "segs": [
+        {
+          "utf8": "change it directly even though we could do that it's not the best way to do it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 411599,
+      "dDurationMs": 3841,
+      "segs": [
+        {
+          "utf8": "so i'm going to say player health go inside take damage"
+        }
+      ]
+    },
+    {
+      "tStartMs": 415440,
+      "dDurationMs": 5680,
+      "segs": [
+        {
+          "utf8": "and i'm going to set this one equal to player health minus 10. so what we're"
+        }
+      ]
+    },
+    {
+      "tStartMs": 421120,
+      "dDurationMs": 3840,
+      "segs": [
+        {
+          "utf8": "actually doing here is we're saying that player health right now is 100 and when"
+        }
+      ]
+    },
+    {
+      "tStartMs": 424960,
+      "dDurationMs": 4880,
+      "segs": [
+        {
+          "utf8": "i take 10 in damage this is going to be 90. but there's actually a shorthand to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 429840,
+      "dDurationMs": 3600,
+      "segs": [
+        {
+          "utf8": "do this instead of doing player health equal to player health we can actually"
+        }
+      ]
+    },
+    {
+      "tStartMs": 433440,
+      "dDurationMs": 5120,
+      "segs": [
+        {
+          "utf8": "go ahead and say that we just want to say player health minus equal to 10"
+        }
+      ]
+    },
+    {
+      "tStartMs": 438560,
+      "dDurationMs": 3759,
+      "segs": [
+        {
+          "utf8": "which means the exact same thing as what i just did we're saying that player"
+        }
+      ]
+    },
+    {
+      "tStartMs": 442319,
+      "dDurationMs": 4320,
+      "segs": [
+        {
+          "utf8": "health needs to equal itself minus whatever is behind"
+        }
+      ]
+    },
+    {
+      "tStartMs": 446639,
+      "dDurationMs": 4881,
+      "segs": [
+        {
+          "utf8": "the equal sign so right now this is the exact same thing as doing this just so"
+        }
+      ]
+    },
+    {
+      "tStartMs": 451520,
+      "dDurationMs": 3119,
+      "segs": [
+        {
+          "utf8": "you know so now that we have this i can actually go and show you the difference"
+        }
+      ]
+    },
+    {
+      "tStartMs": 454639,
+      "dDurationMs": 5601,
+      "segs": [
+        {
+          "utf8": "between using a void type method and a data type method that actually needs to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 460240,
+      "dDurationMs": 3120,
+      "segs": [
+        {
+          "utf8": "return something but before we do that let's actually"
+        }
+      ]
+    },
+    {
+      "tStartMs": 463360,
+      "dDurationMs": 4080,
+      "segs": [
+        {
+          "utf8": "change this bottom one so it matches what exactly this one does so don't"
+        }
+      ]
+    },
+    {
+      "tStartMs": 467440,
+      "dDurationMs": 3920,
+      "segs": [
+        {
+          "utf8": "worry about the name um it's just to give it a name because we"
+        }
+      ]
+    },
+    {
+      "tStartMs": 471360,
+      "dDurationMs": 3360,
+      "segs": [
+        {
+          "utf8": "can't take the same name as this one here it's gonna throw an error message"
+        }
+      ]
+    },
+    {
+      "tStartMs": 474720,
+      "dDurationMs": 2879,
+      "segs": [
+        {
+          "utf8": "so i just called it something else so let's not worry too much about the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 477599,
+      "dDurationMs": 3921,
+      "segs": [
+        {
+          "utf8": "naming and what they mean let's just go ahead and take what is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 481520,
+      "dDurationMs": 4799,
+      "segs": [
+        {
+          "utf8": "inside here and pass it inside the bottom method"
+        }
+      ]
+    },
+    {
+      "tStartMs": 486319,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "and then i'm going to change this to a integer type method"
+        }
+      ]
+    },
+    {
+      "tStartMs": 490319,
+      "dDurationMs": 5121,
+      "segs": [
+        {
+          "utf8": "as well as return player health because this is a integer"
+        }
+      ]
+    },
+    {
+      "tStartMs": 495440,
+      "dDurationMs": 3280,
+      "segs": [
+        {
+          "utf8": "type property right because that is what we set up"
+        }
+      ]
+    },
+    {
+      "tStartMs": 498720,
+      "dDurationMs": 4240,
+      "segs": [
+        {
+          "utf8": "here so with this if it were to go inside my start method here which"
+        }
+      ]
+    },
+    {
+      "tStartMs": 502960,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "remember is being called anytime you start the game i can actually go ahead"
+        }
+      ]
+    },
+    {
+      "tStartMs": 506960,
+      "dDurationMs": 6639,
+      "segs": [
+        {
+          "utf8": "and do something called debug dot log so what i'll do is i'll take my"
+        }
+      ]
+    },
+    {
+      "tStartMs": 513599,
+      "dDurationMs": 3841,
+      "segs": [
+        {
+          "utf8": "first one which is called take damage and i'm going to output it into my"
+        }
+      ]
+    },
+    {
+      "tStartMs": 517440,
+      "dDurationMs": 3839,
+      "segs": [
+        {
+          "utf8": "console which you'll notice doesn't actually return"
+        }
+      ]
+    },
+    {
+      "tStartMs": 521279,
+      "dDurationMs": 5120,
+      "segs": [
+        {
+          "utf8": "any data as you can see here you cannot convert void to objects because it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 526399,
+      "dDurationMs": 4721,
+      "segs": [
+        {
+          "utf8": "doesn't return anything but if it were to take show damage"
+        }
+      ]
+    },
+    {
+      "tStartMs": 531120,
+      "dDurationMs": 3440,
+      "segs": [
+        {
+          "utf8": "and pass that in there you'll notice that if i go back into my"
+        }
+      ]
+    },
+    {
+      "tStartMs": 534560,
+      "dDurationMs": 2560,
+      "segs": [
+        {
+          "utf8": "unity play it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 537120,
+      "dDurationMs": 4880,
+      "segs": [
+        {
+          "utf8": "that it does actually return something into the console it says 90 right there"
+        }
+      ]
+    },
+    {
+      "tStartMs": 542000,
+      "dDurationMs": 5120,
+      "segs": [
+        {
+          "utf8": "so this one returns data this one does not return data it just"
+        }
+      ]
+    },
+    {
+      "tStartMs": 547120,
+      "dDurationMs": 3279,
+      "segs": [
+        {
+          "utf8": "does something so right now we updated player health"
+        }
+      ]
+    },
+    {
+      "tStartMs": 550399,
+      "dDurationMs": 2721,
+      "segs": [
+        {
+          "utf8": "but we don't actually return player health"
+        }
+      ]
+    },
+    {
+      "tStartMs": 553120,
+      "dDurationMs": 3920,
+      "segs": [
+        {
+          "utf8": "afterwards we just update player health and that's it and to just kind of show"
+        }
+      ]
+    },
+    {
+      "tStartMs": 557040,
+      "dDurationMs": 3680,
+      "segs": [
+        {
+          "utf8": "that let me go ahead and take my take damage"
+        }
+      ]
+    },
+    {
+      "tStartMs": 560720,
+      "dDurationMs": 6239,
+      "segs": [
+        {
+          "utf8": "place it above debug.log and then inside mydebug.log i'm just"
+        }
+      ]
+    },
+    {
+      "tStartMs": 566959,
+      "dDurationMs": 3921,
+      "segs": [
+        {
+          "utf8": "going to go ahead and spit out what my health is so we're going to say"
+        }
+      ]
+    },
+    {
+      "tStartMs": 570880,
+      "dDurationMs": 5680,
+      "segs": [
+        {
+          "utf8": "playerhealth it's just going to get spit out so right now when i start my game it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 576560,
+      "dDurationMs": 3920,
+      "segs": [
+        {
+          "utf8": "is going to first of all run my take damage method which then goes in and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 580480,
+      "dDurationMs": 4960,
+      "segs": [
+        {
+          "utf8": "subtracts 10 from my player health and then i'm just going to output this"
+        }
+      ]
+    },
+    {
+      "tStartMs": 585440,
+      "dDurationMs": 4959,
+      "segs": [
+        {
+          "utf8": "property up here after it got updated so if i go inside my console now"
+        }
+      ]
+    },
+    {
+      "tStartMs": 590399,
+      "dDurationMs": 5521,
+      "segs": [
+        {
+          "utf8": "refresh it let's clear it so we can see you're going to notice that it says"
+        }
+      ]
+    },
+    {
+      "tStartMs": 595920,
+      "dDurationMs": 6800,
+      "segs": [
+        {
+          "utf8": "90 just like before so we can't directly return any type of value using"
+        }
+      ]
+    },
+    {
+      "tStartMs": 602720,
+      "dDurationMs": 4160,
+      "segs": [
+        {
+          "utf8": "avoid method but we can't still use it in order to do something we just don't"
+        }
+      ]
+    },
+    {
+      "tStartMs": 606880,
+      "dDurationMs": 4160,
+      "segs": [
+        {
+          "utf8": "return anything from it now with this let me just go ahead and delete"
+        }
+      ]
+    },
+    {
+      "tStartMs": 611040,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "the last method we have down here so we just have the void one and let me go"
+        }
+      ]
+    },
+    {
+      "tStartMs": 615040,
+      "dDurationMs": 5440,
+      "segs": [
+        {
+          "utf8": "ahead and pass something into my method because what if i want to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 620480,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "change the player health depending on what type of damage i'm receiving so"
+        }
+      ]
+    },
+    {
+      "tStartMs": 625040,
+      "dDurationMs": 3039,
+      "segs": [
+        {
+          "utf8": "it's not going to be 10 every single time because what if i get hit by a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 628079,
+      "dDurationMs": 2961,
+      "segs": [
+        {
+          "utf8": "stronger attack then it might be 30 or something"
+        }
+      ]
+    },
+    {
+      "tStartMs": 631040,
+      "dDurationMs": 2960,
+      "segs": [
+        {
+          "utf8": "so what i can do is i can say that i want to add in a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 634000,
+      "dDurationMs": 5200,
+      "segs": [
+        {
+          "utf8": "parameter into my parentheses which is a placeholder by the way and this one is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 639200,
+      "dDurationMs": 4480,
+      "segs": [
+        {
+          "utf8": "going to be a integer data type and i'm just going to call this one damage"
+        }
+      ]
+    },
+    {
+      "tStartMs": 643680,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "you can call this whatever you want it's not going to change anything it's just"
+        }
+      ]
+    },
+    {
+      "tStartMs": 647680,
+      "dDurationMs": 2880,
+      "segs": [
+        {
+          "utf8": "basically the word that we're going to use inside"
+        }
+      ]
+    },
+    {
+      "tStartMs": 650560,
+      "dDurationMs": 4880,
+      "segs": [
+        {
+          "utf8": "the method to reference the data that we pass in from the outside so i'm going to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 655440,
+      "dDurationMs": 5360,
+      "segs": [
+        {
+          "utf8": "take this and instead of 10 i'm going to reference to damage so when"
+        }
+      ]
+    },
+    {
+      "tStartMs": 660800,
+      "dDurationMs": 4000,
+      "segs": [
+        {
+          "utf8": "i go back inside my method up here inside my start method i can actually"
+        }
+      ]
+    },
+    {
+      "tStartMs": 664800,
+      "dDurationMs": 4320,
+      "segs": [
+        {
+          "utf8": "pass in a piece of data actually it is telling me i have to pass in a piece of"
+        }
+      ]
+    },
+    {
+      "tStartMs": 669120,
+      "dDurationMs": 3839,
+      "segs": [
+        {
+          "utf8": "data because i told it i'm going to do that down here so i'm going into the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 672959,
+      "dDurationMs": 2320,
+      "segs": [
+        {
+          "utf8": "parentheses and i'm just going to pass in"
+        }
+      ]
+    },
+    {
+      "tStartMs": 675279,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "50. so now if i go back inside my console"
+        }
+      ]
+    },
+    {
+      "tStartMs": 679839,
+      "dDurationMs": 3761,
+      "segs": [
+        {
+          "utf8": "actually run the game that's actually going to stop it here refresh it and run"
+        }
+      ]
+    },
+    {
+      "tStartMs": 683600,
+      "dDurationMs": 6239,
+      "segs": [
+        {
+          "utf8": "it you'll now see that it says 50 inside my console because it is taking the data"
+        }
+      ]
+    },
+    {
+      "tStartMs": 689839,
+      "dDurationMs": 5361,
+      "segs": [
+        {
+          "utf8": "that i have decided when i use the method in order to subtract with the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 695200,
+      "dDurationMs": 4639,
+      "segs": [
+        {
+          "utf8": "player health now of course if you're actually building a video game um you're"
+        }
+      ]
+    },
+    {
+      "tStartMs": 699839,
+      "dDurationMs": 4321,
+      "segs": [
+        {
+          "utf8": "not going to be passing in a number like i am right here where i say 50 or you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 704160,
+      "dDurationMs": 3679,
+      "segs": [
+        {
+          "utf8": "know 20 or something like that but instead this number here is going to be"
+        }
+      ]
+    },
+    {
+      "tStartMs": 707839,
+      "dDurationMs": 4641,
+      "segs": [
+        {
+          "utf8": "from another script where you might have a enemy with the script attached to it"
+        }
+      ]
+    },
+    {
+      "tStartMs": 712480,
+      "dDurationMs": 3840,
+      "segs": [
+        {
+          "utf8": "that has a certain attack that deals a certain amount of damage and then you"
+        }
+      ]
+    },
+    {
+      "tStartMs": 716320,
+      "dDurationMs": 4160,
+      "segs": [
+        {
+          "utf8": "would take that enemy's damage and pass in instead"
+        }
+      ]
+    },
+    {
+      "tStartMs": 720480,
+      "dDurationMs": 5599,
+      "segs": [
+        {
+          "utf8": "instead of hard writing 20 or 50 into it if that kind of makes sense but it's"
+        }
+      ]
+    },
+    {
+      "tStartMs": 726079,
+      "dDurationMs": 3440,
+      "segs": [
+        {
+          "utf8": "just to kind of show that we can use methods and create methods and by the"
+        }
+      ]
+    },
+    {
+      "tStartMs": 729519,
+      "dDurationMs": 6401,
+      "segs": [
+        {
+          "utf8": "way this is a very small method these methods here can become extremely long"
+        }
+      ]
+    },
+    {
+      "tStartMs": 735920,
+      "dDurationMs": 2640,
+      "segs": [
+        {
+          "utf8": "depending on what you're trying to do but it's just to kind of show you a"
+        }
+      ]
+    },
+    {
+      "tStartMs": 738560,
+      "dDurationMs": 3360,
+      "segs": [
+        {
+          "utf8": "simple example of how to use a method and how to actually do"
+        }
+      ]
+    },
+    {
+      "tStartMs": 741920,
+      "dDurationMs": 2880,
+      "segs": [
+        {
+          "utf8": "something inside your code"
+        }
+      ]
+    },
+    {
+      "tStartMs": 744800,
+      "dDurationMs": 3200,
+      "segs": [
+        {
+          "utf8": "and the last thing i just kind of want to show you here is if you start getting"
+        }
+      ]
+    },
+    {
+      "tStartMs": 748000,
+      "dDurationMs": 4399,
+      "segs": [
+        {
+          "utf8": "overwhelmed by looking at all these you know pieces of code"
+        }
+      ]
+    },
+    {
+      "tStartMs": 752399,
+      "dDurationMs": 3921,
+      "segs": [
+        {
+          "utf8": "you can actually collapse them out here so if i want my property which is my"
+        }
+      ]
+    },
+    {
+      "tStartMs": 756320,
+      "dDurationMs": 3040,
+      "segs": [
+        {
+          "utf8": "player health to collapse so it's a little bit more"
+        }
+      ]
+    },
+    {
+      "tStartMs": 759360,
+      "dDurationMs": 4719,
+      "segs": [
+        {
+          "utf8": "um organized to look at i can always just sort of collapse it here i can do"
+        }
+      ]
+    },
+    {
+      "tStartMs": 764079,
+      "dDurationMs": 4481,
+      "segs": [
+        {
+          "utf8": "the same thing with my start method if i wanted to do that with the take damage"
+        }
+      ]
+    },
+    {
+      "tStartMs": 768560,
+      "dDurationMs": 3680,
+      "segs": [
+        {
+          "utf8": "method if i wanted to do that so just to kind of shorten everything a little bit"
+        }
+      ]
+    },
+    {
+      "tStartMs": 772240,
+      "dDurationMs": 3279,
+      "segs": [
+        {
+          "utf8": "if you think it starts to look messy so just to"
+        }
+      ]
+    },
+    {
+      "tStartMs": 775519,
+      "dDurationMs": 3201,
+      "segs": [
+        {
+          "utf8": "show you that we can collapse things so this is"
+        }
+      ]
+    },
+    {
+      "tStartMs": 778720,
+      "dDurationMs": 5679,
+      "segs": [
+        {
+          "utf8": "basically what methods are when it comes to programming inside unity methods are"
+        }
+      ]
+    },
+    {
+      "tStartMs": 784399,
+      "dDurationMs": 5201,
+      "segs": [
+        {
+          "utf8": "used constantly the same thing goes for fields and properties by the way like"
+        }
+      ]
+    },
+    {
+      "tStartMs": 789600,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "all this stuff here that you're seeing is used constantly and if you're sitting"
+        }
+      ]
+    },
+    {
+      "tStartMs": 794160,
+      "dDurationMs": 5200,
+      "segs": [
+        {
+          "utf8": "there right now thinking that's a lot of information in just like"
+        }
+      ]
+    },
+    {
+      "tStartMs": 799360,
+      "dDurationMs": 4640,
+      "segs": [
+        {
+          "utf8": "three or four lessons like i i understand it is a lot of information"
+        }
+      ]
+    },
+    {
+      "tStartMs": 804000,
+      "dDurationMs": 3360,
+      "segs": [
+        {
+          "utf8": "but just know that every person who has started making"
+        }
+      ]
+    },
+    {
+      "tStartMs": 807360,
+      "dDurationMs": 3760,
+      "segs": [
+        {
+          "utf8": "video games felt the same way as you they felt overwhelmed by all this"
+        }
+      ]
+    },
+    {
+      "tStartMs": 811120,
+      "dDurationMs": 3360,
+      "segs": [
+        {
+          "utf8": "information i'm feeding you throughout these videos here"
+        }
+      ]
+    },
+    {
+      "tStartMs": 814480,
+      "dDurationMs": 3680,
+      "segs": [
+        {
+          "utf8": "the more you get to use these methods and properties and all this information"
+        }
+      ]
+    },
+    {
+      "tStartMs": 818160,
+      "dDurationMs": 3520,
+      "segs": [
+        {
+          "utf8": "you're learning the more it's going to stick to you nobody remembers this on"
+        }
+      ]
+    },
+    {
+      "tStartMs": 821680,
+      "dDurationMs": 4640,
+      "segs": [
+        {
+          "utf8": "their first try unless they have like a photographic memory or something"
+        }
+      ]
+    },
+    {
+      "tStartMs": 826320,
+      "dDurationMs": 4560,
+      "segs": [
+        {
+          "utf8": "so just keep at it we will get to do some examples pretty soon where we"
+        }
+      ]
+    },
+    {
+      "tStartMs": 830880,
+      "dDurationMs": 3920,
+      "segs": [
+        {
+          "utf8": "actually start doing something inside the actual unity engine so we can"
+        }
+      ]
+    },
+    {
+      "tStartMs": 834800,
+      "dDurationMs": 4320,
+      "segs": [
+        {
+          "utf8": "actually start moving things around using methods and using fields and"
+        }
+      ]
+    },
+    {
+      "tStartMs": 839120,
+      "dDurationMs": 6159,
+      "segs": [
+        {
+          "utf8": "properties so just go ahead and re-watch the video take a breather and you'll be"
+        }
+      ]
+    },
+    {
+      "tStartMs": 845279,
+      "dDurationMs": 2800,
+      "segs": [
+        {
+          "utf8": "fine everything is going to be okay so with"
+        }
+      ]
+    },
+    {
+      "tStartMs": 848079,
+      "dDurationMs": 5961,
+      "segs": [
+        {
+          "utf8": "that said i hope you enjoyed and i'll see you next time"
+        }
+      ]
+    },
+    {
+      "tStartMs": 857270,
+      "dDurationMs": 16569,
+      "segs": [
+        {
+          "utf8": "[Music] you"
+        }
+      ]
+    }
+  ],
+  "pens": [
+    {}
+  ],
+  "wireMagic": "pb3",
+  "wpWinPositions": [
+    {},
+    {
+      "apPoint": 6,
+      "ahHorPos": 20,
+      "avVerPos": 100,
+      "rcRows": 2,
+      "ccCols": 40
+    }
+  ],
+  "wsWinStyles": [
+    {},
+    {
+      "mhModeHint": 2,
+      "juJustifCode": 0,
+      "sdScrollDir": 3
+    },
+    {
+      "mhModeHint": 2,
+      "juJustifCode": 1,
+      "sdScrollDir": 3
+    }
+  ]
+}

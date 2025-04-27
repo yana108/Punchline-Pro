@@ -1,0 +1,278 @@
+{
+	"MAIN______________________________________": {
+		"message": "MAIN                                      "
+	},
+	"MAIN": {
+		"message": "MAIN"
+	},
+	"Mouse_Tooltip_Translator": {
+		"message": "Penerjemah Tooltip Mouse"
+	},
+	"Show_Tooltip_When": {
+		"message": "Tampilkan Tooltip Saat"
+	},
+	"Voice_When": {
+		"message": "Gunakan Suara Saat"
+	},
+	"Translate_When": {
+		"message": "Terjemahkan Saat"
+	},
+	"Translate_From": {
+		"message": "Terjemahkan Dari"
+	},
+	"Translate_Into": {
+		"message": "Terjemahkan Ke"
+	},
+	"Translator_Engine": {
+		"message": "Mesin Penerjemah"
+	},
+	"Mouseover_Text_Type": {
+		"message": "Mouseover Text Type"
+	},
+	"Writing_Language": {
+		"message": "Bahasa Tulisan"
+	},
+	"OCR_Language": {
+		"message": "OCR Language"
+	},
+	"Reverse_Translate_Language": {
+		"message": "Terjemahkan Bahasa Balik"
+	},
+	"GRAPHIC______________________________________": {
+		"message": "GRAPHIC                                      "
+	},
+	"GRAPHIC": {
+		"message": "GRAPHIC"
+	},
+	"Tooltip_Font_Size": {
+		"message": "Ukuran Font Tooltip"
+	},
+	"Tooltip_Width": {
+		"message": "Lebar Tooltip"
+	},
+	"Tooltip_Distance": {
+		"message": "Jarak Tooltip"
+	},
+	"Tooltip_Animation": {
+		"message": "Tooltip Animation"
+	},
+	"Tooltip_Position": {
+		"message": "Posisi Tooltip"
+	},
+	"Tooltip_Text_Align": {
+		"message": "Penyelarasan Teks Tooltip"
+	},
+	"Tooltip_Background_Blur": {
+		"message": "Latar Belakang Blur Tooltip"
+	},
+	"Mouseover_Highlight_Text": {
+		"message": "Mouseover Highlight Text"
+	},
+	"Tooltip_Font_Color": {
+		"message": "Warna Font Tooltip"
+	},
+	"Tooltip_Background_Color": {
+		"message": "Warna Latar Belakang Tooltip"
+	},
+	"Tooltip_Border_Color": {
+		"message": "Tooltip Border Color"
+	},
+	"Mouseover_Text_Highlight_Color": {
+		"message": "Mouseover Text Highlight Color"
+	},
+	"VOICE______________________________________": {
+		"message": "VOICE                                      "
+	},
+	"VOICE": {
+		"message": "VOICE"
+	},
+	"Voice_Volume": {
+		"message": "Voice Volume"
+	},
+	"Voice_Speed": {
+		"message": "Voice Speed"
+	},
+	"Voice_Target": {
+		"message": "Voice Target"
+	},
+	"Voice_Repeat": {
+		"message": "Voice Repeat"
+	},
+	"Voice_for_": {
+		"message": "Suara untuk "
+	},
+	"ADVANCED______________________________________": {
+		"message": "LANJUTAN                                      "
+	},
+	"ADVANCED": {
+		"message": "ADVANCED"
+	},
+	"Auto_Reader_When": {
+		"message": "Auto Reader When"
+	},
+	"Translate_Writing_When": {
+		"message": "Translate Writing When"
+	},
+	"OCR_When": {
+		"message": "Gunakan OCR Saat"
+	},
+	"Detect_Subtitle": {
+		"message": "Detect Subtitle"
+	},
+	"Detect_PDF": {
+		"message": "Deteksi PDF"
+	},
+	"Mouseover_Pause_Subtitle": {
+		"message": "Mouseover Pause Subtitle"
+	},
+	"Mouseover_Text_Type_Swap_Key": {
+		"message": "Mouseover Text Type Swap Key"
+	},
+	"Tooltip_Info_Source_Text": {
+		"message": "Tooltip Info Source Text"
+	},
+	"Tooltip_Info_Source_Language": {
+		"message": "Tooltip Info Source Language"
+	},
+	"Tooltip_Info_Transliteration": {
+		"message": "Tooltip Info Transliteration"
+	},
+	"Tooltip_Interval_Time": {
+		"message": "Tooltip Interval Time"
+	},
+	"Tooltip_Word_Dictionary": {
+		"message": "Tooltip Word Dictionary"
+	},
+	"SPEECH": {
+		"message": "SPEECH"
+	},
+	"Speech_Recognition_Language": {
+		"message": "Speech Recognition Language"
+	},
+	"Speech_Recognition_When": {
+		"message": "Speech Recognition When"
+	},
+	"Voice_Panel_Translate_Language": {
+		"message": "Voice Panel Translate Language"
+	},
+	"Voice_Panel_Text_Target": {
+		"message": "Voice Panel Text Target"
+	},
+	"Voice_Panel_Padding": {
+		"message": "Voice Panel Padding"
+	},
+	"Voice_Panel_Text_Align": {
+		"message": "Voice Panel Text Align"
+	},
+	"Voice_Panel_Source_Font_Size": {
+		"message": "Voice Panel Source Font Size"
+	},
+	"Voice_Panel_Target_Font_Size": {
+		"message": "Voice Panel Target Font Size"
+	},
+	"Voice_Panel_Source_Font_Color": {
+		"message": "Voice Panel Source Font Color"
+	},
+	"Voice_Panel_Target_Font_Color": {
+		"message": "Voice Panel Target Font Color"
+	},
+	"Voice_Panel_Source_Border_Color": {
+		"message": "Voice Panel Source Border Color"
+	},
+	"Voice_Panel_Target_Border_Color": {
+		"message": "Voice Panel Target Border Color"
+	},
+	"Voice_Panel_Background_Color": {
+		"message": "Voice Panel Background Color"
+	},
+	"EXCLUDE______________________________________": {
+		"message": "KECUALI                                      "
+	},
+	"EXCLUDE": {
+		"message": "EXCLUDE"
+	},
+	"Exclude_Language": {
+		"message": "Kecualikan Bahasa"
+	},
+	"Exclude_Website": {
+		"message": "Kecualikan Situs Web"
+	},
+	"About______________________________________": {
+		"message": "Tentang                                      "
+	},
+	"How_to_use": {
+		"message": "Cara Menggunakan"
+	},
+	"Check_how_to_use_this_extension": {
+		"message": "Periksa cara menggunakan ekstensi ini"
+	},
+	"PDF_Viewer": {
+		"message": "Pembaca PDF"
+	},
+	"Translate_local_PDF_file": {
+		"message": "Terjemahkan file PDF lokal"
+	},
+	"Ebook_Reader": {
+		"message": "Pembaca Ebook"
+	},
+	"Translate_local_ebook_file": {
+		"message": "Terjemahkan file ebook lokal"
+	},
+	"Twitter": {
+		"message": "Twitter"
+	},
+	"Retweet_twitter_post": {
+		"message": "Retweet twitter post"
+	},
+	"Review_Page": {
+		"message": "Halaman Ulasan"
+	},
+	"Comment_on_this_extension": {
+		"message": "Komentari ekstensi ini"
+	},
+	"Source_code": {
+		"message": "Kode Sumber"
+	},
+	"Check_source_code_in_github": {
+		"message": "Periksa kode sumber di GitHub"
+	},
+	"Privacy_Policy": {
+		"message": "Kebijakan Privasi"
+	},
+	"User_privacy_policy": {
+		"message": "Kebijakan Privasi Pengguna"
+	},
+	"Voice_Panel": {
+		"message": "Voice Panel"
+	},
+	"Translate_Voice": {
+		"message": "Translate Voice"
+	},
+	"Review______________________________________": {
+		"message": "Review                                      "
+	},
+	"Review_this": {
+		"message": "Review this"
+	},
+	"Developer_love_criticism": {
+		"message": "Developer love criticism"
+	},
+	"Coffee______________________________________": {
+		"message": "Coffee                                      "
+	},
+	"Buy_coffee": {
+		"message": "Devs need coffee!"
+	},
+	"Cheer_on_my_efforts": {
+		"message": "Cheer on dev efforts"
+	},
+	"Title______________________________________": {
+		"message": "Judul                                      "
+	},
+	"appName": {
+		"message": "Mouse Tooltip Translator - PDF & Youtube dual subs"
+	},
+	"appDesc": {
+		"message": "Penerjemah Tooltip Mouse yang Menerjemahkan Teks Saat Diarahkan Mouse Menggunakan Google Translate. Support OCR, TTS, manga transl"
+	}
+}
